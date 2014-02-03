@@ -29,7 +29,7 @@ body {
 #header h1 {
 	display: inline-block;
 	padding-left: 40px;
-	padding-right: 390px;
+	padding-right: 315px;
 }
 
 #header a {
@@ -54,9 +54,9 @@ nav ul li {
 	display: inline-block;
 }
 
-#login_menu_item {
+.login_menu_item {
 	position: relative;
-	left: 200px;
+	left: 260px;
 	top:2px;
 }
 

@@ -23,6 +23,8 @@
 
 				<p id="moreBody"> <?php echo $this->Html->link('More', array('controller' => 'Reminder','action' => 'displayMoreBodyInformation','?' => array('id' => $reminder['Reminder']['id']))); ?>
 				</p>
+
+				
 			
 			<?php else: ?>
 				

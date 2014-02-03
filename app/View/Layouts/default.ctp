@@ -62,14 +62,15 @@ $cakeDescription = __d('cake_dev', 'Remind.me');
 					
 					<?php if($this->Session->check('User')): ?>
 					
-					<li><?php echo $this->Html->link('Logout','/Users/logout'); ?></li>
-					<li><?php echo $this->Html->link('Add Reminders','/Reminder/add'); ?></li>
-					<li><?php echo $this->Html->link('View Reminders','/Reminder/get'); ?></li>
+					<li> <?php echo $this->Html->link('Logout','/Users/logout'); ?> </li>
+					<li> <?php echo $this->Html->link('Settings','/Users/settings'); ?> </li>
+					<li> <?php echo $this->Html->link('Add Reminders','/Reminder/add'); ?> </li>
+					<li> <?php echo $this->Html->link('View Reminders','/Reminder/get'); ?> </li>
 						
 					<?php else: ?>
 						
-					<li id="login_menu_item"><?php echo $this->Html->link('Login','/Users/login'); ?></li>
-					<li id="login_menu_item"><?php echo $this->Html->link('Register','/Users/register'); ?></li>
+					<li class="login_menu_item"><?php echo $this->Html->link('Login','/Users/login'); ?></li>
+					<li class="login_menu_item"><?php echo $this->Html->link('Register','/Users/register'); ?></li>
 
 					<?php endif; ?>
 

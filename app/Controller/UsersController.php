@@ -47,6 +47,10 @@ class UsersController extends AppController {
 		return $this->redirect($this->Auth->logout());
 	}
 
+	public function settings() {
+		$this->set('cssIncludes', array('user-views/settings_style'));
+	}
+
 	public function register() {
 
 		$this->set('cssIncludes',array('user-views/register_style'));
@@ -78,7 +82,7 @@ class UsersController extends AppController {
 
 					} else {
 
-						// $errors = $this->User->invalidFields();
+						$errors = $this->User->invalidFields();
 						
 					}
 				}
