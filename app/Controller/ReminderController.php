@@ -1,0 +1,116 @@
+<?php
+
+class ReminderController extends AppController {
+	public $helpers = array('Html', 'Form');
+	public $name = 'Reminder';
+
+	public function add() {
+
+		$this->set('cssIncludes',array('reminder-views/add_style','jquery-ui-style'));
+
+		$this->set('jsIncludes',array('reminder-views/add','jquery-ui','jquery_timepicker'));
+
+		if($this->request->is('post')) {	
+
+			$this->Reminder->set($this->request->data);
+
+	
+			if($this->Reminder->validates()) {
+
+				echo "Inside validate";
+
+				App::uses('CakeTime','Utility');
+
+				$temp = explode(" ", $this->request->data['Reminder']['datetime']);
+				
+				// Reverses the orignal date d/m/y
+				$date = CakeTime::format($temp[0],'%Y-%m-%d');
+
+				// From 12 hour time to 24 hour
+				$time = date("H:i",strtotime($temp[1] . " " . $temp[2]));
+
+				// Create final string
+				$datetime = $date . " " . $time;
+
+				// Create UTC offset string
+				$timezone = $temp[3];
+				
+				// Construct our own $data to include the users Id.
+				$data = array('user_id' => $this->Session->read('User.userId'),
+					'title' => $this->request->data['Reminder']['title'],
+					'body' => $this->request->data['Reminder']['body'],
+					'datetime' => $datetime,
+					'time' => $time,
+					'utc_offset' => $timezone);
+
+				$this->Reminder->save($data);
+
+<<<<<<< HEAD
+				$this->flash("Reminder Added","Reminder/add",5);
+
+				return $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
+=======
+				$this->Session->setFlash("Reminder Added");
+
+				// return $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
+>>>>>>> bd97479c9c81485528323416f7040bb7f2d52cf9
+			
+			} else  {
+
+				$errors = $this->Reminder->validationErrors;
+<<<<<<< HEAD
+=======
+				echo "Helloaffffffffffffffffffffffffffffffff";
+>>>>>>> bd97479c9c81485528323416f7040bb7f2d52cf9
+				// return $this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
+			}
+		}
+	}
+
+	public function get() {
+
+		$options = array(
+			'fields' => array(
+				'Reminder.id',
+				'Reminder.title',
+				'Reminder.body',
+				'Reminder.datetime',
+				'Reminder.time'
+				),
+			'conditions' => array(
+				'user_id' => $this->Session->read('User.userId'),
+				),
+			);	
+
+		if(!$this->Reminder->find('all',$options))  {
+		
+			$this->set('cssIncludes',array('reminder-views/no_reminders_style'));
+			$this->render('no_reminders'); 
+		
+		} else {
+
+			$this->set('cssIncludes',array('reminder-views/get_style.css'));
+			$this->set('jsIncludes',array('reminder-views/get'));
+
+			$this->set('reminders', $this->Reminder->find('all',$options));
+		}
+	}
+
+	public function displayMoreBodyInformation() {
+		 // TODO
+	}
+
+	public function modify() {
+		// TODO
+	}
+
+	public function delete() {
+
+		$this->Reminder->delete($this->params['url']['id']);
+		return $this->redirect(array('controller' => 'Reminder','action' => 'get'));
+	}
+
+}
+
+
+?>

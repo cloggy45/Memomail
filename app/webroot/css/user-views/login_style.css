@@ -1,0 +1,33 @@
+#login {
+	background: #28B8A7;
+	width: 150px;
+	padding: 0 5px;
+	margin: 0 auto;
+}
+
+#login .input input{
+	width: 144px;
+}
+
+#login .input.text {
+	padding:6px 0;
+}
+
+#login .submit {
+	padding:5px 0;
+}
+
+#login .submit input {
+	border: none;
+	width: 50px;
+	height: 30px;
+}
+
+#flashMessage {
+	float:left;
+	padding: 10px;
+	position: relative;
+	left:357px;
+	top: 140px;
+	background: #D74B4B;
+}
