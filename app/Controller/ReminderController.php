@@ -45,23 +45,13 @@ class ReminderController extends AppController {
 
 				$this->Reminder->save($data);
 
-<<<<<<< HEAD
 				$this->flash("Reminder Added","Reminder/add",5);
 
 				return $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
-=======
-				$this->Session->setFlash("Reminder Added");
-
-				// return $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
->>>>>>> bd97479c9c81485528323416f7040bb7f2d52cf9
 			
 			} else  {
 
 				$errors = $this->Reminder->validationErrors;
-<<<<<<< HEAD
-=======
-				echo "Helloaffffffffffffffffffffffffffffffff";
->>>>>>> bd97479c9c81485528323416f7040bb7f2d52cf9
 				// return $this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
 			}
 		}
