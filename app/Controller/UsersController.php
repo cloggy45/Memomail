@@ -47,6 +47,7 @@ class UsersController extends AppController {
 		return $this->redirect($this->Auth->logout());
 	}
 
+
 	public function settings() {
 		$this->set('cssIncludes', array('user-views/settings_style'));
 
@@ -54,29 +55,52 @@ class UsersController extends AppController {
 
 			$this->User->set($this->request->data);
 
-			var_dump($this->request->data);
+			//If user select "Clear all reminders" 
+			if($this->request->data['User']['Clear All']) {
+
+				$this->User->Reminder->deleteAll(array('Reminder.user_id' => $this->Session->read('Auth.User.id'),false));
+			
+			}
+
 
 			if($this->request->data['User']['email'] !== $this->request->data['User']['Re-enter_new_email']) {
-					$this->Session->setFlash("New emails don't match");
-				}
+					
+				$this->Session->setFlash("New emails don't match");
 
+			}
+
+
+			// Refactor cos DRY
 			if($this->User->validates(array('fieldList' => array('email')))) {
 
 				if($this->request->data['User']['email'] !== $this->request->data['User']['Re-enter_new_email']) {
+					
 					$this->Session->setFlash("New emails don't match");
-					return;
-				}	
-			} 
 
-			elseif($this->User->validates(array('fieldList' => array('password')))) {
+				} else {
+
+					$this->User->id = $this->Session->read('Auth.User.id');
+					$this->User->saveField('email',$this->request->data['User']['email']);
+					$this->Session->setFlash("Settings updated");
+
+				}	
+			}
+
+			if($this->User->validates(array('fieldList' => array('password')))) {
 
 				if($this->request->data['User']['password'] !== $this->request->data['User']['re-enter_new_password']) {
-					$this->Session->setFlash("New passwords don't match");
-				}
+					
 
-			} else {
-				$this->Session->setFlash("Nothing changed");
-			}
+					$this->Session->setFlash("New passwords don't match");
+				
+				} else {
+
+					$this->User->id = $this->Session->read('Auth.User.id');
+					$this->User->saveField('password', $this->request->data['User']['password']);
+					$this->Session->setFlash("Password changed");
+
+				}
+			} 
 		}
 	}
 

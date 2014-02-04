@@ -4,6 +4,11 @@ App::uses('SimplePasswordHasher','Controller/Component/Auth');
 
 class User extends AppModel {
 	public $useTable = 'users';
+	public $hasMany = array(
+		'Reminder' => array(
+			'className' => 'Reminder'
+			)
+		);
 
 	public $validate = array(
 			'username' => array(
@@ -28,7 +33,6 @@ class User extends AppModel {
 			'email' => array(
 				'email' => array(
 					'rule' => 'email',
-					'required' => true,
 					'message' => 'Please enter valid email address'
 					),
 				'unique' => array(
