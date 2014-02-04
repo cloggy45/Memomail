@@ -49,6 +49,35 @@ class UsersController extends AppController {
 
 	public function settings() {
 		$this->set('cssIncludes', array('user-views/settings_style'));
+
+		if($this->request->is('post')) {
+
+			$this->User->set($this->request->data);
+
+			var_dump($this->request->data);
+
+			if($this->request->data['User']['email'] !== $this->request->data['User']['Re-enter_new_email']) {
+					$this->Session->setFlash("New emails don't match");
+				}
+
+			if($this->User->validates(array('fieldList' => array('email')))) {
+
+				if($this->request->data['User']['email'] !== $this->request->data['User']['Re-enter_new_email']) {
+					$this->Session->setFlash("New emails don't match");
+					return;
+				}	
+			} 
+
+			elseif($this->User->validates(array('fieldList' => array('password')))) {
+
+				if($this->request->data['User']['password'] !== $this->request->data['User']['re-enter_new_password']) {
+					$this->Session->setFlash("New passwords don't match");
+				}
+
+			} else {
+				$this->Session->setFlash("Nothing changed");
+			}
+		}
 	}
 
 	public function register() {

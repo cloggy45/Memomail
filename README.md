@@ -5,6 +5,4 @@
 
 * Add database credentials into: `app/config/database.php`
 
-* Add email credentials into: `webroot/sendReminderProcess/sendReminders.php`
-
 

@@ -29,9 +29,13 @@ class User extends AppModel {
 				'email' => array(
 					'rule' => 'email',
 					'required' => true,
-					'message' => 'Please enter valid email addresse'
+					'message' => 'Please enter valid email address'
 					),
-				)
+				'unique' => array(
+					'rule' => 'isUnique',
+					'message' => 'Email is already in use'
+					)
+				),
 		);
 
 
