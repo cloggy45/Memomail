@@ -1,0 +1,3332 @@
+2014-01-28 20:59:13 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 20:59:52 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:02:46 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:06:18 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:06:22 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:06:24 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:06:46 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:07:43 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:08:16 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:08:23 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:09:13 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:10:53 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:13:10 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:14:04 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:14:50 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:14:53 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:18:33 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:18:34 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:20:12 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:20:25 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:21:24 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:21:40 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:21:52 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:22:57 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:23:08 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:23:26 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:25:31 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:25:44 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:26:02 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:26:32 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:30:52 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:34:55 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:35:01 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:35:04 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:35:06 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:35:10 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:43:17 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:43:17 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:51:26 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:53:29 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:54:48 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 21:59:31 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:02:41 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:12:00 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:12:39 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:18:45 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:18:54 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:19:12 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:20:26 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:20:36 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:20:55 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:20:59 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:25:56 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:29:41 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:29:46 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:33:29 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:33:33 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:33:57 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:34:55 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:35:37 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:38:01 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:38:14 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:40:20 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:40:23 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:40:26 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:41:53 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:42:14 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:42:19 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:45:34 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:45:42 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:45:51 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:45:59 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:46:01 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:47:47 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:47:55 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:48:00 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:48:07 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:48:21 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:48:30 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:48:49 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:48:55 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:49:02 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:49:06 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:49:19 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:49:45 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:50:01 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:51:18 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:51:27 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:56:42 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:56:46 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:57:22 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:57:24 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:57:26 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:57:29 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:57:34 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:57:52 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:58:00 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 22:58:03 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:00:52 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:00:55 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:01:24 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:01:26 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:02:11 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:03:45 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:03:52 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:04:31 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:04:35 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:04:41 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:04:45 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:08:11 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:08:13 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:08:16 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:08:18 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:08:23 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:08:33 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:21:57 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:26:19 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:26:19 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:26:35 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:26:46 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:26:48 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:26:52 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:40:53 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:40:56 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:41:23 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:44:13 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:44:15 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:44:28 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:44:30 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:44:33 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:46:56 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:46:56 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:46:59 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:47:01 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:50:48 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-28 23:50:49 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 00:10:27 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 00:10:27 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 00:10:38 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 00:10:56 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 00:10:57 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 00:11:01 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 00:11:05 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 00:11:07 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:03:31 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:03:31 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:13:49 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:13:49 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:15:40 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:16:05 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:17:24 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:17:30 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:17:33 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:19:48 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:19:51 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:19:54 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:19:58 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:20:00 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:20:02 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:20:15 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:20:19 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:23:39 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:23:39 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:23:43 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:24:34 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:24:47 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:24:49 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:37:06 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 01:37:54 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 10:40:35 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 10:40:43 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 10:40:54 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 10:41:26 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 13:03:44 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 13:03:44 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 13:03:47 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 16:14:05 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 16:14:09 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 16:14:42 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 16:14:42 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:28:03 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:28:18 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:29:28 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:33:37 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:35:09 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:35:09 Debug: Notice (8): Undefined index: reenter-email in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:35:14 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:35:14 Debug: Notice (8): Undefined index: reenter-email in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:35:28 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:35:28 Debug: Notice (8): Undefined index: reenter-email in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:35:35 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:36:48 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:37:16 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:37:16 Debug: Notice (8): Undefined index: reenter-email in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:37:18 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:37:24 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 17:37:26 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:25 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:25 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:25 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:25 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:47 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:47 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:47 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:47 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:53 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:53 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:53 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:53 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:57 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:57 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:57 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:01:57 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:16 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:16 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:16 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:16 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:19 Debug: Notice (8): Undefined index: password in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:19 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:19 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:19 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:19 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:22 Debug: Notice (8): Undefined index: password in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:22 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:22 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:22 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:22 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:34 Debug: Notice (8): Undefined index: password in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:34 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:34 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:34 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:34 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:55 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:55 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:55 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:03:55 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:04:15 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:04:15 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:04:15 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:04:15 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:13:50 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:13:50 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:13:50 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:13:50 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:21:02 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:21:02 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:21:02 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:21:02 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:23:25 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:23:25 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:23:25 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:23:25 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:24:07 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:24:07 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:24:07 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:24:07 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:24:45 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:24:45 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:24:45 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:24:45 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:25:33 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:25:33 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:25:33 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:25:33 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:25:52 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 55]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:25:52 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 56]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:25:52 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 62]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 62
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:25:52 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 63]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 63
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:31:04 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 57]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 57
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:31:04 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 58]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 58
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:31:04 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 64]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 64
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:31:04 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 65]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 65
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:31:59 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 57]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 57
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:31:59 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 58]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 58
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:31:59 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 64]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 64
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:31:59 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 65]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 65
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:32:30 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:32:48 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:33:16 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 57]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 57
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:33:16 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 58]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 58
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:33:16 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 64]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 64
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:33:16 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 65]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 65
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:33:33 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 57]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 57
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:33:33 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 58]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 58
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:33:33 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 64]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 64
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:33:33 Debug: Notice (8): Undefined index: registerUser in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 65]
+Trace:
+UsersController::register() - APP\Controller\UsersController.php, line 65
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:39:17 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:41:48 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-29 21:42:23 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-31 22:10:43 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-31 22:10:43 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-31 22:10:52 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-31 22:11:00 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-31 22:14:14 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-31 22:14:18 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-31 22:29:35 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-31 22:30:33 Debug: Notice (8): Undefined index: email in [C:\xampp\htdocs\cake\app\Controller\ReminderController.php, line 36]
+Trace:
+ReminderController::add() - APP\Controller\ReminderController.php, line 36
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-31 22:31:28 Debug: Notice (8): Undefined index: email in [C:\xampp\htdocs\cake\app\Controller\ReminderController.php, line 36]
+Trace:
+ReminderController::add() - APP\Controller\ReminderController.php, line 36
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-01-31 22:33:20 Debug: Notice (8): Undefined index: email in [C:\xampp\htdocs\cake\app\Controller\ReminderController.php, line 36]
+Trace:
+ReminderController::add() - APP\Controller\ReminderController.php, line 36
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 02:24:13 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:02:27 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:02:27 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:02:37 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:03:22 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:07:12 Debug: Notice (8): Undefined index: Reminder in [C:\xampp\htdocs\cake\app\View\Reminder\get.ctp, line 10]
+Trace:
+include - APP\View\Reminder\get.ctp, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:07:17 Debug: Notice (8): Undefined index: Reminder in [C:\xampp\htdocs\cake\app\View\Reminder\get.ctp, line 10]
+Trace:
+include - APP\View\Reminder\get.ctp, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:08:17 Debug: Notice (8): Undefined index: Reminder in [C:\xampp\htdocs\cake\app\View\Reminder\get.ctp, line 10]
+Trace:
+include - APP\View\Reminder\get.ctp, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:08:36 Debug: Notice (8): Undefined index: Reminder in [C:\xampp\htdocs\cake\app\View\Reminder\get.ctp, line 10]
+Trace:
+include - APP\View\Reminder\get.ctp, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:09:07 Debug: Notice (8): Undefined index: Reminder in [C:\xampp\htdocs\cake\app\View\Reminder\get.ctp, line 10]
+Trace:
+include - APP\View\Reminder\get.ctp, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:09:29 Debug: Notice (8): Undefined index: Reminder in [C:\xampp\htdocs\cake\app\View\Reminder\get.ctp, line 10]
+Trace:
+include - APP\View\Reminder\get.ctp, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:15:46 Debug: Notice (8): Undefined index: id in [C:\xampp\htdocs\cake\app\View\Reminder\get.ctp, line 10]
+Trace:
+include - APP\View\Reminder\get.ctp, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:16:27 Debug: Notice (8): Undefined index: id in [C:\xampp\htdocs\cake\app\View\Reminder\get.ctp, line 10]
+Trace:
+include - APP\View\Reminder\get.ctp, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:16:43 Debug: Notice (8): Undefined index: id in [C:\xampp\htdocs\cake\app\View\Reminder\get.ctp, line 10]
+Trace:
+include - APP\View\Reminder\get.ctp, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:18:17 Debug: Notice (8): Undefined index: id in [C:\xampp\htdocs\cake\app\View\Reminder\get.ctp, line 10]
+Trace:
+include - APP\View\Reminder\get.ctp, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:18:47 Debug: Notice (8): Undefined index: id in [C:\xampp\htdocs\cake\app\View\Reminder\get.ctp, line 10]
+Trace:
+include - APP\View\Reminder\get.ctp, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:48:14 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:48:14 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:48:18 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:48:21 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:48:24 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 03:48:26 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 15:37:27 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 15:38:38 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 15:38:46 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 15:38:53 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 15:39:05 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 20:03:06 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 20:11:05 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 20:11:33 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-01 20:33:59 Debug: Notice (8): Undefined variable: location in [C:\xampp\htdocs\cake\lib\Cake\Core\App.php, line 520]
+Trace:
+App::uses() - CORE\Cake\Core\App.php, line 520
+include - APP\View\Reminder\get.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::render() - CORE\Cake\View\View.php, line 460
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-03 20:14:24 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-03 20:15:21 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-03 20:16:00 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-03 20:16:11 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-03 20:16:15 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-03 20:20:18 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-03 20:21:17 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-03 20:24:30 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-03 20:26:26 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-03 20:27:03 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+
+2014-02-03 20:27:08 Debug: Notice (8): Undefined index: User in [C:\xampp\htdocs\cake\app\Controller\UsersController.php, line 12]
+Trace:
+UsersController::beforeFilter() - APP\Controller\UsersController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 108
+

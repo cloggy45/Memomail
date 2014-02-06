@@ -6,6 +6,7 @@ class UsersController extends AppController {
     
 
 	public function beforeFilter() {
+		
 		$this->Auth->loginAction = array('controller' => 'Users',
 			'action' => 'login');	
 
@@ -43,12 +44,15 @@ class UsersController extends AppController {
 	}	
 
 	public function logout() {
+
 		$this->Session->delete('User');
 		return $this->redirect($this->Auth->logout());
+
 	}
 
 
 	public function settings() {
+
 		$this->set('cssIncludes', array('user-views/settings_style'));
 
 		if($this->request->is('post')) {

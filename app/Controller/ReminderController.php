@@ -79,8 +79,8 @@ class ReminderController extends AppController {
 		
 		} else {
 
-			$this->set('cssIncludes',array('reminder-views/get_style.css'));
-			$this->set('jsIncludes',array('reminder-views/get'));
+			$this->set('cssIncludes',array('reminder-views/get_style.css','jquery-ui-style'));
+			$this->set('jsIncludes',array('reminder-views/get','jquery-ui'));
 
 			$this->set('reminders', $this->Reminder->find('all',$options));
 		}
