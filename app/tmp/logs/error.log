@@ -9809,3 +9809,149 @@ Stack Trace:
 #14 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #15 C:\xampp\htdocs\cake\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #16 {main}
+2014-02-06 17:22:10 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/cake/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/cake/lib/Cake/Model/Model.php(3474): ConnectionManager::getDataSource('default')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/cake/lib/Cake/Model/Model.php(3496): Model->setSource('users')
+#5 /var/www/cake/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/cake/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#7 /var/www/cake/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#8 /var/www/cake/app/View/Users/login.ctp(5): FormHelper->create('User', Array)
+#9 /var/www/cake/lib/Cake/View/View.php(929): include('/var/www/cake/a...')
+#10 /var/www/cake/lib/Cake/View/View.php(891): View->_evaluate('/var/www/cake/a...', Array)
+#11 /var/www/cake/lib/Cake/View/View.php(460): View->_render('/var/www/cake/a...')
+#12 /var/www/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#13 /var/www/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-02-06 17:34:23 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Model.php(3496): Model->setSource('users')
+#1 /var/www/cake/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /var/www/cake/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#3 /var/www/cake/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/cake/app/View/Users/login.ctp(5): FormHelper->create('User', Array)
+#5 /var/www/cake/lib/Cake/View/View.php(929): include('/var/www/cake/a...')
+#6 /var/www/cake/lib/Cake/View/View.php(891): View->_evaluate('/var/www/cake/a...', Array)
+#7 /var/www/cake/lib/Cake/View/View.php(460): View->_render('/var/www/cake/a...')
+#8 /var/www/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-06 20:59:44 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1049] Unknown database \'cakephp\'',
+  'enabled' => true,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/cake/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/cake/lib/Cake/Model/Model.php(3474): ConnectionManager::getDataSource('default')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/cake/lib/Cake/Model/Model.php(3496): Model->setSource('users')
+#5 /var/www/cake/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/cake/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#7 /var/www/cake/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#8 /var/www/cake/app/View/Users/login.ctp(5): FormHelper->create('User', Array)
+#9 /var/www/cake/lib/Cake/View/View.php(929): include('/var/www/cake/a...')
+#10 /var/www/cake/lib/Cake/View/View.php(891): View->_evaluate('/var/www/cake/a...', Array)
+#11 /var/www/cake/lib/Cake/View/View.php(460): View->_render('/var/www/cake/a...')
+#12 /var/www/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#13 /var/www/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-02-06 21:03:20 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Model.php(3496): Model->setSource('users')
+#1 /var/www/cake/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /var/www/cake/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#3 /var/www/cake/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#4 /var/www/cake/app/View/Users/login.ctp(5): FormHelper->create('User', Array)
+#5 /var/www/cake/lib/Cake/View/View.php(929): include('/var/www/cake/a...')
+#6 /var/www/cake/lib/Cake/View/View.php(891): View->_evaluate('/var/www/cake/a...', Array)
+#7 /var/www/cake/lib/Cake/View/View.php(460): View->_render('/var/www/cake/a...')
+#8 /var/www/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-06 21:12:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-06 21:12:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-06 21:12:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/images/ui-icons_222222_256x240.png
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-06 21:12:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-06 21:12:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-06 21:12:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

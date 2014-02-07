@@ -1,6 +1,6 @@
 <section id="settings">
 	
-	<h1>Settings page</h1>
+	<h1>Settings</h1>
 
 	<?php echo $this->Form->create('User', array('type' => 'post')); ?>
 	
@@ -28,7 +28,7 @@
 	<?php echo $this->Form->submit('Apply'); ?>
 	<?php echo $this->end(); ?>
 
-	<?php echo $this->element('sql_dump'); ?>
+	<?php // echo $this->element('sql_dump'); ?>
 
 <!--
 
