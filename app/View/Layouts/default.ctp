@@ -16,7 +16,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = __d('cake_dev', 'Remind.me');
+$cakeDescription = __d('cake_dev', 'Remind.Me');
 ?>
 
 <!DOCTYPE html>
@@ -29,9 +29,7 @@ $cakeDescription = __d('cake_dev', 'Remind.me');
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
-		echo $this->Html->css('reset');
-		echo $this->Html->css('normalizer');
-		echo $this->Html->css('default_style');
+		echo $this->Html->css('screen');
 
 		echo $this->Html->script('jquery-1.11.0.min');
 		
@@ -54,16 +52,16 @@ $cakeDescription = __d('cake_dev', 'Remind.me');
 	?>
 </head>
 <body>
-	<div id="container">
-		<div id="header" class="one-edge-shadow">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
-			<nav>
+	<div class="container" id="default_view">
+		<div id="header" class="ag ag1">	
+			<h1 class="ag ag2"><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+			<nav class="ag ag3">
 				<ul>
 					
 					<?php if($this->Session->check('User')): ?>
 					
 					<li> <?php echo $this->Html->link('Logout','/Users/logout'); ?> </li>
-					<li> <?php echo $this->Html->link('Settings','/Users/settings'); ?> </li>
+					<li> <?php echo $this->Html->link('Settings','/Users/sett// #get ings'); ?> </li>
 					<li> <?php echo $this->Html->link('Add Reminders','/Reminder/add'); ?> </li>
 					<li> <?php echo $this->Html->link('View Reminders','/Reminder/get'); ?> </li>
 						

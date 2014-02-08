@@ -6,7 +6,7 @@ class ReminderController extends AppController {
 
 	public function add() {
 
-		$this->set('cssIncludes',array('reminder-views/add_style','jquery-ui-style'));
+		$this->set('cssIncludes',array('jquery-ui-style'));
 
 		$this->set('jsIncludes',array('reminder-views/add','jquery-ui','jquery_timepicker'));
 
@@ -74,7 +74,7 @@ class ReminderController extends AppController {
 
 		if(!$this->Reminder->find('all',$options))  {
 		
-			$this->set('cssIncludes',array('reminder-views/no_reminders_style'));
+			$this->set('cssIncludes',array(''));
 			$this->render('no_reminders'); 
 		
 		} else {

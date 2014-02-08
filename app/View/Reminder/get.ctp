@@ -1,7 +1,7 @@
 
 <?php App::uses('CakeTime','Utility'); ?>
 
-<div id="get">
+<div id="get_view">
 	<ul>
 		
 	<?php foreach ($reminders as $reminder): ?>

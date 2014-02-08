@@ -1,4 +1,4 @@
-<section id="settings">
+<section id="settings_view">
 	
 	<h1>Settings</h1>
 

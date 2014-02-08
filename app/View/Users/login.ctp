@@ -1,4 +1,4 @@
-<section id="login" class="one-edge-shadow">
+<section id="login_view" class="one-edge-shadow">
 	
 	<?php echo $this->Session->flash('auth'); ?>
 	

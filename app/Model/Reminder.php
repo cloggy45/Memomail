@@ -8,8 +8,8 @@ class Reminder extends AppModel {
 				'message' => 'This field cannot be left blank'
 				),
 			'maxLength' => array(
-				'rule' => array('maxLength',25),
-				'message' => 'Title can only have a maximum of 25 characters' 
+				'rule' => array('maxLength',30),
+				'message' => 'Title can only have a maximum of 30 characters' 
 				)
 			),
 		'body' => array(

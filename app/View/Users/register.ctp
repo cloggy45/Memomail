@@ -1,4 +1,4 @@
-<section id="register" class="one-edge-shadow">
+<section id="register_view" class="one-edge-shadow">
 
 	<?php echo $this->Form->create('User',array('type' => 'post')); ?>
 	

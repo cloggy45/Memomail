@@ -1,4 +1,4 @@
-€<?php 
+<?php 
 
 class UsersController extends AppController {
 	public $helpers = array('Html', 'Form');
@@ -17,7 +17,7 @@ class UsersController extends AppController {
 
 	public function login() {
 
-		$this->set('cssIncludes',array('user-views/login_style'));
+		$this->set('cssIncludes',array(''));
 
 		if($this->request->is('post')) {
 

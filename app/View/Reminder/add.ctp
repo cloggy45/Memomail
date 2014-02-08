@@ -1,4 +1,4 @@
-<section id="add_form">
+<section id="add_view">
 
 	<?php echo $this->Form->create('Reminder',array('type' => 'post')); ?>
 
