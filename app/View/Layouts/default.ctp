@@ -29,6 +29,7 @@ $cakeDescription = __d('cake_dev', 'Remind.Me');
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
+		echo $this->Html->meta('viewport');
 		echo $this->Html->css('screen');
 
 		echo $this->Html->script('jquery-1.11.0.min');
@@ -53,10 +54,10 @@ $cakeDescription = __d('cake_dev', 'Remind.Me');
 </head>
 <body>
 	<div class="container" id="default_view">
-		<div id="header" class="ag ag1">	
+		<div id="header">	
 			<h1 class="ag ag2"><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
-			<nav class="ag ag3">
-				<ul>
+			<nav>
+				<ul class="nav nav-pills">
 					
 					<?php if($this->Session->check('User')): ?>
 					
