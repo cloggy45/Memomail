@@ -2,30 +2,66 @@
 	
 	<h1>Settings</h1>
 
-	<?php echo $this->Form->create('User', array('type' => 'post')); ?>
+	<?php echo $this->Form->create('User', array('type' => 'post','inputDefaults' => array('label' => false,
+		'div' => false),'class' => 'form-horizontal','role' => "form")); ?>
 	
-	<div id="ChangeEmail">
+
 	
+	<!-- Enter Email -->
+	<div class="form-group">
+
 		<h3>Change Email</h3>
-		<?php echo $this->Form->input('email', array('type' => 'email','label' => 'New Email','required' => false)); ?>
 
-		<?php echo $this->Form->input('Re-enter_new_email', array('type' => 'email','required' => false)); ?>
+		<div class="form-input">
+		<?php echo $this->Form->input('email', array('type' => 'email','required' => false,'placeholder' => 'New Email','class' => 'form-control')); ?>
+		</div>
 	</div>
 
-	<div id="ChangePassword">
+	<!-- Re-enter Email -->
+	<div class="form-group">
+
+		<div class="form-input">
+		<?php echo $this->Form->input('Re-enter_new_email', array('type' => 'email',
+			'required' => false,
+			'placeholder' => 'Re-enter New Email','class' => 'form-control'
+			)); ?>
+		</div>
+	</div>
+
+	<!-- Enter Password -->
+	<div class="form-group">
+
 		<h3>Change Password</h3>
-		
-		<?php echo $this->Form->input('password', array('type' => 'password','required' => false,'label' => 'New Password')); ?>
 
-		<?php echo $this->Form->input('re-enter_new_password', array('type' => 'password')); ?>	
+		<div class="form-input">
+		<?php echo $this->Form->input('password', array('type' => 'password','required' => false,'placeholder' => 'New Password','class' => 'form-control')); ?>
+		</div>		
 	</div>
 
-	<div id="ClearReminders">
+	<!-- Re-enter Password -->
+	<div class="form-group">
+
+		<div class="form-input">
+		<?php echo $this->Form->input('re-enter_new_password', array('type' => 'password','placeholder' => 'Re-enter New Password','class' => 'form-control')); ?>	
+		</div>				
+	</div>
+	
+	<!-- Clear Reminders -->
+	<div class="form-group">
 		<h3>Clear Reminders</h3>
-		<p>Clear all reminders:</p><?php echo $this->Form->checkbox('Clear All') ?>
+		
+		<div class="checkbox">
+			<label class="control-form"><?php echo $this->Form->checkbox('Clear All') ?>Clear all reminders</label>
+		</div>
+	</div>
+	
+	<!-- Apply Button -->
+	<div class="form-group">
+		<div class="submit-button">
+		<?php echo $this->Form->button('Apply',array('type' => 'submit','class' => 'btn btn-default')); ?>
+		</div>
 	</div>
 
-	<?php echo $this->Form->submit('Apply'); ?>
 	<?php echo $this->end(); ?>
 
 	<?php // echo $this->element('sql_dump'); ?>
