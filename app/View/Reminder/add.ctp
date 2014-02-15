@@ -1,17 +1,55 @@
 <section id="add_view">
+	
+	<h1>Add Reminder</h1>
 
-	<?php echo $this->Form->create('Reminder',array('type' => 'post')); ?>
+	<?php echo $this->Form->create('Reminder',array('type' => 'post',
+		'inputDefaults' => array(
+			'label' => false,
+			'div' => false),
+		'class' => "form-horizontal",
+		'role' => "form"
+	)); ?>
 
-	<?php echo $this->Form->input('title', array('type' => 'text','label' => 'Title')); ?>
-	<p id="remainingTitleChars"></p>
+	<!-- Title -->
+	<div class="form-group">
 
+		<h3>Title</h3>
+		<div class="form-input">
+			<?php echo $this->Form->input('title', array('type' => 'text','class' => "form-control")); ?>
+		</div>
+		<p id="remainingTitleChars"></p>
 
-	<?php echo $this->Form->input('body', array('type' => 'textarea','label' => 'Body', 'rows' => '5')); ?>
-	<p id="remainingBodyChars"></p>
+	</div>
+	
+	<!-- Body -->
+	<div class="form-group">
 
-	<?php echo $this->Form->input('datetime', array('type' => 'text', 'label' => 'Date-Time','id' => 'datetime')); ?>	
+		<h3>Body</h3>
 
-	<?php echo $this->Form->end('Add'); ?> 
+		<div class="form-input">
+			<?php echo $this->Form->input('body', array('type' => 'textarea','rows' => '5','class' => "form-control")); ?>
+		</div>
+
+		<p id="remainingBodyChars"></p>
+	</div>
+
+	<!-- Date-Time -->
+	<div class="form-group">
+
+		<h3>Date-Time</h3>
+		<div class="form-input">		
+			<?php echo $this->Form->input('datetime', array('type' => 'text','id' => 'datetime','class' => "form-control")); ?>	
+		</div>
+	</div>
+
+	<!-- Submit Button -->	
+	<div class="form-group">
+		<div class="submit-button">
+			<?php echo $this->Form->button('Add',array('type' => 'submit','class' => "btn btn-default")); ?>
+		</div>
+	</div>
+
+	<?php echo $this->Form->end(); ?> 
 
 	<?php //echo $this->element('sql_dump'); ?>
 

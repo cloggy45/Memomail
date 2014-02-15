@@ -2,7 +2,14 @@
 	
 	<?php echo $this->Session->flash('auth'); ?>
 	
-	<?php echo $this->Form->create('User',array('type' => 'post','action' => 'login','inputDefaults' => array('label' => false,'div' => false),'class' => "form-horizontal",'role' => "form"
+	<?php echo $this->Form->create('User',array(
+		'type' => 'post',
+		'action' => 'login',
+		'inputDefaults' => array(
+			'label' => false,
+			'div' => false),
+		'class' => "form-horizontal",
+		'role' => "form"
 	)); ?>
 
 	<!-- Username -->

@@ -1,6 +1,8 @@
 TODO
 
 Add form validation for register - Done
+Change recaptcha to visual captcha
+
 Add recover account.
 Add login protection. 
 Add support for multiple timezone.
