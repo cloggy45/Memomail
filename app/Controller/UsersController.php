@@ -53,7 +53,7 @@ class UsersController extends AppController {
 
 	public function settings() {
 
-		$this->set('cssIncludes', array('user-views/settings_style'));
+		// $this->set('cssIncludes', array('user-views/settings_style'));
 
 		if($this->request->is('post')) {
 
@@ -110,7 +110,8 @@ class UsersController extends AppController {
 
 	public function register() {
 
-		$this->set('cssIncludes',array('user-views/register_style'));
+		//$this->set('cssIncludes',array('user-views/register_style'));
+		$this->set('jsIncludes',array('user-views/register-view-script'));
 		
 		if($this->request->is('post')) {
 

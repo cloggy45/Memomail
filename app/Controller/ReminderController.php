@@ -6,9 +6,9 @@ class ReminderController extends AppController {
 
 	public function add() {
 
-		$this->set('cssIncludes',array('jquery-ui-style'));
+		$this->set('cssIncludes',array('layout_styles/reminder-view-styles/jquery-ui-style'));
 
-		$this->set('jsIncludes',array('reminder-views/add','jquery-ui','jquery_timepicker'));
+		$this->set('jsIncludes',array('reminder-views/add','libs/jquery-ui','libs/jquery_timepicker'));
 
 		if($this->request->is('post')) {	
 

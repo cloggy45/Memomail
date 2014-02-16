@@ -1,5 +1,7 @@
 <section id="register_view">
 	
+	<h1>Register</h1>
+
 	<?php echo $this->Form->create('User',array('type' => 'post',
 		'inputDefaults' => array('label' => false,
 		'div' => false),'class' =>'form-horizontal','role' => 'form'
@@ -56,7 +58,9 @@
 		</div>
 	</div>
 
-	<?php echo $this->Recaptcha->display(array('recaptchaOptions' => array('theme' => 'red'))); ?>
+
+	<?php echo $this->Recaptcha->display(array('recaptchaOptions' => array('theme' => 'white'))); ?>
+	
 
 	<div class="form-group">
 		<div class="submit-button">

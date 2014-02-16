@@ -2,6 +2,8 @@
 	
 	<?php echo $this->Session->flash('auth'); ?>
 	
+	<h1>Login</h1>
+
 	<?php echo $this->Form->create('User',array(
 		'type' => 'post',
 		'action' => 'login',
