@@ -58,10 +58,6 @@
 		</div>
 	</div>
 
-
-	<?php echo $this->Recaptcha->display(array('recaptchaOptions' => array('theme' => 'white'))); ?>
-	
-
 	<div class="form-group">
 		<div class="submit-button">
 		<?php echo $this->Form->button('Submit', array('type' => 'submit',

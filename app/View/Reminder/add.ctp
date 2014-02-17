@@ -36,9 +36,17 @@
 	<!-- Date-Time -->
 	<div class="form-group">
 
-		<h3>Date-Time</h3>
+		<h3>Date</h3>
 		<div class="form-input">		
-			<?php echo $this->Form->input('datetime', array('type' => 'text','id' => 'datetime','class' => "form-control")); ?>	
+			<?php echo $this->Form->input('date', array('type' => 'text','class' => "form-control datepicker")); ?>	
+		</div>
+	</div>
+
+	<div class="form-group">
+
+		<h3>Time</h3>
+		<div class="form-input">		
+			<?php echo $this->Form->input('time', array('type' => 'text','id' => 'time','class' => "form-control")); ?>	
 		</div>
 	</div>
 

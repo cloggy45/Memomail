@@ -4,6 +4,7 @@ App::uses('SimplePasswordHasher','Controller/Component/Auth');
 
 class User extends AppModel {
 	public $useTable = 'users';
+
 	public $hasMany = array(
 		'Reminder' => array(
 			'className' => 'Reminder'

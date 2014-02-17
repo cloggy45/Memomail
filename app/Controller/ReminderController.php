@@ -6,18 +6,15 @@ class ReminderController extends AppController {
 
 	public function add() {
 
-		$this->set('cssIncludes',array('layout_styles/reminder-view-styles/jquery-ui-style'));
+		$this->set('cssIncludes',array('default'));
 
-		$this->set('jsIncludes',array('reminder-views/add','libs/jquery-ui','libs/jquery_timepicker'));
+		$this->set('jsIncludes',array('libs/picker','libs/picker.date','libs/picker.time','reminder-views/add'));
 
 		if($this->request->is('post')) {	
 
 			$this->Reminder->set($this->request->data);
 
-	
 			if($this->Reminder->validates()) {
-
-				echo "Inside validate";
 
 				App::uses('CakeTime','Utility');
 
@@ -79,8 +76,8 @@ class ReminderController extends AppController {
 		
 		} else {
 
-			$this->set('cssIncludes',array('reminder-views/get_style.css','jquery-ui-style'));
-			$this->set('jsIncludes',array('reminder-views/get','jquery-ui'));
+			// $this->set('cssIncludes',array('reminder-views/get_style.css','jquery-ui-style'));
+			$this->set('jsIncludes',array('reminder-views/get'));
 
 			$this->set('reminders', $this->Reminder->find('all',$options));
 		}

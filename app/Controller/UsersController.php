@@ -1,12 +1,14 @@
 <?php 
 
+App::uses('AppController','Controller');
+
 class UsersController extends AppController {
 	public $helpers = array('Html', 'Form');
-	public $components = array('Session','Auth','Recaptcha.Recaptcha');
+	public $components = array('Session','Auth');
     
-
 	public function beforeFilter() {
 		
+		$this->Auth->allow('*');
 		$this->Auth->loginAction = array('controller' => 'Users',
 			'action' => 'login');	
 
@@ -52,8 +54,6 @@ class UsersController extends AppController {
 
 
 	public function settings() {
-
-		// $this->set('cssIncludes', array('user-views/settings_style'));
 
 		if($this->request->is('post')) {
 
@@ -110,12 +110,14 @@ class UsersController extends AppController {
 
 	public function register() {
 
-		//$this->set('cssIncludes',array('user-views/register_style'));
-		$this->set('jsIncludes',array('user-views/register-view-script'));
 		
+		$this->set('jsIncludes',array('user-views/register'));
+	
+
 		if($this->request->is('post')) {
 
-			if($this->Recaptcha->verify()) {
+			// Captcha Validation
+			// if($this->User->validates()) {
 
 				if($this->request->data['User']['email'] !== $this->request->data['User']['reenter-email']) {
 					
@@ -145,8 +147,8 @@ class UsersController extends AppController {
 					}
 				}
 
-			} else 
-				$this->Session->setFlash($this->Recaptcha->error);
+			// } else 
+			// 	$this->Session->setFlash("");
 		}
 	}
 }
