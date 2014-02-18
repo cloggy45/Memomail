@@ -3,9 +3,10 @@
 App::uses('AppController','Controller');
 
 class UsersController extends AppController {
-	public $helpers = array('Html', 'Form');
+	public $helpers = array('Html', 'Form','TimeZone');
 	public $components = array('Session','Auth');
     
+
 	public function beforeFilter() {
 		
 		$this->Auth->allow('*');
@@ -39,6 +40,7 @@ class UsersController extends AppController {
 
 			} else {
 				$this->Session->setFlash("Incorrect login information");
+				
 			}
 		
 				
@@ -59,7 +61,7 @@ class UsersController extends AppController {
 
 			$this->User->set($this->request->data);
 
-			//If user select "Clear all reminders" 
+			//If user selects "Clear all reminders" 
 			if($this->request->data['User']['Clear All']) {
 
 				$this->User->Reminder->deleteAll(array('Reminder.user_id' => $this->Session->read('Auth.User.id'),false));
@@ -116,9 +118,6 @@ class UsersController extends AppController {
 
 		if($this->request->is('post')) {
 
-			// Captcha Validation
-			// if($this->User->validates()) {
-
 				if($this->request->data['User']['email'] !== $this->request->data['User']['reenter-email']) {
 					
 					$this->Session->setFlash("Email addresss entered do not match");
@@ -146,9 +145,6 @@ class UsersController extends AppController {
 						
 					}
 				}
-
-			// } else 
-			// 	$this->Session->setFlash("");
 		}
 	}
 }

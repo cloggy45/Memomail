@@ -57,6 +57,16 @@
 		)); ?>
 		</div>
 	</div>
+	
+	<!-- Enter Timezone -->	
+	<div class="form-group">
+		<!-- <label class="control-label">Enter Timezone</label> -->
+		<div class="form-input">
+		<?php echo $this->TimeZone->select('User.timezone',array('class' => 'form-control')); ?>
+		</div>
+	</div>
+	
+
 
 	<div class="form-group">
 		<div class="submit-button">

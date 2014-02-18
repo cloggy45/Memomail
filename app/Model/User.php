@@ -41,8 +41,26 @@ class User extends AppModel {
 					'message' => 'Email is already in use'
 					)
 				),
+			'timezone' => array(
+				'isValid' => array(
+					'rule' => 'isValid',
+					'message' => 'Please select a timezone'
+					)
+				)
 		);
 
+
+	public function isValid($check) {
+		$value = array_values($check);
+
+		var_dump($value);
+
+		// If user chose "Select Timezone" rather than a valid TZ
+		if($value[0] == "99") 
+			return false;
+		else 
+			return true;
+	}
 
 	public function beforeSave($options = array()) {
 
