@@ -10,9 +10,9 @@
 		'role' => "form"
 	)); ?>
 
+
 	<!-- Title -->
 	<div class="form-group">
-
 		<h3>Title</h3>
 		<div class="form-input">
 			<?php echo $this->Form->input('title', array('type' => 'text','class' => "form-control")); ?>
@@ -21,34 +21,34 @@
 
 	</div>
 	
+
 	<!-- Body -->
 	<div class="form-group">
-
 		<h3>Body</h3>
-
 		<div class="form-input">
 			<?php echo $this->Form->input('body', array('type' => 'textarea','rows' => '5','class' => "form-control")); ?>
 		</div>
-
 		<p id="remainingBodyChars"></p>
 	</div>
 
-	<!-- Date-Time -->
-	<div class="form-group">
 
+	<!-- Date -->
+	<div class="form-group">
 		<h3>Date</h3>
 		<div class="form-input">		
-			<?php echo $this->Form->input('date', array('type' => 'text','class' => "form-control datepicker")); ?>	
+			<?php echo $this->Form->input('date', array('type' => 'text','class' => "form-control",'id' => 'date','name' => "date_input")); ?>	
 		</div>
 	</div>
 
-	<div class="form-group">
 
+	<!-- Time -->
+	<div class="form-group">
 		<h3>Time</h3>
 		<div class="form-input">		
-			<?php echo $this->Form->input('time', array('type' => 'text','id' => 'time','class' => "form-control")); ?>	
+			<?php echo $this->Form->input('time', array('type' => 'text','id' => 'time','class' => "form-control",'name' => "time_input")); ?>	
 		</div>
 	</div>
+
 
 	<!-- Submit Button -->	
 	<div class="form-group">
@@ -58,7 +58,5 @@
 	</div>
 
 	<?php echo $this->Form->end(); ?> 
-
-	<?php //echo $this->element('sql_dump'); ?>
 
 </section>

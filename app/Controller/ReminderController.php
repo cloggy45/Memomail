@@ -6,9 +6,10 @@ class ReminderController extends AppController {
 
 	public function add() {
 
-		$this->set('cssIncludes',array('default'));
+		$this->set('cssIncludes',array('themes/default','themes/default.date','themes/default.time'));
+		$this->set('jsIncludes',array('reminder-views/add','libs/lib/picker','libs/lib/picker.date','libs/lib/picker.time','libs/lib/legacy'));
 
-		$this->set('jsIncludes',array('libs/picker','libs/picker.date','libs/picker.time','reminder-views/add'));
+		
 
 		if($this->request->is('post')) {	
 
@@ -18,31 +19,18 @@ class ReminderController extends AppController {
 
 				App::uses('CakeTime','Utility');
 
-				$temp = explode(" ", $this->request->data['Reminder']['datetime']);
-				
-				// Reverses the orignal date d/m/y
-				$date = CakeTime::format($temp[0],'%Y-%m-%d');
-
-				// From 12 hour time to 24 hour
-				$time = date("H:i",strtotime($temp[1] . " " . $temp[2]));
-
-				// Create final string
-				$datetime = $date . " " . $time;
-
-				// Create UTC offset string
-				$timezone = $temp[3];
-				
 				// Construct our own $data to include the users Id.
 				$data = array('user_id' => $this->Session->read('User.userId'),
 					'title' => $this->request->data['Reminder']['title'],
 					'body' => $this->request->data['Reminder']['body'],
-					'datetime' => $datetime,
-					'time' => $time,
-					'utc_offset' => $timezone);
+					'date' => $this->request->data['formatted_date_input_submit'],
+					'time' => $this->request->data['formatted_time_input_submit']);
+
+				// Add  'utc_offset' => $timezone);
 
 				$this->Reminder->save($data);
 
-				$this->flash("Reminder Added","Reminder/add",5);
+				//$this->flash("Reminder Added","Reminder/add");
 
 				return $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
 			
@@ -61,7 +49,7 @@ class ReminderController extends AppController {
 				'Reminder.id',
 				'Reminder.title',
 				'Reminder.body',
-				'Reminder.datetime',
+				'Reminder.date',
 				'Reminder.time'
 				),
 			'conditions' => array(

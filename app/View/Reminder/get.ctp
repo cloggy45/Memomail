@@ -37,7 +37,7 @@
 			<?php endif; ?>
 
 			<p id="time"><?php echo $reminder['Reminder']['time']; ?></p>
-			<p id="date"><?php echo $date = CakeTime::format($reminder['Reminder']['datetime'],'%d-%m-%y'); ?> </p>
+			<p id="date"><?php echo $date = CakeTime::format($reminder['Reminder']['date'],'%d-%m-%y'); ?> </p>
 
 		</li>
 		
