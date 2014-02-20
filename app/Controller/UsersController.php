@@ -59,54 +59,55 @@ class UsersController extends AppController {
 
 		if($this->request->is('post')) {
 
-			$this->User->set($this->request->data);
-
-			//If user selects "Clear all reminders" 
+			// Clear existing reminders
 			if($this->request->data['User']['Clear All']) {
 
 				$this->User->Reminder->deleteAll(array('Reminder.user_id' => $this->Session->read('Auth.User.id'),false));
 			
 			}
 
+			// Changed existing emails
+			if(isset($this->request->data['User']['email'])) {
 
-			if($this->request->data['User']['email'] !== $this->request->data['User']['Re-enter_new_email']) {
-					
-				$this->Session->setFlash("New emails don't match");
+				$this->User->validator()->add('email','compareFields',array(
+						'rule',array('compareFields','confirm_email'),
+						'message','Emails entered do not match'
+					));
 
-			}
+				$this->User->beforeValidate('settings',array('fieldList' => array('email')));
 
+				$this->User->set($this->request->data['User']['email']);
 
-			// Refactor cos DRY
-			if($this->User->validates(array('fieldList' => array('email')))) {
-
-				if($this->request->data['User']['email'] !== $this->request->data['User']['Re-enter_new_email']) {
-					
-					$this->Session->setFlash("New emails don't match");
-
-				} else {
+				if($this->User->validates(array('fieldList' => array('email')))) {
 
 					$this->User->id = $this->Session->read('Auth.User.id');
 					$this->User->saveField('email',$this->request->data['User']['email']);
-					$this->Session->setFlash("Settings updated");
-
-				}	
+					$this->Session->setFlash("Settings updated");					
+				}
 			}
 
-			if($this->User->validates(array('fieldList' => array('password')))) {
+			// Change existing password
+			if(isset($this->request->data['User']['password'])) {
 
-				if($this->request->data['User']['password'] !== $this->request->data['User']['re-enter_new_password']) {
-					
+				$this->User->set($this->request->data['User']['password']);
 
-					$this->Session->setFlash("New passwords don't match");
-				
-				} else {
+				if($this->User->validates(array('fieldList' => array('password')))) {
 
 					$this->User->id = $this->Session->read('Auth.User.id');
 					$this->User->saveField('password', $this->request->data['User']['password']);
-					$this->Session->setFlash("Password changed");
+					$this->Session->setFlash("Password changed");					
+				} 
 
+			}
+
+			if(!$this->request->data['User']['timezone'] == "99") {
+				if($this->User->validates(array('fieldList' => array('timezone')))) {
+
+					$this->User->id = $this->Session->read('Auth.User.id');
+					$this->User->saveField('timezone', $this->request->data['User']['timezone']);
+					$this->Session->setFlash("Timezone Changed");
 				}
-			} 
+			}
 		}
 	}
 
@@ -117,34 +118,12 @@ class UsersController extends AppController {
 	
 
 		if($this->request->is('post')) {
+	
+			$this->User->save($this->request->data);
 
-				if($this->request->data['User']['email'] !== $this->request->data['User']['reenter-email']) {
-					
-					$this->Session->setFlash("Email addresss entered do not match");
-
-				} elseif($this->request->data['User']['password'] !== $this->request->data['User']['reenter-password']) {
-
-					$this->Session->setFlash("Entered passwords do not match");
-
-				} else { 
-
-					$this->User->set($this->request->data);
-
-					if($this->User->validates()) {
-
-						echo "Validated";
-						$this->User->save($this->request->data);
-
-						$this->Session->setFlash("User Successfully Registered!");
-						
-						return $this->redirect(array('controller' => 'Users','action' => 'login'));
-
-					} else {
-
-						$errors = $this->User->invalidFields();
-						
-					}
-				}
+			//$this->Session->setFlash("User Successfully Registered!");
+			
+			//return $this->redirect(array('controller' => 'Users','action' => 'login'));
 		}
 	}
 }

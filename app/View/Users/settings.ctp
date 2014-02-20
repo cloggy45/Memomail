@@ -21,7 +21,7 @@
 	<div class="form-group">
 
 		<div class="form-input">
-		<?php echo $this->Form->input('Re-enter_new_email', array('type' => 'email',
+		<?php echo $this->Form->input('confirm_email', array('type' => 'email',
 			'required' => false,
 			'placeholder' => 'Re-enter New Email','class' => 'form-control'
 			)); ?>
@@ -34,7 +34,7 @@
 		<h3>Change Password</h3>
 
 		<div class="form-input">
-		<?php echo $this->Form->input('password', array('type' => 'password','required' => false,'placeholder' => 'New Password','class' => 'form-control')); ?>
+		<?php echo $this->Form->input('password', array('type' => 'password','required' => false,'placeholder' => 'New Password','class' => 'form-control','value' => "")); ?>
 		</div>		
 	</div>
 
@@ -46,6 +46,15 @@
 		</div>				
 	</div>
 	
+	<!-- Change Timezone -->
+	<div class="form-group">
+		<h3>Change Timezone</h3>
+		<div class="form-input">
+		<?php echo $this->TimeZone->select('timezone',array('class' => 'form-control')); ?>
+		</div>				
+	</div>
+	
+
 	<!-- Clear Reminders -->
 	<div class="form-group">
 		<h3>Clear Reminders</h3>

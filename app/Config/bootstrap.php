@@ -96,6 +96,7 @@ Configure::write('Dispatcher.filters', array(
  * Configures default file logging options
  */
 App::uses('CakeLog', 'Log');
+
 CakeLog::config('debug', array(
 	'engine' => 'File',
 	'types' => array('notice', 'info', 'debug'),
@@ -107,8 +108,4 @@ CakeLog::config('error', array(
 	'file' => 'error',
 ));
 
-Configure::write('Recaptcha.publicKey', '6Ld0ru0SAAAAAHRJ5LwllSTqfT7sxVsqG9QhaTvq');
-Configure::write('Recaptcha.privateKey', '6Ld0ru0SAAAAAAy0aPStq1A2zOiFd4E1FSy0F3v_');
-
-
-CakePlugin::load('Recaptcha', array('bootstrap' => true));
+CakePlugin::load('DebugKit');

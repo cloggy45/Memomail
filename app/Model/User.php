@@ -28,9 +28,16 @@ class User extends AppModel {
 					)
 				),
 			'password' => array(
-				'rule' => array('minLength', '8'),
-				'message' => 'Minimum 8 characters long'
-			),	
+				'between' => array(
+					'rule' => array('between',5,10),
+					'message' => 'Between 5 to 10',
+					),
+				'compareFields' => array(
+					'rule' => array('compareFields','confirm_password'),
+					'message' => 'Passwords do not match',
+					'required' => 'update'
+					)
+				),	
 			'email' => array(
 				'email' => array(
 					'rule' => 'email',
@@ -39,6 +46,11 @@ class User extends AppModel {
 				'unique' => array(
 					'rule' => 'isUnique',
 					'message' => 'Email is already in use'
+					),
+				'compareFields' => array(
+					'rule' => array('compareFields','confirm_email'),
+					'message' => 'Emails do not match',
+					'required' => 'update'
 					)
 				),
 			'timezone' => array(
@@ -47,30 +59,41 @@ class User extends AppModel {
 					'message' => 'Please select a timezone'
 					)
 				)
-		);
+			);
 
 
 	public function isValid($check) {
 		$value = array_values($check);
 
-		var_dump($value);
-
-		// If user chose "Select Timezone" rather than a valid TZ
 		if($value[0] == "99") 
 			return false;
 		else 
 			return true;
 	}
 
+	public function compareFields($check,$comparedField=null) {
+		
+		if($fieldOne[0] == $this->data[$this->alias][$comparedField]) 
+			return true;
+	}
+
+	public function beforeValidate($options = array()) {
+		var_dump($options);
+	}
+
 	public function beforeSave($options = array()) {
+		
+		var_dump($this->data[$this->alias]);
 
-	    if (isset($this->data[$this->alias]['password'])) {
+		if($this->validates(array('fieldList' => array('password')))) {
+		    if (isset($this->data[$this->alias]['password'])) {
 
-	        $passwordHasher = new SimplePasswordHasher();
-	        $this->data[$this->alias]['password'] = $passwordHasher->hash(
-	            $this->data[$this->alias]['password']
-	        );
-	    }
+		        $passwordHasher = new SimplePasswordHasher();
+		        $this->data[$this->alias]['password'] = $passwordHasher->hash(
+		            $this->data[$this->alias]['password']
+		        );
+		    }
+		}
 
 	    return true;
 	}

@@ -31,7 +31,7 @@
 	<div class="form-group">
 		<!-- <label class="control-label">Re-enter Password</label> -->
 		<div class="form-input">
-		<?php echo $this->Form->input('reenter-password', array('type' => 'password','class' => 'form-control',
+		<?php echo $this->Form->input('confirm_password', array('type' => 'password','class' => 'form-control',
 			'placeholder' => 'Re-enter Password'
 		)); ?>
 		</div>
@@ -51,7 +51,7 @@
 	<div class="form-group">
 		<!-- <label class="control-label">Re-enter Email</label> -->
 		<div class="form-input">
-		<?php echo $this->Form->input('User.reenter-email',array('type' => 'email',
+		<?php echo $this->Form->input('confirm_email',array('type' => 'email',
 			'class' => 'form-control',
 			'placeholder' => 'Re-enter Email'
 		)); ?>

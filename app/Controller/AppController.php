@@ -33,6 +33,7 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
 	public $theme = "Cakestrap";
 	public $components = array(
+			'DebugKit.Toolbar',
 	        'Session',
 	        'Auth' => array(
 	            'loginRedirect' => array(
