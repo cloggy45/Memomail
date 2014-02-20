@@ -31,6 +31,7 @@ class User extends AppModel {
 				'between' => array(
 					'rule' => array('between',5,10),
 					'message' => 'Between 5 to 10',
+					'required' => true
 					),
 				'compareFields' => array(
 					'rule' => array('compareFields','confirm_password'),
@@ -41,11 +42,13 @@ class User extends AppModel {
 			'email' => array(
 				'email' => array(
 					'rule' => 'email',
-					'message' => 'Please enter valid email address'
+					'message' => 'Please enter valid email address',
+					'required' => true
 					),
 				'unique' => array(
 					'rule' => 'isUnique',
-					'message' => 'Email is already in use'
+					'message' => 'Email is already in use',
+					'required' => true
 					),
 				'compareFields' => array(
 					'rule' => array('compareFields','confirm_email'),
@@ -60,7 +63,9 @@ class User extends AppModel {
 					)
 				)
 			);
-
+	
+	public $confirm_email = null;
+	public $confirm_password = null;
 
 	public function isValid($check) {
 		$value = array_values($check);
@@ -73,27 +78,41 @@ class User extends AppModel {
 
 	public function compareFields($check,$comparedField=null) {
 		
+		$fieldOne = array_values($check);
+
 		if($fieldOne[0] == $this->data[$this->alias][$comparedField]) 
 			return true;
 	}
 
+
 	public function beforeValidate($options = array()) {
-		var_dump($options);
+		
+
+		if(isset($this->confirm_email)) {
+			$this->data[$this->alias]['confirm_email'] = $this->confirm_email;
+		}
+
+		if(isset($this->confirm_password)) {
+			$this->data[$this->alias]['confirm_password'] = $this->confirm_password;
+		}
+
+		echo "BeforeValidate: ";
+		var_dump($this->data[$this->alias]);
+		echo "<br/>";
 	}
 
 	public function beforeSave($options = array()) {
+
+		echo "BeforeSave: ";
+		//var_dump($this->data[$this->alias]);
+		echo "<br/>";
+	    if (!empty($this->data[$this->alias]['password'])) {
+	        $passwordHasher = new SimplePasswordHasher();
+	        $this->data[$this->alias]['password'] = $passwordHasher->hash(
+	            $this->data[$this->alias]['password']
+	        );
+	    }
 		
-		var_dump($this->data[$this->alias]);
-
-		if($this->validates(array('fieldList' => array('password')))) {
-		    if (isset($this->data[$this->alias]['password'])) {
-
-		        $passwordHasher = new SimplePasswordHasher();
-		        $this->data[$this->alias]['password'] = $passwordHasher->hash(
-		            $this->data[$this->alias]['password']
-		        );
-		    }
-		}
 
 	    return true;
 	}

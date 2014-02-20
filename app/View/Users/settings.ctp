@@ -13,7 +13,7 @@
 		<h3>Change Email</h3>
 
 		<div class="form-input">
-		<?php echo $this->Form->input('email', array('type' => 'email','required' => false,'placeholder' => 'New Email','class' => 'form-control')); ?>
+		<?php echo $this->Form->input('email', array('type' => 'email','required' => false,'placeholder' => 'New Email','class' => 'form-control','value' => "")); ?>
 		</div>
 	</div>
 
@@ -23,16 +23,14 @@
 		<div class="form-input">
 		<?php echo $this->Form->input('confirm_email', array('type' => 'email',
 			'required' => false,
-			'placeholder' => 'Re-enter New Email','class' => 'form-control'
+			'placeholder' => 'Re-enter New Email','class' => 'form-control','value' => ""
 			)); ?>
 		</div>
 	</div>
 
 	<!-- Enter Password -->
 	<div class="form-group">
-
 		<h3>Change Password</h3>
-
 		<div class="form-input">
 		<?php echo $this->Form->input('password', array('type' => 'password','required' => false,'placeholder' => 'New Password','class' => 'form-control','value' => "")); ?>
 		</div>		
@@ -40,9 +38,8 @@
 
 	<!-- Re-enter Password -->
 	<div class="form-group">
-
 		<div class="form-input">
-		<?php echo $this->Form->input('re-enter_new_password', array('type' => 'password','placeholder' => 'Re-enter New Password','class' => 'form-control')); ?>	
+		<?php echo $this->Form->input('confirm_password', array('type' => 'password','placeholder' => 'Re-enter New Password','class' => 'form-control','value' => "")); ?>	
 		</div>				
 	</div>
 	

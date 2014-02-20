@@ -15,7 +15,7 @@ class UsersController extends AppController {
 
 		$this->set('password',$this->Auth->password($this->data['User']['password']));
 		$this->Auth->allow();
-		
+
 	}
 
 	public function login() {
@@ -57,56 +57,46 @@ class UsersController extends AppController {
 
 	public function settings() {
 
+
+
 		if($this->request->is('post')) {
 
-			// Clear existing reminders
+			var_dump($this->request->data);
+
+			$this->User->id = $this->Session->read('Auth.User.id');
+
+			
 			if($this->request->data['User']['Clear All']) {
 
 				$this->User->Reminder->deleteAll(array('Reminder.user_id' => $this->Session->read('Auth.User.id'),false));
 			
 			}
 
-			// Changed existing emails
-			if(isset($this->request->data['User']['email'])) {
+			if(!empty($this->request->data['User']['email'])) {
 
-				$this->User->validator()->add('email','compareFields',array(
-						'rule',array('compareFields','confirm_email'),
-						'message','Emails entered do not match'
-					));
+				$this->User->confirm_email = $this->request->data['User']['confirm_email'];
 
-				$this->User->beforeValidate('settings',array('fieldList' => array('email')));
-
-				$this->User->set($this->request->data['User']['email']);
-
-				if($this->User->validates(array('fieldList' => array('email')))) {
-
-					$this->User->id = $this->Session->read('Auth.User.id');
-					$this->User->saveField('email',$this->request->data['User']['email']);
-					$this->Session->setFlash("Settings updated");					
+				if($this->User->saveField('email', $this->request->data['User']['email'],true)) {
+					$this->Session->setFlash("Email Changed");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 				}
 			}
 
 			// Change existing password
-			if(isset($this->request->data['User']['password'])) {
+			if(!empty($this->request->data['User']['password'])) {
 
-				$this->User->set($this->request->data['User']['password']);
+				$this->User->confirm_password = $this->request->data['User']['confirm_password'];
 
-				if($this->User->validates(array('fieldList' => array('password')))) {
-
-					$this->User->id = $this->Session->read('Auth.User.id');
-					$this->User->saveField('password', $this->request->data['User']['password']);
-					$this->Session->setFlash("Password changed");					
-				} 
-
+				if($this->User->saveField('password', $this->request->data['User']['password'],true)) {
+					$this->Session->setFlash("Password Changed");
+				}
 			}
 
-			if(!$this->request->data['User']['timezone'] == "99") {
-				if($this->User->validates(array('fieldList' => array('timezone')))) {
 
-					$this->User->id = $this->Session->read('Auth.User.id');
-					$this->User->saveField('timezone', $this->request->data['User']['timezone']);
-					$this->Session->setFlash("Timezone Changed");
-				}
+			if(!$this->request->data['User']['timezone'] == "99") {
+
+				$this->User->saveField('timezone', $this->request->data['User']['timezone'],true);
+				$this->Session->setFlash("Timezone Changed");
+			
 			}
 		}
 	}
