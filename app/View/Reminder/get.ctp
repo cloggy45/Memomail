@@ -6,39 +6,16 @@
 		
 	<?php foreach ($reminders as $reminder): ?>
 		<li> 	
-			<h2><?php echo $reminder['Reminder']['title']; ?> </h2>
-
-			<?php if(strlen($reminder['Reminder']['body']) > 40): ?>
-				
-				<?php $stringDisplay = substr($reminder['Reminder']['body'], 0,20); ?>
-				
-				<p><?php echo $stringDisplay . ".
-				.."; ?> </p>
-
-				<p id="moreBody"> <?php //echo $this->Html->link('More', array('?' => array('id' => $reminder['Reminder']['id'])),array('data-toggle' => 'modal','data-target' => '#myModal')); ?>
-				
-				<?php echo "
-				<button id='btn' class='btn btn-primary btn-sm' data-toggle='modal' data-id=" . $reminder['Reminder']['id'] . " data-target='#myModal" . $reminder['Reminder']['id'] . "'>More</button>";
-				?>
-				</p>
-
-			<?php else: ?>
-				
-				<p><?php echo $reminder['Reminder']['body']; ?> </p>
-
-			<?php endif; ?>
-
-			<p id="time"><?php echo $reminder['Reminder']['time']; ?></p>
-
-			<p id="date"><?php echo $date = CakeTime::format($reminder['Reminder']['date'],'%d-%m-%y'); ?></p>
-
-			<div>
-				<?php 
-				echo $this->Html->link('Delete',
-					'/Reminder/delete?id=' . $reminder['Reminder']['id'],array('class' => 'btn btn-primary btn-sm')); ?>
-			</div>
+			<?php echo $this->element('getViewDataContainer',array(
+				'id' => $reminder['Reminder']['id'],
+				'title' => $reminder['Reminder']['title'],
+				'body' => $reminder['Reminder']['body'],
+				'time' => $reminder['Reminder']['time'],
+				'date' => $reminder['Reminder']['date'],
+			)); ?>
 
 		</li>
+		
 
 		<?php echo $this->element('modalDialog',array(
 			'id' => $reminder['Reminder']['id'],
