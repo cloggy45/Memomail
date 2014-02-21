@@ -34171,3 +34171,81 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 182
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
 [main] - APP/webroot/index.php, line 108
 
+2014-02-21 11:38:49 Notice: Notice (8): Undefined index: User in [/var/www/cake/app/Controller/UsersController.php, line 16]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 16
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 674
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-02-21 11:39:09 Notice: Notice (8): Undefined variable: fieldOne in [/var/www/cake/app/Model/User.php, line 83]
+Trace:
+User::compareFields() - APP/Model/User.php, line 83
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 275
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 259
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3317
+Model::save() - CORE/Cake/Model/Model.php, line 1743
+Model::saveField() - CORE/Cake/Model/Model.php, line 1667
+UsersController::settings() - APP/Controller/UsersController.php, line 79
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-02-21 11:40:06 Notice: Notice (8): Undefined variable: fieldOne in [/var/www/cake/app/Model/User.php, line 83]
+Trace:
+User::compareFields() - APP/Model/User.php, line 83
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 275
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 259
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3317
+Model::save() - CORE/Cake/Model/Model.php, line 1743
+Model::saveField() - CORE/Cake/Model/Model.php, line 1667
+UsersController::settings() - APP/Controller/UsersController.php, line 79
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-02-21 11:40:06 Notice: Notice (8): Undefined variable: fieldOne in [/var/www/cake/app/Model/User.php, line 83]
+Trace:
+User::compareFields() - APP/Model/User.php, line 83
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 275
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 259
+Model::invalidFields() - CORE/Cake/Model/Model.php, line 3330
+UsersController::settings() - APP/Controller/UsersController.php, line 82
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-02-21 11:40:40 Notice: Notice (8): Undefined index: User in [/var/www/cake/app/Controller/UsersController.php, line 16]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 16
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 674
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-02-21 11:41:10 Notice: Notice (8): Undefined index: User in [/var/www/cake/app/Controller/UsersController.php, line 16]
+Trace:
+UsersController::beforeFilter() - APP/Controller/UsersController.php, line 16
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 247
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 674
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+

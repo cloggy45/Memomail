@@ -57,28 +57,32 @@ class UsersController extends AppController {
 
 	public function settings() {
 
-
+		// Todo: Display stacked validation errors
+		// Todo: Display 'Settings more than 1 setting be changed'
+		$this->set('jsIncludes',array('formValidation'));
 
 		if($this->request->is('post')) {
 
-			var_dump($this->request->data);
+			//var_dump($this->request->data);
+
+			$SettingsChanged = false;
 
 			$this->User->id = $this->Session->read('Auth.User.id');
 
-			
 			if($this->request->data['User']['Clear All']) {
 
 				$this->User->Reminder->deleteAll(array('Reminder.user_id' => $this->Session->read('Auth.User.id'),false));
 			
-			}
+			} 
 
 			if(!empty($this->request->data['User']['email'])) {
 
 				$this->User->confirm_email = $this->request->data['User']['confirm_email'];
-
+				
 				if($this->User->saveField('email', $this->request->data['User']['email'],true)) {
-					$this->Session->setFlash("Email Changed");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+					$SettingsChanged = true;
 				}
+		
 			}
 
 			// Change existing password
@@ -87,16 +91,20 @@ class UsersController extends AppController {
 				$this->User->confirm_password = $this->request->data['User']['confirm_password'];
 
 				if($this->User->saveField('password', $this->request->data['User']['password'],true)) {
-					$this->Session->setFlash("Password Changed");
+					$SettingsChanged = true;
 				}
+				
 			}
 
 
-			if(!$this->request->data['User']['timezone'] == "99") {
+			if($this->request->data['User']['timezone'] < 99) {
+				if($this->User->saveField('timezone', $this->request->data['User']['timezone'],true)) {
+					$SettingsChanged = true;
+				}
+			} 
 
-				$this->User->saveField('timezone', $this->request->data['User']['timezone'],true);
-				$this->Session->setFlash("Timezone Changed");
-			
+			if($SettingsChanged) {
+				$this->Session->setFlash('Settings Changed');
 			}
 		}
 	}
@@ -104,16 +112,16 @@ class UsersController extends AppController {
 	public function register() {
 
 		
-		$this->set('jsIncludes',array('user-views/register'));
+		$this->set('jsIncludes',array('formValidation','user-views/register'));
 	
 
 		if($this->request->is('post')) {
 	
 			$this->User->save($this->request->data);
 
-			//$this->Session->setFlash("User Successfully Registered!");
+			$this->Session->setFlash("User Successfully Registered!");
 			
-			//return $this->redirect(array('controller' => 'Users','action' => 'login'));
+			return $this->redirect(array('controller' => 'Users','action' => 'login'));
 		}
 	}
 }

@@ -25515,3 +25515,247 @@ Request URL: /cake/css/.css
 Stack Trace:
 #0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-02-21 00:44:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 00:45:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 00:45:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 00:45:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 00:45:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 11:17:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 11:17:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 11:18:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 11:18:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 11:18:31 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/cake/app/View/Reminder/get.ctp, line 45]
+2014-02-21 11:18:31 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cake/Reminder/get
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 45, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 45, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-21 11:36:25 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/var/www/cake/app/Controller/UsersController.php, line 108]
+2014-02-21 11:36:25 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /cake/Users/settings
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 108, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 108, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-21 11:49:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 11:56:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 11:57:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 12:54:32 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting ',' or ';' in [/var/www/cake/app/Model/User.php, line 80]
+2014-02-21 12:54:32 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting ',' or ';'
+Request URL: /cake/Users/settings
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 80)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 80, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 80, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-21 12:54:42 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting ',' or ';' in [/var/www/cake/app/Model/User.php, line 80]
+2014-02-21 12:54:42 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting ',' or ';'
+Request URL: /cake/Users/settings
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 80)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 80, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 80, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-21 12:54:45 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting ',' or ';' in [/var/www/cake/app/Model/User.php, line 80]
+2014-02-21 12:54:45 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting ',' or ';'
+Request URL: /cake/Users/settings
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 80)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 80, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 80, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-21 13:38:38 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/var/www/cake/app/View/Users/settings.ctp, line 70]
+2014-02-21 13:38:38 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /cake/Users/settings
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 70, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 70, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-21 13:40:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 13:41:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 13:41:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-21 13:46:48 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/cake/app/View/Users/settings.ctp, line 57]
+2014-02-21 13:46:48 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cake/Users/settings
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 57, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 57, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-21 13:47:07 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/cake/app/View/Users/settings.ctp, line 57]
+2014-02-21 13:47:07 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cake/Users/settings
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 57, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 57, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-21 15:10:56 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/var/www/cake/app/View/Users/settings.ctp, line 55]
+2014-02-21 15:10:56 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /cake/Users/settings
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 55, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 55, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-21 15:37:46 Error: Fatal Error (1): Call to undefined function setFlash() in [/var/www/cake/app/Controller/UsersController.php, line 107]
+2014-02-21 15:37:46 Error: [FatalErrorException] Call to undefined function setFlash()
+Request URL: /cake/Users/settings
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cake/a...', 107)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cake/a...', 107, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cake/a...', 107, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-02-21 15:40:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

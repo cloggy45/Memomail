@@ -15,7 +15,6 @@ class User extends AppModel {
 			'username' => array(
 				'alphaNumeric' => array(
 					'rule' => 'alphaNumeric',
-					'required' => true,
 					'message' => 'Alphabets and numbers only'
 					),
 				'between' => array(
@@ -31,24 +30,21 @@ class User extends AppModel {
 				'between' => array(
 					'rule' => array('between',5,10),
 					'message' => 'Between 5 to 10',
-					'required' => true
 					),
 				'compareFields' => array(
 					'rule' => array('compareFields','confirm_password'),
 					'message' => 'Passwords do not match',
-					'required' => 'update'
 					)
 				),	
 			'email' => array(
 				'email' => array(
 					'rule' => 'email',
 					'message' => 'Please enter valid email address',
-					'required' => true
+					'required' => 'create'
 					),
 				'unique' => array(
 					'rule' => 'isUnique',
 					'message' => 'Email is already in use',
-					'required' => true
 					),
 				'compareFields' => array(
 					'rule' => array('compareFields','confirm_email'),
@@ -68,6 +64,7 @@ class User extends AppModel {
 	public $confirm_password = null;
 
 	public function isValid($check) {
+
 		$value = array_values($check);
 
 		if($value[0] == "99") 
@@ -79,6 +76,8 @@ class User extends AppModel {
 	public function compareFields($check,$comparedField=null) {
 		
 		$fieldOne = array_values($check);
+
+		//echo "Comparing: " . $fieldOne[0] . " and " . $this->data[$this->alias][$comparedField] . "<br/>";
 
 		if($fieldOne[0] == $this->data[$this->alias][$comparedField]) 
 			return true;
@@ -96,16 +95,16 @@ class User extends AppModel {
 			$this->data[$this->alias]['confirm_password'] = $this->confirm_password;
 		}
 
-		echo "BeforeValidate: ";
-		var_dump($this->data[$this->alias]);
-		echo "<br/>";
+		// echo "BeforeValidate:<br/> ";
+		// var_dump($this->data[$this->alias]);
+		// echo "<br/>";
 	}
 
 	public function beforeSave($options = array()) {
 
-		echo "BeforeSave: ";
-		//var_dump($this->data[$this->alias]);
-		echo "<br/>";
+		// echo "BeforeSave: ";
+		// var_dump($this->data[$this->alias]);
+		// echo "<br/>";
 	    if (!empty($this->data[$this->alias]['password'])) {
 	        $passwordHasher = new SimplePasswordHasher();
 	        $this->data[$this->alias]['password'] = $passwordHasher->hash(

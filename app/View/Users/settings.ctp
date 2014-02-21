@@ -13,7 +13,15 @@
 		<h3>Change Email</h3>
 
 		<div class="form-input">
-		<?php echo $this->Form->input('email', array('type' => 'email','required' => false,'placeholder' => 'New Email','class' => 'form-control','value' => "")); ?>
+
+		<?php echo $this->Form->input('email', array(
+			'type' => 'email',
+			'required' => false,
+			'placeholder' => 'New Email',
+			'class' => 'form-control',
+			'value' => ""
+			)); ?>
+
 		</div>
 	</div>
 
@@ -21,10 +29,16 @@
 	<div class="form-group">
 
 		<div class="form-input">
-		<?php echo $this->Form->input('confirm_email', array('type' => 'email',
+
+		<?php echo $this->Form->input('confirm_email', array(
+			'type' => 'email',
 			'required' => false,
-			'placeholder' => 'Re-enter New Email','class' => 'form-control','value' => ""
+			'placeholder' => 'Re-enter New Email',
+			'class' => 'form-control',
+			'value' => "",
+			'data-validation' => "email original_email"
 			)); ?>
+
 		</div>
 	</div>
 
@@ -32,14 +46,30 @@
 	<div class="form-group">
 		<h3>Change Password</h3>
 		<div class="form-input">
-		<?php echo $this->Form->input('password', array('type' => 'password','required' => false,'placeholder' => 'New Password','class' => 'form-control','value' => "")); ?>
+		<?php echo $this->Form->input('password', array(
+			'type' => 'password',
+			'required' => false,
+			'placeholder' => 'New Password',
+			'class' => 'form-control',
+			'value' => "",
+			'data-validation' => 'length strength',
+			'data-validation-length' => '5-10',
+			'data-validation-strength' => '2',
+			'data-validation-optional' => 'true'
+			)); ?>
 		</div>		
 	</div>
 
 	<!-- Re-enter Password -->
 	<div class="form-group">
 		<div class="form-input">
-		<?php echo $this->Form->input('confirm_password', array('type' => 'password','placeholder' => 'Re-enter New Password','class' => 'form-control','value' => "")); ?>	
+		<?php echo $this->Form->input('confirm_password', array(
+			'type' => 'password',
+			'placeholder' => 'Re-enter New Password',
+			'class' => 'form-control',
+			'value' => "",
+			'data-validation' => 'original_password'
+			)); ?>	
 		</div>				
 	</div>
 	
