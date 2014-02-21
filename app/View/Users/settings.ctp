@@ -19,7 +19,8 @@
 			'required' => false,
 			'placeholder' => 'New Email',
 			'class' => 'form-control',
-			'value' => ""
+			'value' => "",
+			'data-validation-optional' => 'true'
 			)); ?>
 
 		</div>
@@ -36,7 +37,8 @@
 			'placeholder' => 'Re-enter New Email',
 			'class' => 'form-control',
 			'value' => "",
-			'data-validation' => "email original_email"
+			'data-validation' => "email original_email",
+			'data-validation-optional' => 'true'
 			)); ?>
 
 		</div>
@@ -53,7 +55,7 @@
 			'class' => 'form-control',
 			'value' => "",
 			'data-validation' => 'length strength',
-			'data-validation-length' => '5-10',
+			'data-validation-length' => '5-20',
 			'data-validation-strength' => '2',
 			'data-validation-optional' => 'true'
 			)); ?>

@@ -28,8 +28,8 @@ class User extends AppModel {
 				),
 			'password' => array(
 				'between' => array(
-					'rule' => array('between',5,10),
-					'message' => 'Between 5 to 10',
+					'rule' => array('between',5,20),
+					'message' => 'Between 5 to 20',
 					),
 				'compareFields' => array(
 					'rule' => array('compareFields','confirm_password'),
@@ -55,7 +55,8 @@ class User extends AppModel {
 			'timezone' => array(
 				'isValid' => array(
 					'rule' => 'isValid',
-					'message' => 'Please select a timezone'
+					'message' => 'Please select a timezone',
+					'required' => 'create'
 					)
 				)
 			);

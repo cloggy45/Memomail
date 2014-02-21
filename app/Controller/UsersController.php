@@ -58,7 +58,8 @@ class UsersController extends AppController {
 	public function settings() {
 
 		// Todo: Display stacked validation errors
-		// Todo: Display 'Settings more than 1 setting be changed'
+		// Todo: Add fade to setFlash messages
+		
 		$this->set('jsIncludes',array('formValidation'));
 
 		if($this->request->is('post')) {
@@ -117,11 +118,12 @@ class UsersController extends AppController {
 
 		if($this->request->is('post')) {
 	
-			$this->User->save($this->request->data);
+			if($this->User->save($this->request->data)) {
 
-			$this->Session->setFlash("User Successfully Registered!");
-			
-			return $this->redirect(array('controller' => 'Users','action' => 'login'));
+				$this->Session->setFlash("User Successfully Registered!");
+				
+				return $this->redirect(array('controller' => 'Users','action' => 'login'));
+			}
 		}
 	}
 }

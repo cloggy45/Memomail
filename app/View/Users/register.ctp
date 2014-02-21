@@ -20,9 +20,14 @@
 	<div class="form-group">
 		<!-- <label class="control-label">Password</label> -->
 		<div class="form-input">
-		<?php echo $this->Form->input('password', array('type' => 'password',
+		<?php echo $this->Form->input('password', array(
+			'type' => 'password',
 			'class' => 'form-control',
-			'placeholder' => 'Password'
+			'placeholder' => 'Password',
+			'data-validation' => 'length strength',
+			'data-validation-length' => '5-10',
+			'data-validation-strength' => '2',
+			'data-validation-optional' => 'true'
 		)); ?>
 		</div>
 	</div>
@@ -31,8 +36,11 @@
 	<div class="form-group">
 		<!-- <label class="control-label">Re-enter Password</label> -->
 		<div class="form-input">
-		<?php echo $this->Form->input('confirm_password', array('type' => 'password','class' => 'form-control',
-			'placeholder' => 'Re-enter Password'
+		<?php echo $this->Form->input('confirm_password', array(
+			'type' => 'password',
+			'class' => 'form-control',
+			'placeholder' => 'Re-enter Password',
+			'data-validation' => 'original_password'
 		)); ?>
 		</div>
 	</div>
@@ -41,7 +49,9 @@
 	<div class="form-group">
 		<!-- <label class="control-label">Email</label> -->
 		<div class="form-input">
-		<?php echo $this->Form->input('email',array('type' => 'email','class' => 'form-control',
+		<?php echo $this->Form->input('email',array(
+			'type' => 'email',
+			'class' => 'form-control',
 			'placeholder' => 'Email'
 		)); ?>
 		</div>
@@ -51,9 +61,11 @@
 	<div class="form-group">
 		<!-- <label class="control-label">Re-enter Email</label> -->
 		<div class="form-input">
-		<?php echo $this->Form->input('confirm_email',array('type' => 'email',
+		<?php echo $this->Form->input('confirm_email',array(
+			'type' => 'email',
 			'class' => 'form-control',
-			'placeholder' => 'Re-enter Email'
+			'placeholder' => 'Re-enter Email',
+			'data-validation' => "email original_email",
 		)); ?>
 		</div>
 	</div>
@@ -62,7 +74,7 @@
 	<div class="form-group">
 		<!-- <label class="control-label">Enter Timezone</label> -->
 		<div class="form-input">
-		<?php echo $this->TimeZone->select('User.timezone',array('class' => 'form-control')); ?>
+			<?php echo $this->TimeZone->select('User.timezone',array('class' => 'form-control')); ?>
 		</div>
 	</div>
 	
