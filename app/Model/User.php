@@ -106,6 +106,7 @@ class User extends AppModel {
 		// echo "BeforeSave: ";
 		// var_dump($this->data[$this->alias]);
 		// echo "<br/>";
+            
 	    if (!empty($this->data[$this->alias]['password'])) {
 	        $passwordHasher = new SimplePasswordHasher();
 	        $this->data[$this->alias]['password'] = $passwordHasher->hash(

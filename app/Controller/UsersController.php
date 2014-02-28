@@ -3,7 +3,7 @@
 App::uses('AppController','Controller');
 
 class UsersController extends AppController {
-	public $helpers = array('Html', 'Form','TimeZone');
+	public $helpers = array('Html', 'Form','Timezone.Timezone');
 	public $components = array('Session','Auth');
     
 
@@ -21,7 +21,7 @@ class UsersController extends AppController {
 	public function login() {
 
 		$this->set('cssIncludes',array(''));
-
+                
 		if($this->request->is('post')) {
 
 			if($this->Auth->login()) {
@@ -104,8 +104,15 @@ class UsersController extends AppController {
 				}
 			} 
 
+			if($this->request->data['User']['Clear All']) {
+				$SettingsChanged = true;
+				$this->Session->setFlash('Cleared all reminders');
+			}
+
 			if($SettingsChanged) {
 				$this->Session->setFlash('Settings Changed');
+			} else {
+				$this->Session->setFlash('Nothing Changed');
 			}
 		}
 	}
@@ -117,7 +124,7 @@ class UsersController extends AppController {
 	
 
 		if($this->request->is('post')) {
-	
+                        
 			if($this->User->save($this->request->data)) {
 
 				$this->Session->setFlash("User Successfully Registered!");

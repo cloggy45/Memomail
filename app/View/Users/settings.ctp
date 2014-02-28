@@ -6,8 +6,7 @@
 		'div' => false),'class' => 'form-horizontal','role' => "form")); ?>
 	
 
-	
-	<!-- Enter Email -->
+ 	<!-- Change Email -->
 	<div class="form-group">
 
 		<h3>Change Email</h3>
@@ -40,7 +39,7 @@
 			'data-validation' => "email original_email",
 			'data-validation-optional' => 'true'
 			)); ?>
-
+	
 		</div>
 	</div>
 
@@ -79,7 +78,7 @@
 	<div class="form-group">
 		<h3>Change Timezone</h3>
 		<div class="form-input">
-		<?php echo $this->TimeZone->select('timezone',array('class' => 'form-control')); ?>
+		<?php echo $this->Timezone->select('timezone',NULL,array('class' => 'form-control')); ?>
 		</div>				
 	</div>
 	
@@ -89,7 +88,7 @@
 		<h3>Clear Reminders</h3>
 		
 		<div class="checkbox">
-			<label class="control-form"><?php echo $this->Form->checkbox('Clear All') ?>Clear all reminders</label>
+			<label class="control-form"><?php echo $this->Form->checkbox('Clear All',array('checked' => false)) ?>Clear all reminders</label>
 		</div>
 	</div>
 	

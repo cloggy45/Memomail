@@ -108,4 +108,5 @@ CakeLog::config('error', array(
 	'file' => 'error',
 ));
 
+CakePlugin::load('Timezone');
 CakePlugin::load('DebugKit');
