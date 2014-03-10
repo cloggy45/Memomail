@@ -1,0 +1,34 @@
+#login_view {
+	h1 {
+		@include respond-to(tablet-portrait) {
+			padding-left:0px;
+		}
+	}
+}
+
+#register_view {
+	h1 {
+		@include respond-to(tablet-portrait) {
+			padding-left:0px;
+		}
+	}
+
+}
+
+#settings_view {
+	h1 {
+		@include respond-to(tablet-portrait) {
+			position: relative;
+			right: 10px;
+		}
+	}
+}
+
+#add_view {
+	
+	h1 {
+		@include respond-to(tablet-portrait) {
+			padding-left: 0px;
+		}
+	}
+}

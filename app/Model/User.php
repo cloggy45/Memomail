@@ -10,6 +10,8 @@ class User extends AppModel {
 			'className' => 'Reminder'
 			)
 		);
+        
+        public $hasOne = 'Registration';
 
 	public $validate = array(
 			'username' => array(
@@ -61,18 +63,27 @@ class User extends AppModel {
 				)
 			);
 	
-	public $confirm_email = null;
+	
+        public $confirm_email = null;
 	public $confirm_password = null;
 
+        
 	public function isValid($check) {
-
+                
 		$value = array_values($check);
-
-		if($value[0] == "99") 
-			return false;
-		else 
-			return true;
-	}
+                
+                var_dump($check);
+                
+		if(empty($value[0])) 
+                {   
+                    echo "<br/>";
+                    return false;
+                } 
+                else {
+                    echo "Here<br/>";
+                    return true;
+                }
+	}       
 
 	public function compareFields($check,$comparedField=null) {
 		
@@ -114,7 +125,6 @@ class User extends AppModel {
 	        );
 	    }
 		
-
 	    return true;
 	}
 

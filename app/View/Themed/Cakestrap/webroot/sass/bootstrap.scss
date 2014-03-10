@@ -1,0 +1,24 @@
+@import "layout_styles/_user_variables";
+
+@import "bootstrap/_bootstrap";
+@import "fontawesome/_font-awesome";
+
+
+@import "layout_styles/_user_mixins";
+
+// Default view CSS
+@import "layout_styles/default_view_styles";
+
+// User view CSS
+@import "layout_styles/user_view_styles/register_view_styles";
+@import "layout_styles/user_view_styles/login_view_styles";
+@import "layout_styles/user_view_styles/settings_view_styles";
+
+// Reminder view CSS
+@import "layout_styles/reminder_view_styles/add_view_styles";
+@import "layout_styles/reminder_view_styles/get_view_styles";
+
+
+// Media Queries
+@import "layout_styles/media_queries";
+

@@ -1,0 +1,45 @@
+#add_view {
+
+	h1 {
+		@include make-sm-column-offset(4);
+		padding-left:9px;
+	}
+
+	.form-group {
+		
+		h3 {
+			@include make-sm-column-offset(4);
+			padding-left: 15px;
+			
+
+		}
+
+		.form-input {
+			@include make-sm-column-offset(4);
+			@include make-sm-column(4);
+		}
+
+		.picker__input {
+			background: $input-bg;
+		}
+
+		button {
+			
+		}
+
+		p {
+			@include make-sm-column-offset(4);
+			@include make-sm-column(3);
+			font-size: 12px;
+			padding-top: 5px;
+			padding-bottom: 10px;
+		}
+
+		.submit-button {
+			@include make-sm-column-offset(4);
+			@include make-sm-column(1);
+		}
+
+	
+	}
+}

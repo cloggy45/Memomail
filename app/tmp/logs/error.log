@@ -26486,3 +26486,540 @@ Request URL: /cake/css/.css
 Stack Trace:
 #0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-02-28 22:48:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-28 22:48:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 13:32:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 17:09:38 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/cake/app/Controller/UsersController.php, line 142]
+2014-03-08 17:09:38 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake/a...', 142)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake/a...', 142, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake/a...', 142, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-08 17:16:04 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/cake/app/Controller/UsersController.php, line 142]
+2014-03-08 17:16:04 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake/a...', 142)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake/a...', 142, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake/a...', 142, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-08 17:17:58 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/cake/app/Controller/UsersController.php, line 142]
+2014-03-08 17:17:58 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake/a...', 142)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake/a...', 142, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake/a...', 142, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-08 17:18:44 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/cake/app/Controller/UsersController.php, line 142]
+2014-03-08 17:18:44 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake/a...', 142)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake/a...', 142, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake/a...', 142, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-08 17:34:55 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/cake/app/Controller/UsersController.php, line 143]
+2014-03-08 17:34:55 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake/a...', 143)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake/a...', 143, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake/a...', 143, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-08 18:15:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Registration), Array, Array)
+#4 /var/www/cake/app/Controller/UsersController.php(147): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-08 18:19:48 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Registration), Array, Array)
+#4 /var/www/cake/app/Controller/UsersController.php(147): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-08 18:27:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Registration), Array, Array)
+#4 /var/www/cake/app/Controller/UsersController.php(147): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-08 18:29:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Registration), Array, Array)
+#4 /var/www/cake/app/Controller/UsersController.php(147): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-08 19:03:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Registration), Array, Array)
+#4 /var/www/cake/app/Controller/UsersController.php(147): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-08 19:04:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Registration), Array, Array)
+#4 /var/www/cake/app/Controller/UsersController.php(147): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-08 19:07:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Registration), Array, Array)
+#4 /var/www/cake/app/Controller/UsersController.php(148): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-08 19:08:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Registration), Array, Array)
+#4 /var/www/cake/app/Controller/UsersController.php(148): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-08 19:09:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Registration), Array, Array)
+#4 /var/www/cake/app/Controller/UsersController.php(152): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-08 19:59:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 20:00:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 20:05:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 20:07:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 20:08:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:11:54 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/cake/app/Controller/UsersController.php, line 41]
+2014-03-08 23:11:54 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cake/users/login
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake/a...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake/a...', 41, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake/a...', 41, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-08 23:12:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:12:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:12:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:12:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:15:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:15:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:17:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:17:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:19:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:19:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:19:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:20:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:20:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:36:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:53:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:54:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-08 23:54:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-09 00:06:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-09 00:06:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-09 16:16:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-09 16:17:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-09 16:17:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-09 16:21:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-09 16:22:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-09 16:22:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-09 16:24:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-09 16:24:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-09 16:27:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-09 16:30:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-10 20:46:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-10 20:46:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

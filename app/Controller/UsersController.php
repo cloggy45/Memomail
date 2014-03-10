@@ -4,9 +4,8 @@ App::uses('AppController','Controller');
 
 class UsersController extends AppController {
 	public $helpers = array('Html', 'Form','Timezone.Timezone');
-	public $components = array('Session','Auth');
-    
-
+	public $components = array('Session','Auth','Email');
+  
 	public function beforeFilter() {
 		
 		$this->Auth->allow('*');
@@ -35,11 +34,27 @@ class UsersController extends AppController {
 				$temp = $this->User->find('first',$options);
 	
 				$this->Session->write('User.userId',$temp['User']['id']);
-
-				$this->redirect(array('controller' => 'Reminder','action' => 'get'));
-
+                                
+                                //If first time loggin in
+                                
+                                if($this->User->Registration->find('first',array(
+                                    'conditions' => array('Registration.user_id' => $this->Session->read('User.userId')),
+                                    'fields' => 'Registration.reg_valid'))) {
+                                     
+                                    var_dump($this->User->Registration->find('first',array(
+                                    'conditions' => array('Registration.user_id' => $this->Session->read('User.userId')),
+                                    'fields' => 'Registration.reg_valid')));
+     
+                                    $this->Session->setFlash('Activate Email First');
+                                    
+                                } else {
+                                    $this->redirect(array('controller' => 'Reminder','action' => 'get'));
+                                }
+                                
+                                //else login normally
+				
 			} else {
-				$this->Session->setFlash("Incorrect login information");
+                            $this->Session->setFlash("Incorrect login information");
 				
 			}
 		
@@ -80,7 +95,7 @@ class UsersController extends AppController {
 
 				$this->User->confirm_email = $this->request->data['User']['confirm_email'];
 				
-				if($this->User->saveField('email', $this->request->data['User']['email'],true)) {
+				if($this->User->saveField('email',$this->request->data['User']['email'],true)) {
 					$SettingsChanged = true;
 				}
 		
@@ -116,19 +131,43 @@ class UsersController extends AppController {
 			}
 		}
 	}
+        
+        public function sendActivationEmail() 
+        {
 
+        	require_once '../app/config/SendGridAuth.php';
+
+            $this->Email->smtpOptions = $userAuth;
+
+            $this->Email->delivery = 'smtp';
+            $this->Email->from = 'Paul ';
+            $this->Email->to = 'Recipient Name ';
+            $this->set('', 'Recipient Name');
+            $this->Email->subject = 'This is a subject';
+            $this->Email->template = 'registrationActivation';
+            $this->Email->sendAs = 'both';
+            $this->Email->send();
+
+        }
+        
 	public function register() {
-
-		
+            
 		$this->set('jsIncludes',array('formValidation','user-views/register'));
 	
-
 		if($this->request->is('post')) {
                         
 			if($this->User->save($this->request->data)) {
 
-				$this->Session->setFlash("User Successfully Registered!");
-				
+				$this->Session->setFlash("Activation email sent!");
+                                
+                                $email = Security::hash($this->request->data['User']['email'],'sha1',true);
+                                
+                                $this->User->Registration->save(array(
+                                    'user_id' => $this->User->id,
+                                    'reg_valid' => 'false',
+                                    'hash' => $email
+                                    ));
+                                
 				return $this->redirect(array('controller' => 'Users','action' => 'login'));
 			}
 		}

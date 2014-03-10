@@ -1,0 +1,35 @@
+#get_view {
+    li {
+       
+        
+        a{
+            @include make-lg-column(1);
+        }
+        
+
+        h2 {
+            @include make-lg-column(3);
+            word-wrap: break-word;
+        }
+        
+        p {
+            @include make-lg-column(3);
+        }
+
+        button {
+            @include make-lg-column(1);
+        }
+        
+        #time {
+            @include make-lg-column(2);
+        }
+        
+        #date {
+            @include make-lg-column(2);
+        }
+    }
+
+    .modal-body p {
+        word-wrap:break-word;
+    }	
+}
