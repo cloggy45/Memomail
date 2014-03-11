@@ -38,24 +38,22 @@ class UsersController extends AppController {
                                 
                 //If first time loggin in
                 
-                if($this->User->Registration->find('first',array(
+				$valid = $this->User->Registration->find('first',array(
                     'conditions' => array(
                     	'Registration.user_id' => $this->Session->read('User.userId')),
-                    'fields' => 'Registration.reg_valid'))) {
-                     
-                    var_dump($this->User->Registration->find('first',array(
-                    'conditions' => array(
-                    	'Registration.user_id' => $this->Session->read('User.userId')),
-                    'fields' => 'Registration.reg_valid')));
+                    'fields' => 'Registration.reg_valid'));
 
+                if(!$valid['Registration']['reg_valid']) {
+                     
                     $this->Session->setFlash('Activate Email First');
-                    
+
+                    $this->Session->delete('User');
+					return $this->redirect($this->Auth->logout());
+
                 } else {
                     $this->redirect(array('controller' => 'Reminder','action' => 'get'));
                 }
-                
-                //else login normally
-				
+                			
 			} else {
                 $this->Session->setFlash("Incorrect login information");
 				
@@ -132,43 +130,56 @@ class UsersController extends AppController {
 			}
 		}
 	}
+
+	public function activateAccount() 
+	{
+		$hash = $this->request->params['named']['hash'];
+
+		if($this->User->Registration->updateAll(array(
+			'reg_valid' => true),
+			array('hash' => $hash))) {
+			$this->Session->setFlash('Account Validated');
+		} else {
+			$this->Session->setFlash('Account not valid');
+		}
+	}
+
+	public function sendActivationEmail()
+	{
         
-        public function sendActivationEmail() 
-        {
+		require_once APP . 'Config/SendGridAuth.php';
 
-        	require_once APP . 'Config/SendGridAuth.php';
+    	$id = $this->request->params['named']['id'];
 
-        	$id = $this->request->params['named']['id'];
+    	$user = $this->User->Registration->User->find('first',array(
+        		'conditions' => array('User.id' => $id),
+        		'fields' => array('User.email','User.username') 
+        	));
 
-        	$user = $this->User->find('first',array(
-            		'conditions' => array('User.id' => $id),
-            		'fields' => array('User.email','User.username') 
-            	));
+    	$registration = $this->User->Registration->find('first',array(
+    			'conditions' => array('Registration.id' => $id),
+    			'fields' => array('Registration.hash','')
+    		));
 
-        	$registration = $this->User->Registration->find('first',array(
-        			'conditions' => array('Registration.id' => $id),
-        			'fields' => array('Registration.hash','')
-        		));
+        $this->Email->smtpOptions = $userAuth;
 
-            $this->Email->smtpOptions = $userAuth;
+        $this->Email->delivery = 'smtp';
+        $this->Email->from = $fromEmail;
 
-            $this->Email->delivery = 'smtp';
-            $this->Email->from = 'drderp45@googlemail.com';
+        $this->Email->to = $user['User']['email'];
 
-            $this->Email->to = $user['User']['email'];
+        $this->set('username',$user['User']['username']);
+        	
 
-            $this->set('username',$user['User']['username']);
-            	
+        $this->set('hash',$registration['Registration']['hash']);
 
-            $this->set('hash',$registration['Registration']['hash']);
+        $this->Email->subject = 'Please Activate Email';
+        $this->Email->template = 'registration_activation';
+        $this->Email->sendAs = 'both';
+        $this->Email->send();
+	}
 
-            $this->Email->subject = 'Please Activate Email';
-            $this->Email->template = 'registrationActivation';
-            $this->Email->sendAs = 'both';
-            $this->Email->send();
-
-        }
-        
+  
 	public function register() {
             
 		$this->set('jsIncludes',array('formValidation','user-views/register'));
@@ -179,15 +190,18 @@ class UsersController extends AppController {
 
 				// $this->Session->setFlash("Activation email sent!");
                                 
-                    $email = Security::hash($this->request->data['User']['email'],'sha1',true);
-                    
-                    $this->User->Registration->save(array(
-                        'user_id' => $this->User->id,
-                        'reg_valid' => 'false',
-                        'hash' => $email
-                        ));
+                $email = Security::hash($this->request->data['User']['email'],'sha1',true);
+                
+                $this->User->Registration->save(array(
+                    'user_id' => $this->User->id,
+                    'reg_valid' => 'false',
+                    'hash' => $email
+                    ));
                                 
-				return $this->redirect(array('controller' => 'Users','action' => 'sendActivationEmail','id' => $this->User->id));
+				return $this->redirect(array(
+					'controller' => 'Users',
+					'action' => 'sendActivationEmail',
+					'id' => $this->User->id));
 			}
 		}
 	}

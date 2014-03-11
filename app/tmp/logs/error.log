@@ -27977,3 +27977,621 @@ Stack Trace:
 #3 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #4 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-03-11 20:13:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 20:14:49 Error: [MissingViewException] View file "/var/www/cake/app/View/Emails/html/registration_activation.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cake/app/View/Emails/html/registration_activation.ctp',
+)
+Request URL: /cake/Users/sendActivationEmail/id:1
+Stack Trace:
+#0 /var/www/cake/lib/Cake/View/View.php(457): View->_getViewFileName('registrationAct...')
+#1 /var/www/cake/lib/Cake/Network/Email/CakeEmail.php(1652): View->render('registrationAct...', 'default')
+#2 /var/www/cake/lib/Cake/Network/Email/CakeEmail.php(1509): CakeEmail->_renderTemplates('')
+#3 /var/www/cake/lib/Cake/Network/Email/CakeEmail.php(1120): CakeEmail->_render(Array)
+#4 /var/www/cake/lib/Cake/Controller/Component/EmailComponent.php(345): CakeEmail->send(NULL)
+#5 /var/www/cake/app/Controller/UsersController.php(168): EmailComponent->send()
+#6 [internal function]: UsersController->sendActivationEmail()
+#7 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-03-11 20:15:30 Error: [MissingViewException] View file "/var/www/cake/app/View/Emails/html/registration_activation.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cake/app/View/Emails/html/registration_activation.ctp',
+)
+Request URL: /cake/Users/sendActivationEmail/id:1
+Stack Trace:
+#0 /var/www/cake/lib/Cake/View/View.php(457): View->_getViewFileName('registrationAct...')
+#1 /var/www/cake/lib/Cake/Network/Email/CakeEmail.php(1652): View->render('registrationAct...', 'default')
+#2 /var/www/cake/lib/Cake/Network/Email/CakeEmail.php(1509): CakeEmail->_renderTemplates('')
+#3 /var/www/cake/lib/Cake/Network/Email/CakeEmail.php(1120): CakeEmail->_render(Array)
+#4 /var/www/cake/lib/Cake/Controller/Component/EmailComponent.php(345): CakeEmail->send(NULL)
+#5 /var/www/cake/app/Controller/UsersController.php(168): EmailComponent->send()
+#6 [internal function]: UsersController->sendActivationEmail()
+#7 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-03-11 20:16:08 Error: [MissingViewException] View file "/var/www/cake/app/View/Themed/Cakestrap/Users/send_activation_email.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cake/app/View/Themed/Cakestrap/Users/send_activation_email.ctp',
+)
+Request URL: /cake/Users/sendActivationEmail/id:1
+Stack Trace:
+#0 /var/www/cake/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-11 20:27:17 Error: [MissingActionException] Action UsersController::activate() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'activate',
+)
+Request URL: /cake/Users/activate/
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-11 21:20:41 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/cake/app/Controller/UsersController.php, line 140]
+2014-03-11 21:20:41 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 140)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 140, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 140, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-11 21:20:43 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/cake/app/Controller/UsersController.php, line 140]
+2014-03-11 21:20:43 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 140)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 140, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 140, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-11 21:37:00 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/cake/app/Controller/UsersController.php, line 140]
+2014-03-11 21:37:00 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 140)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 140, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 140, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-11 21:37:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 21:45:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 21:46:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 21:47:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 21:48:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 21:50:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 21:52:07 Error: [MissingControllerException] Controller class RegistationController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistationController',
+  'plugin' => NULL,
+)
+Request URL: /cake/registation/sendActivationEmail/id:1
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 21:53:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 21:56:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 22:01:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 22:05:00 Error: [MissingActionException] Action RegistrationController::activateRegistration() could not be found.
+Exception Attributes: array (
+  'controller' => 'RegistrationController',
+  'action' => 'activateRegistration',
+)
+Request URL: /cake/registration/activateRegistration
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrationController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-11 22:06:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 22:07:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 22:08:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 22:10:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 22:10:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 22:11:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 22:15:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 22:16:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 22:38:34 Error: [MissingControllerException] Controller class RegistrationController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistrationController',
+  'plugin' => NULL,
+)
+Request URL: /cake/registration/sendActivationEmail/id:1
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 22:39:11 Error: [MissingControllerException] Controller class RegistrationController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistrationController',
+  'plugin' => NULL,
+)
+Request URL: /cake/registration/sendActivationEmail/id:1
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 22:56:21 Error: [MissingActionException] Action UsersController::activate() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'activate',
+)
+Request URL: /cake/Users/activate/b87b31dd2374b4400a5f8dc0d572eb58
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-11 22:56:40 Error: [MissingViewException] View file "/var/www/cake/app/View/Themed/Cakestrap/Users/activate_account.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cake/app/View/Themed/Cakestrap/Users/activate_account.ctp',
+)
+Request URL: /cake/Users/activateAccount/b87b31dd2374b4400a5f8dc0d572eb58
+Stack Trace:
+#0 /var/www/cake/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-11 22:56:40 Error: [MissingViewException] View file "/var/www/cake/app/View/Themed/Cakestrap/Users/activate_account.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cake/app/View/Themed/Cakestrap/Users/activate_account.ctp',
+)
+Request URL: /cake/Users/activateAccount/b87b31dd2374b4400a5f8dc0d572eb58
+Stack Trace:
+#0 /var/www/cake/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-11 22:57:31 Error: [MissingViewException] View file "/var/www/cake/app/View/Themed/Cakestrap/Users/activate_account.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cake/app/View/Themed/Cakestrap/Users/activate_account.ctp',
+)
+Request URL: /cake/Users/activateAccount/b87b31dd2374b4400a5f8dc0d572eb58
+Stack Trace:
+#0 /var/www/cake/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-11 23:02:13 Error: [MissingActionException] Action UsersController::activate() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'activate',
+)
+Request URL: /cake/Users/activate/hash:b87b31dd2374b4400a5f8dc0d572eb58
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-11 23:10:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:11:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:12:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:29:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:30:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:30:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:31:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:31:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:32:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:32:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:32:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:32:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:32:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:33:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:33:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:33:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:35:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:35:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:35:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:36:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:37:03 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/var/www/cake/app/Controller/UsersController.php, line 46]
+2014-03-11 23:37:03 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /cake/users/login
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 46, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 46, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-11 23:37:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:37:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:38:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:38:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:38:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:39:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:43:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:43:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-11 23:43:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

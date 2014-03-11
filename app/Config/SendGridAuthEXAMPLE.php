@@ -15,3 +15,7 @@ $sendAuth = array(
     'username' => 'sendgrid_username',
     'password' => 'sendgrid_password',
     'client' => 'yourdomain.com');
+
+$fromEmail = 'drderp45@googlemail.com';
+
+?>
