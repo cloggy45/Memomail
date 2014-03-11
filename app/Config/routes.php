@@ -30,6 +30,8 @@
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
+	Router::connect('/sendActivationEmail/:param1',array('controller' => 'User','action' => 'sendActivationEmail'),
+		array('id' => "[0-9]+"));
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.

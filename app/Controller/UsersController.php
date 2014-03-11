@@ -24,6 +24,7 @@ class UsersController extends AppController {
 		if($this->request->is('post')) {
 
 			if($this->Auth->login()) {
+
 				$this->Session->write('User.username', $this->request->data['User']['username']);
 				
 				$options = array('fields' => array('User.id',), 'conditions' => array(
@@ -35,30 +36,30 @@ class UsersController extends AppController {
 	
 				$this->Session->write('User.userId',$temp['User']['id']);
                                 
-                                //If first time loggin in
-                                
-                                if($this->User->Registration->find('first',array(
-                                    'conditions' => array('Registration.user_id' => $this->Session->read('User.userId')),
-                                    'fields' => 'Registration.reg_valid'))) {
-                                     
-                                    var_dump($this->User->Registration->find('first',array(
-                                    'conditions' => array('Registration.user_id' => $this->Session->read('User.userId')),
-                                    'fields' => 'Registration.reg_valid')));
-     
-                                    $this->Session->setFlash('Activate Email First');
-                                    
-                                } else {
-                                    $this->redirect(array('controller' => 'Reminder','action' => 'get'));
-                                }
-                                
-                                //else login normally
+                //If first time loggin in
+                
+                if($this->User->Registration->find('first',array(
+                    'conditions' => array(
+                    	'Registration.user_id' => $this->Session->read('User.userId')),
+                    'fields' => 'Registration.reg_valid'))) {
+                     
+                    var_dump($this->User->Registration->find('first',array(
+                    'conditions' => array(
+                    	'Registration.user_id' => $this->Session->read('User.userId')),
+                    'fields' => 'Registration.reg_valid')));
+
+                    $this->Session->setFlash('Activate Email First');
+                    
+                } else {
+                    $this->redirect(array('controller' => 'Reminder','action' => 'get'));
+                }
+                
+                //else login normally
 				
 			} else {
-                            $this->Session->setFlash("Incorrect login information");
+                $this->Session->setFlash("Incorrect login information");
 				
-			}
-		
-				
+			}	
 		}
 	}	
 
@@ -135,15 +136,33 @@ class UsersController extends AppController {
         public function sendActivationEmail() 
         {
 
-        	require_once '../app/config/SendGridAuth.php';
+        	require_once APP . 'Config/SendGridAuth.php';
+
+        	$id = $this->request->params['named']['id'];
+
+        	$user = $this->User->find('first',array(
+            		'conditions' => array('User.id' => $id),
+            		'fields' => array('User.email','User.username') 
+            	));
+
+        	$registration = $this->User->Registration->find('first',array(
+        			'conditions' => array('Registration.id' => $id),
+        			'fields' => array('Registration.hash','')
+        		));
 
             $this->Email->smtpOptions = $userAuth;
 
             $this->Email->delivery = 'smtp';
-            $this->Email->from = 'Paul ';
-            $this->Email->to = 'Recipient Name ';
-            $this->set('', 'Recipient Name');
-            $this->Email->subject = 'This is a subject';
+            $this->Email->from = 'drderp45@googlemail.com';
+
+            $this->Email->to = $user['User']['email'];
+
+            $this->set('username',$user['User']['username']);
+            	
+
+            $this->set('hash',$registration['Registration']['hash']);
+
+            $this->Email->subject = 'Please Activate Email';
             $this->Email->template = 'registrationActivation';
             $this->Email->sendAs = 'both';
             $this->Email->send();
@@ -158,17 +177,17 @@ class UsersController extends AppController {
                         
 			if($this->User->save($this->request->data)) {
 
-				$this->Session->setFlash("Activation email sent!");
+				// $this->Session->setFlash("Activation email sent!");
                                 
-                                $email = Security::hash($this->request->data['User']['email'],'sha1',true);
+                    $email = Security::hash($this->request->data['User']['email'],'sha1',true);
+                    
+                    $this->User->Registration->save(array(
+                        'user_id' => $this->User->id,
+                        'reg_valid' => 'false',
+                        'hash' => $email
+                        ));
                                 
-                                $this->User->Registration->save(array(
-                                    'user_id' => $this->User->id,
-                                    'reg_valid' => 'false',
-                                    'hash' => $email
-                                    ));
-                                
-				return $this->redirect(array('controller' => 'Users','action' => 'login'));
+				return $this->redirect(array('controller' => 'Users','action' => 'sendActivationEmail','id' => $this->User->id));
 			}
 		}
 	}
