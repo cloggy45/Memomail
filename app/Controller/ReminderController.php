@@ -17,10 +17,11 @@ class ReminderController extends AppController {
 
 				App::uses('CakeTime','Utility');
 
+			
 				// Get our user_id and find the associated timezone.
 				$timezone = $this->Reminder->User->find('first',array(
-						'conditions' => array('id' => $this->Session->read('User.userId')),
-						'fields' => array('timezone'),
+						'conditions' => array('User.id' => $this->Session->read('User.userId')),
+						'fields' => array('User.timezone'),
 						'callbacks' => 'false'));
 
 				
@@ -50,7 +51,7 @@ class ReminderController extends AppController {
 			} else  {
 
 				echo $this->Reminder->validationErrors;
-				// return $this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
+				return $this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
 			}
 		}
 	}

@@ -5,6 +5,8 @@ App::uses('AppController','Controller');
 class UsersController extends AppController {
 	public $helpers = array('Html', 'Form','Timezone.Timezone');
 	public $components = array('Session','Auth','Email');
+
+
   
 	public function beforeFilter() {
 		
@@ -18,8 +20,6 @@ class UsersController extends AppController {
 	}
 
 	public function login() {
-
-		$this->set('cssIncludes',array(''));
                 
 		if($this->request->is('post')) {
 
@@ -27,27 +27,17 @@ class UsersController extends AppController {
 
 				$this->Session->write('User.username', $this->request->data['User']['username']);
 				
-				$options = array('fields' => array('User.id',), 'conditions' => array(
-						'username' => $this->request->data['User']['username']
-					),
-				);
+				$userId = $this->User->getUserId($this->request->data['User']['username']);
 
-				$temp = $this->User->find('first',$options);
-	
-				$this->Session->write('User.userId',$temp['User']['id']);
+				$this->Session->write('User.userId',$userId);
                                 
-                //If first time loggin in
-                
-				$valid = $this->User->Registration->find('first',array(
-                    'conditions' => array(
-                    	'Registration.user_id' => $this->Session->read('User.userId')),
-                    'fields' => 'Registration.reg_valid'));
+				$registrationValid = $this->User->Registration->getRegValidStatus($userId);
 
-                if(!$valid['Registration']['reg_valid']) {
+                if(!$registrationValid) {
                      
                     $this->Session->setFlash('Activate Email First');
-
                     $this->Session->delete('User');
+					
 					return $this->redirect($this->Auth->logout());
 
                 } else {
@@ -64,8 +54,8 @@ class UsersController extends AppController {
 	public function logout() {
 
 		$this->Session->delete('User');
-		return $this->redirect($this->Auth->logout());
 
+		return $this->redirect($this->Auth->logout());
 	}
 
 
@@ -77,8 +67,6 @@ class UsersController extends AppController {
 		$this->set('jsIncludes',array('formValidation'));
 
 		if($this->request->is('post')) {
-
-			//var_dump($this->request->data);
 
 			$SettingsChanged = false;
 
@@ -125,6 +113,7 @@ class UsersController extends AppController {
 
 			if($SettingsChanged) {
 				$this->Session->setFlash('Settings Changed');
+
 			} else {
 				$this->Session->setFlash('Nothing Changed');
 			}
@@ -135,9 +124,9 @@ class UsersController extends AppController {
 	{
 		$hash = $this->request->params['named']['hash'];
 
-		if($this->User->Registration->updateAll(array(
-			'reg_valid' => true),
-			array('hash' => $hash))) {
+		$isHashValid = $this->User->Registration->getRegHashValidStatus($hash);
+
+		if($isHashValid) {
 			$this->Session->setFlash('Account Validated');
 		} else {
 			$this->Session->setFlash('Account not valid');
@@ -151,28 +140,14 @@ class UsersController extends AppController {
 
     	$id = $this->request->params['named']['id'];
 
-    	$user = $this->User->Registration->User->find('first',array(
-        		'conditions' => array('User.id' => $id),
-        		'fields' => array('User.email','User.username') 
-        	));
-
-    	$registration = $this->User->Registration->find('first',array(
-    			'conditions' => array('Registration.id' => $id),
-    			'fields' => array('Registration.hash','')
-    		));
-
         $this->Email->smtpOptions = $userAuth;
-
         $this->Email->delivery = 'smtp';
         $this->Email->from = $fromEmail;
-
-        $this->Email->to = $user['User']['email'];
-
-        $this->set('username',$user['User']['username']);
-        	
-
-        $this->set('hash',$registration['Registration']['hash']);
-
+        $this->Email->to = $this->User->getUserDetails($id,'email');
+        
+        $this->set('username',$this->User->getUserDetails($id,'username'));	
+        $this->set('hash',$this->User->Registration->getEmailHash($id));
+        
         $this->Email->subject = 'Please Activate Email';
         $this->Email->template = 'registration_activation';
         $this->Email->sendAs = 'both';
@@ -187,17 +162,13 @@ class UsersController extends AppController {
 		if($this->request->is('post')) {
                         
 			if($this->User->save($this->request->data)) {
-
-				// $this->Session->setFlash("Activation email sent!");
-                                
-                $email = Security::hash($this->request->data['User']['email'],'sha1',true);
                 
-                $this->User->Registration->save(array(
-                    'user_id' => $this->User->id,
-                    'reg_valid' => 'false',
-                    'hash' => $email
-                    ));
-                                
+                $saveHashedEmail = $this->User->Registration->saveEmailHash($this->User->id,
+                												$this->request->data['User']['email']);
+                if(!$saveHashedEmail) {
+                	CakeLog::write('Error', 'UsersController: Unable to save hashed email');
+                }    
+
 				return $this->redirect(array(
 					'controller' => 'Users',
 					'action' => 'sendActivationEmail',

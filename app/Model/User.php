@@ -11,7 +11,7 @@ class User extends AppModel {
 			)
 		);
         
-        public $hasOne = 'Registration';
+    public $hasOne = 'Registration';
 
 	public $validate = array(
 			'username' => array(
@@ -64,10 +64,9 @@ class User extends AppModel {
 			);
 	
 	
-        public $confirm_email = null;
+    public $confirm_email = null;
 	public $confirm_password = null;
-
-        
+ 
 	public function isValid($check) {
                 
 		$value = array_values($check);
@@ -75,30 +74,26 @@ class User extends AppModel {
                 var_dump($check);
                 
 		if(empty($value[0])) 
-                {   
-                    echo "<br/>";
-                    return false;
-                } 
-                else {
-                    echo "Here<br/>";
-                    return true;
-                }
+        {   
+            echo "<br/>";
+            return false;
+        } 
+        else {
+            echo "Here<br/>";
+            return true;
+        }
 	}       
 
 	public function compareFields($check,$comparedField=null) {
 		
 		$fieldOne = array_values($check);
 
-		//echo "Comparing: " . $fieldOne[0] . " and " . $this->data[$this->alias][$comparedField] . "<br/>";
-
 		if($fieldOne[0] == $this->data[$this->alias][$comparedField]) 
 			return true;
 	}
 
-
 	public function beforeValidate($options = array()) {
 		
-
 		if(isset($this->confirm_email)) {
 			$this->data[$this->alias]['confirm_email'] = $this->confirm_email;
 		}
@@ -106,18 +101,10 @@ class User extends AppModel {
 		if(isset($this->confirm_password)) {
 			$this->data[$this->alias]['confirm_password'] = $this->confirm_password;
 		}
-
-		// echo "BeforeValidate:<br/> ";
-		// var_dump($this->data[$this->alias]);
-		// echo "<br/>";
 	}
 
 	public function beforeSave($options = array()) {
 
-		// echo "BeforeSave: ";
-		// var_dump($this->data[$this->alias]);
-		// echo "<br/>";
-            
 	    if (!empty($this->data[$this->alias]['password'])) {
 	        $passwordHasher = new SimplePasswordHasher();
 	        $this->data[$this->alias]['password'] = $passwordHasher->hash(
@@ -126,6 +113,27 @@ class User extends AppModel {
 	    }
 		
 	    return true;
+	}
+
+
+	public function getUserId($username) {
+
+		$temp = $this->find('first',array(
+			'conditions' => array('username' => $username),
+			'fields' => array('User.id')
+			));
+
+		return $temp['User']['id'];
+	}
+
+	public function getUserDetails($id,$userField) {
+		
+		$userDetails = $this->find('first',array(
+			'conditions' => array('User.id' => $id),
+			'fields' => $userField
+			));
+
+		return $userDetails['User'][$userField];
 	}
 
 }	
