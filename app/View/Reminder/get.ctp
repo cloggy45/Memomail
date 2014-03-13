@@ -1,11 +1,22 @@
 
 <?php App::uses('CakeTime','Utility'); ?>
 
-<div id="get_view">
-	<ul class="list-unstyled">
-		
+<div id="get_view" class="table-responsive">
+	
+	<table class="table">
+	<thead>
+		<tr>
+			<th>Event</th>
+			<th>Description</th>
+			<th>Time</th>
+			<th>Date</th>
+			<th></th>
+		</tr>
+	</thead>
+
+	
 	<?php foreach ($reminders as $reminder): ?>
-		<li> 	
+		 	<tr>
 			<?php echo $this->element('getViewDataContainer',array(
 				'id' => $reminder['Reminder']['id'],
 				'title' => $reminder['Reminder']['title'],
@@ -13,9 +24,7 @@
 				'time' => $reminder['Reminder']['time'],
 				'date' => $reminder['Reminder']['date'],
 			)); ?>
-
-		</li>
-		
+			</tr>
 
 		<?php echo $this->element('modalDialog',array(
 			'id' => $reminder['Reminder']['id'],
@@ -25,8 +34,6 @@
 	<?php endforeach; ?>
 
 	<?php unset($post); ?>
-
-	</ul>
-
+	</table>
 </div>
 

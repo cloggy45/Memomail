@@ -6,8 +6,6 @@ class UsersController extends AppController {
 	public $helpers = array('Html', 'Form','Timezone.Timezone');
 	public $components = array('Session','Auth','Email');
 
-
-  
 	public function beforeFilter() {
 		
 		$this->Auth->allow('*');
@@ -57,7 +55,6 @@ class UsersController extends AppController {
 
 		return $this->redirect($this->Auth->logout());
 	}
-
 
 	public function settings() {
 
@@ -128,6 +125,11 @@ class UsersController extends AppController {
 
 		if($isHashValid) {
 			$this->Session->setFlash('Account Validated');
+			return $this->redirect(array(
+				'controller' => 'Users',
+				'action' => 'login'
+				));
+			
 		} else {
 			$this->Session->setFlash('Account not valid');
 		}
@@ -152,6 +154,13 @@ class UsersController extends AppController {
         $this->Email->template = 'registration_activation';
         $this->Email->sendAs = 'both';
         $this->Email->send();
+
+        $this->Session->setFlash('Activation email sent');
+
+        return $this->redirect(array(
+					'controller' => 'Users',
+					'action' => 'login',
+					));
 	}
 
   
@@ -177,5 +186,6 @@ class UsersController extends AppController {
 		}
 	}
 }
+
 
 ?>

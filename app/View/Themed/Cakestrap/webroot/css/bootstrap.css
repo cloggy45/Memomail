@@ -10036,90 +10036,9 @@ body {
   }
 }
 
-/* line 5, ../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
-#get_view li a {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 1200px) {
-  /* line 5, ../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
-  #get_view li a {
-    float: left;
-    width: 8.33333%;
-  }
-}
 /* line 10, ../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
 #get_view li h2 {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   word-wrap: break-word;
-}
-@media (min-width: 1200px) {
-  /* line 10, ../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
-  #get_view li h2 {
-    float: left;
-    width: 25%;
-  }
-}
-/* line 15, ../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
-#get_view li p {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 1200px) {
-  /* line 15, ../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
-  #get_view li p {
-    float: left;
-    width: 25%;
-  }
-}
-/* line 19, ../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
-#get_view li button {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 1200px) {
-  /* line 19, ../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
-  #get_view li button {
-    float: left;
-    width: 8.33333%;
-  }
-}
-/* line 23, ../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
-#get_view li #time {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 1200px) {
-  /* line 23, ../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
-  #get_view li #time {
-    float: left;
-    width: 16.66667%;
-  }
-}
-/* line 27, ../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
-#get_view li #date {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 1200px) {
-  /* line 27, ../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
-  #get_view li #date {
-    float: left;
-    width: 16.66667%;
-  }
 }
 /* line 32, ../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
 #get_view .modal-body p {

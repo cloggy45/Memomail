@@ -56,7 +56,7 @@ class ReminderController extends AppController {
 		$usersReminders = $this->Reminder->getReminders($id,'all');
 
 		if(!$usersReminders)  {
-		
+			
 			$this->render('no_reminders'); 
 		
 		} else {

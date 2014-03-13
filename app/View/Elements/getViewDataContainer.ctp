@@ -1,37 +1,34 @@
 <div class="row">
     <div id="sub-container">
         
-        <h2><?php echo $title ?> </h2>
+        <td><?php echo $title ?> </td>
 
 
         <?php if (strlen($body) > 40): ?>
 
             <?php $stringDisplay = substr($body, 0, 20); ?>
 
-            <p><?php echo $stringDisplay . ".
-                                    .."; ?> </p>
-
-            <?php echo "<button id='btn' class='btn btn-primary btn-sm' data-toggle='modal' data-id=" . $id . " data-target='#myModal" . $id . "'>More</button>";
+            <td><?php echo $stringDisplay . ".
+                                    .."; ?> 
+            
+            <?php echo "<a data-toggle='modal' data-id=" . $id . " data-target='#myModal" . $id . "'>More</a>";
             ?>
-            </p>
+            </td>
 
         <?php else: ?>
 
-            <p><?php echo $body; ?> </p>
+            <td><?php echo $body; ?> </td>
 
         <?php endif; ?>
 
+        <td><?php echo $time ?></td>
+        <td><?php echo $temDate = CakeTime::format($date, '%d-%m-%y'); ?></td>
 
 
-        <p id="time">Time: <?php echo $time ?></p>
-
-        <p id="date">Date: <?php echo $temDate = CakeTime::format($date, '%d-%m-%y'); ?></p>
-
-
-        <div>
+        <td>
             <?php
-            echo $this->Html->link('Delete', '/Reminder/delete?id=' . $id, array('class' => 'btn btn-primary btn-sm'));
+            echo $this->Html->link('Delete', '/Reminder/delete?id=' . $id);
             ?>
-        </div>
+        </td>
     </div>
 </div>

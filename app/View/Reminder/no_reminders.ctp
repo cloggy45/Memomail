@@ -1,1 +1,1 @@
-<h3 id="no_reminders">Empty</h3>
+<h2 style="text-align:center;" id="no_reminders">Empty</h2>
