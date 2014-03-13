@@ -30,6 +30,17 @@ class Reminder extends AppModel {
 				)
 			)
 		);
+
+	public function getReminders($id,$type) {
+
+		$reminders = $this->find($type,array(
+			'conditions' => $id,
+			'fields' => array('id','title','body','date','time')
+			));
+
+		return $reminders;
+	}
+
 }
 
 ?>

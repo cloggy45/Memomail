@@ -70,9 +70,7 @@ class User extends AppModel {
 	public function isValid($check) {
                 
 		$value = array_values($check);
-                
-                var_dump($check);
-                
+                            
 		if(empty($value[0])) 
         {   
             echo "<br/>";
@@ -103,10 +101,13 @@ class User extends AppModel {
 		}
 	}
 
+
 	public function beforeSave($options = array()) {
 
 	    if (!empty($this->data[$this->alias]['password'])) {
+	        
 	        $passwordHasher = new SimplePasswordHasher();
+	       
 	        $this->data[$this->alias]['password'] = $passwordHasher->hash(
 	            $this->data[$this->alias]['password']
 	        );
@@ -114,7 +115,6 @@ class User extends AppModel {
 		
 	    return true;
 	}
-
 
 	public function getUserId($username) {
 
@@ -135,7 +135,6 @@ class User extends AppModel {
 
 		return $userDetails['User'][$userField];
 	}
-
 }	
 
 ?>

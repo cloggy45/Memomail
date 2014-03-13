@@ -36,3 +36,57 @@ Stack Trace:
 #3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-03-13 20:08:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-13 20:15:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/css/.css
+Stack Trace:
+#0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-13 20:16:00 Error: Fatal Error (1): Call to a member function getUserDetails() on a non-object in [/var/www/cake/app/Controller/ReminderController.php, line 27]
+2014-03-13 20:16:00 Error: [FatalErrorException] Call to a member function getUserDetails() on a non-object
+Request URL: /cake/Reminder/add
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake/a...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake/a...', 27, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake/a...', 27, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-13 20:16:20 Error: Fatal Error (1): Cannot use string offset as an array in [/var/www/cake/app/Controller/ReminderController.php, line 31]
+2014-03-13 20:16:20 Error: [FatalErrorException] Cannot use string offset as an array
+Request URL: /cake/Reminder/add
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use stri...', '/var/www/cake/a...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', '/var/www/cake/a...', 31, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', '/var/www/cake/a...', 31, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-13 20:26:16 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getReminders' at line 1
+Request URL: /cake/Reminder/get
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('getReminders', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('getReminders', Array, Array)
+#3 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('getReminders', Array, Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(800): DboSource->query('getReminders', Array, Object(Reminder))
+#5 /var/www/cake/app/Controller/ReminderController.php(69): Model->__call('getReminders', Array)
+#6 /var/www/cake/app/Controller/ReminderController.php(69): Reminder->getReminders('1', 'all')
+#7 [internal function]: ReminderController->get()
+#8 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReminderController), Array)
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}

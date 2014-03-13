@@ -17,20 +17,13 @@ class ReminderController extends AppController {
 
 				App::uses('CakeTime','Utility');
 
-			
-				// Get our user_id and find the associated timezone.
-				$timezone = $this->Reminder->User->find('first',array(
-						'conditions' => array('User.id' => $this->Session->read('User.userId')),
-						'fields' => array('User.timezone'),
-						'callbacks' => 'false'));
-
-				
-      
+				$userTimezone = $this->Reminder->User->getUserDetails($this->Session->read('User.userId'),'timezone');
+      			
 				$tempString = $this->request->data['formatted_date_input_submit'] . " " .
 											$this->request->data['formatted_time_input_submit'] . " " . 
-												$timezone['User']['timezone'];
+												$userTimezone;
                                 
-				// Using preceding $timezone, generate unix timestamp ready to be saved
+				// Using preceding $userTimezone, generate unix timestamp ready to be saved
 				$unixTimestamp = strtotime($tempString);
 
 				// Construct our own $data to include the users Id.
@@ -58,32 +51,23 @@ class ReminderController extends AppController {
 
 	public function get() {
 
-		$options = array(
-			'fields' => array(
-				'Reminder.id',
-				'Reminder.title',
-				'Reminder.body',
-				'Reminder.date',
-				'Reminder.time'
-				),
-			'conditions' => array(
-				'user_id' => $this->Session->read('User.userId'),
-				),
-			);	
+		$id = $this->Session->read('User.userId');
 
-		if(!$this->Reminder->find('all',$options))  {
+		$usersReminders = $this->Reminder->getReminders($id,'all');
+
+		if(!$usersReminders)  {
 		
-			$this->set('cssIncludes',array(''));
 			$this->render('no_reminders'); 
 		
 		} else {
 
-			// $this->set('cssIncludes',array('reminder-views/get_style.css','jquery-ui-style'));
 			$this->set('jsIncludes',array('reminder-views/get'));
 
-			$this->set('reminders', $this->Reminder->find('all',$options));
+			$this->set('reminders',$usersReminders);
 		}
 	}
+
+
 	public function delete() {
 
 		$this->Reminder->delete($this->params['url']['id']);
