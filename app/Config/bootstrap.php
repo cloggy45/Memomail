@@ -110,8 +110,3 @@ CakeLog::config('error', array(
 
 CakePlugin::load('Timezone');
 CakePlugin::load('DebugKit');
-CakePlugin::load('Opauth',array('routes' => true,'bootstrap' => true));
-
-require_once APP . 'config/OpauthStrategyConfig.php';
-
-?>
