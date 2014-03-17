@@ -42,7 +42,7 @@
 
 
 	<!-- Time -->
-	<div class="form-group">
+	<div id="time_block" class="form-group">
 		<h3>Time</h3>
 		<div class="form-input">		
 			<?php echo $this->Form->input('time', array('type' => 'text','id' => 'time','class' => "form-control",'name' => "time_input")); ?>	

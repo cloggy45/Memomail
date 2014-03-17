@@ -90,3 +90,124 @@ Stack Trace:
 #10 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
 #11 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2014-03-17 22:30:42 Error: Fatal Error (4): syntax error, unexpected ';', expecting T_STRING or T_VARIABLE or '{' or '$' in [/var/www/cake/app/View/Users/settings.ctp, line 103]
+2014-03-17 22:30:42 Error: [FatalErrorException] syntax error, unexpected ';', expecting T_STRING or T_VARIABLE or '{' or '$'
+Request URL: /cake/Users/settings
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 103)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 103, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 103, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:31:04 Error: Fatal Error (4): syntax error, unexpected ';', expecting T_STRING or T_VARIABLE or '{' or '$' in [/var/www/cake/app/View/Users/settings.ctp, line 103]
+2014-03-17 22:31:04 Error: [FatalErrorException] syntax error, unexpected ';', expecting T_STRING or T_VARIABLE or '{' or '$'
+Request URL: /cake/Users/settings
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 103)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 103, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 103, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:31:08 Error: Fatal Error (4): syntax error, unexpected ';', expecting T_STRING or T_VARIABLE or '{' or '$' in [/var/www/cake/app/View/Users/settings.ctp, line 103]
+2014-03-17 22:31:08 Error: [FatalErrorException] syntax error, unexpected ';', expecting T_STRING or T_VARIABLE or '{' or '$'
+Request URL: /cake/Users/settings
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 103)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 103, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 103, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:34:09 Error: [MissingActionException] Action UsersController::deleteAccount() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'deleteAccount',
+)
+Request URL: /cake/users/deleteAccount
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-17 22:38:46 Error: [MissingViewException] View file "/var/www/cake/app/View/Themed/Cakestrap/Users/delete_account.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cake/app/View/Themed/Cakestrap/Users/delete_account.ctp',
+)
+Request URL: /cake/users/deleteAccount
+Stack Trace:
+#0 /var/www/cake/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-17 22:44:13 Error: [MissingViewException] View file "/var/www/cake/app/View/Themed/Cakestrap/Users/delete_account.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cake/app/View/Themed/Cakestrap/Users/delete_account.ctp',
+)
+Request URL: /cake/users/deleteAccount
+Stack Trace:
+#0 /var/www/cake/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-17 22:44:26 Error: [MissingViewException] View file "/var/www/cake/app/View/Themed/Cakestrap/Users/delete_account.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cake/app/View/Themed/Cakestrap/Users/delete_account.ctp',
+)
+Request URL: /cake/users/deleteAccount
+Stack Trace:
+#0 /var/www/cake/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-17 22:51:20 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/cake/app/Controller/UsersController.php, line 128]
+2014-03-17 22:51:20 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cake/users/deleteAccount
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 128)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 128, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 128, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:51:41 Error: [MissingViewException] View file "/var/www/cake/app/View/Themed/Cakestrap/Users/delete_account.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cake/app/View/Themed/Cakestrap/Users/delete_account.ctp',
+)
+Request URL: /cake/users/deleteAccount
+Stack Trace:
+#0 /var/www/cake/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-17 22:56:17 Error: [MissingViewException] View file "/var/www/cake/app/View/Themed/Cakestrap/Users/delete_account.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cake/app/View/Themed/Cakestrap/Users/delete_account.ctp',
+)
+Request URL: /cake/users/deleteAccount
+Stack Trace:
+#0 /var/www/cake/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-17 23:23:43 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/var/www/cake/app/Controller/UsersController.php, line 125]
+2014-03-17 23:23:43 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /cake/users/deleteAccount
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake/a...', 125)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake/a...', 125, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake/a...', 125, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

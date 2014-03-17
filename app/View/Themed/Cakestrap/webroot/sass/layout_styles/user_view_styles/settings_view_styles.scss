@@ -13,14 +13,14 @@
 
 
 	}
-	
+
 	.checkbox {
 		@include make-sm-column-offset(4);
 		padding-left: 36px;
 
-		#UserClearAll {
-			background: blue;
-		}
+		// #UserClearAll {
+		// 	background: blue;
+		// }
 		
 	}
 
@@ -30,6 +30,7 @@
 	}
 
 	.submit-button {
+		margin-top: 20px;
 		@include make-sm-column-offset(4);
 		@include make-sm-column(1);
 	}

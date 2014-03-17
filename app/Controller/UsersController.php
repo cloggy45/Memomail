@@ -93,7 +93,6 @@ class UsersController extends AppController {
 				if($this->User->saveField('password', $this->request->data['User']['password'],true)) {
 					$SettingsChanged = true;
 				}
-				
 			}
 
 
@@ -115,6 +114,24 @@ class UsersController extends AppController {
 				$this->Session->setFlash('Nothing Changed');
 			}
 		}
+	}
+
+	public function deleteAccount()
+	{
+		$id = $this->Session->read('User.userId');
+
+		// For some reason default cascade deletion doesn't work, this will do for now.
+		$this->User->delete($id);
+		$this->User->Registration->delete($id);
+		$this->User->Reminder->delete($id);
+
+		$this->Session->delete('User');
+
+		//$this->Session->setFlash('Account Sucessfully Deleted');
+
+		return $this->redirect(array(
+			'controller' => 'Users',
+			'action' => 'login'));
 	}
 
 	public function activateAccount() 

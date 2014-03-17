@@ -82,6 +82,18 @@
 		</div>				
 	</div>
 	
+	<!-- Delete Account -->
+	<div class="form-group">
+		<h3>Delete Account</h3>
+		<div class="submit-button">
+			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				Are you sure?
+			</button>
+			<ul class="dropdown-menu" role="menu">
+				<li><?php echo $this->Html->link('Delete Account','/users/deleteAccount') ?></li>
+			</ul>
+		</div>
+	</div>
 
 	<!-- Clear Reminders -->
 	<div class="form-group">
@@ -91,23 +103,18 @@
 			<label class="control-form"><?php echo $this->Form->checkbox('Clear All',array('checked' => false)) ?>Clear all reminders</label>
 		</div>
 	</div>
+
+	
 	
 	<!-- Apply Button -->
 	<div class="form-group">
 		<div class="submit-button">
-		<?php echo $this->Form->button('Apply',array('type' => 'submit','class' => 'btn btn-default')); ?>
+		<?php echo $this->Form->button('Apply Changed Settings',array('type' => 'submit','class' => 'btn btn-default')); ?>
 		</div>
 	</div>
 
 	<?php echo $this->end(); ?>
 
 	<?php // echo $this->element('sql_dump'); ?>
-
-<!--
-
-Change Password
-Change Email
-
- -->
 
 </section>

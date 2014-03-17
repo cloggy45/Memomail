@@ -9903,10 +9903,6 @@ body {
     margin-left: 33.33333%;
   }
 }
-/* line 21, ../sass/layout_styles/user_view_styles/settings_view_styles.scss */
-#settings_view .checkbox #UserClearAll {
-  background: blue;
-}
 /* line 27, ../sass/layout_styles/user_view_styles/settings_view_styles.scss */
 #settings_view .form-input {
   position: relative;
@@ -9929,6 +9925,7 @@ body {
 }
 /* line 32, ../sass/layout_styles/user_view_styles/settings_view_styles.scss */
 #settings_view .submit-button {
+  margin-top: 20px;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -9958,17 +9955,25 @@ body {
     margin-left: 33.33333%;
   }
 }
-/* line 10, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+/* line 8, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+#add_view #time_block {
+  margin-top: 10px;
+}
+/* line 13, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+#add_view .form-group {
+  margin-bottom: -15px;
+}
+/* line 17, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
 #add_view .form-group h3 {
   padding-left: 15px;
 }
 @media (min-width: 768px) {
-  /* line 10, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+  /* line 17, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
   #add_view .form-group h3 {
     margin-left: 33.33333%;
   }
 }
-/* line 17, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+/* line 23, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
 #add_view .form-group .form-input {
   position: relative;
   min-height: 1px;
@@ -9976,23 +9981,27 @@ body {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 17, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+  /* line 23, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
   #add_view .form-group .form-input {
     margin-left: 33.33333%;
   }
 }
 @media (min-width: 768px) {
-  /* line 17, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+  /* line 23, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
   #add_view .form-group .form-input {
     float: left;
     width: 33.33333%;
   }
 }
-/* line 22, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+/* line 28, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
 #add_view .form-group .picker__input {
   background: #e75849;
 }
-/* line 30, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+/* line 32, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+#add_view .form-group button {
+  margin-top: 30px;
+}
+/* line 36, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
 #add_view .form-group p {
   position: relative;
   min-height: 1px;
@@ -10003,19 +10012,19 @@ body {
   padding-bottom: 10px;
 }
 @media (min-width: 768px) {
-  /* line 30, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+  /* line 36, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
   #add_view .form-group p {
     margin-left: 33.33333%;
   }
 }
 @media (min-width: 768px) {
-  /* line 30, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+  /* line 36, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
   #add_view .form-group p {
     float: left;
     width: 25%;
   }
 }
-/* line 38, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+/* line 44, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
 #add_view .form-group .submit-button {
   position: relative;
   min-height: 1px;
@@ -10023,13 +10032,13 @@ body {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 38, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+  /* line 44, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
   #add_view .form-group .submit-button {
     margin-left: 33.33333%;
   }
 }
 @media (min-width: 768px) {
-  /* line 38, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
+  /* line 44, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
   #add_view .form-group .submit-button {
     float: left;
     width: 8.33333%;
