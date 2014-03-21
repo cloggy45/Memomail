@@ -53,7 +53,7 @@ class UsersController extends AppController {
 
 		$this->Session->delete('User');
 
-		return $this->redirect($this->Auth->logout());
+		$this->redirect($this->Auth->logout());
 	}
 
 	public function settings() {
@@ -129,7 +129,7 @@ class UsersController extends AppController {
 
 		//$this->Session->setFlash('Account Sucessfully Deleted');
 
-		return $this->redirect(array(
+		$this->redirect(array(
 			'controller' => 'Users',
 			'action' => 'login'));
 	}
@@ -142,7 +142,8 @@ class UsersController extends AppController {
 
 		if($isHashValid) {
 			$this->Session->setFlash('Account Validated');
-			return $this->redirect(array(
+
+			$this->redirect(array(
 				'controller' => 'Users',
 				'action' => 'login'
 				));
@@ -174,7 +175,7 @@ class UsersController extends AppController {
 
         $this->Session->setFlash('Activation email sent');
 
-        return $this->redirect(array(
+        $this->redirect(array(
 					'controller' => 'Users',
 					'action' => 'login',
 					));
@@ -195,7 +196,7 @@ class UsersController extends AppController {
                 	CakeLog::write('Error', 'UsersController: Unable to save hashed email');
                 }    
 
-				return $this->redirect(array(
+				$this->redirect(array(
 					'controller' => 'Users',
 					'action' => 'sendActivationEmail',
 					'id' => $this->User->id));

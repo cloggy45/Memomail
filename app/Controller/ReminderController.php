@@ -39,12 +39,12 @@ class ReminderController extends AppController {
 
 				$this->flash("Reminder Added","Reminder/add");
 
-				return $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
+				$this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
 			
 			} else  {
 
 				echo $this->Reminder->validationErrors;
-				return $this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
+				$this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
 			}
 		}
 	}
@@ -71,7 +71,7 @@ class ReminderController extends AppController {
 	public function delete() {
 
 		$this->Reminder->delete($this->params['url']['id']);
-		return $this->redirect(array('controller' => 'Reminder','action' => 'get'));
+		$this->redirect(array('controller' => 'Reminder','action' => 'get'));
 	}
 
 }
