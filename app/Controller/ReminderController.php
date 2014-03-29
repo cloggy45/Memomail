@@ -1,78 +1,91 @@
 <?php
 
-class ReminderController extends AppController {
-	public $helpers = array('Html', 'Form');
-	public $name = 'Reminder';
+class ReminderController extends AppController
+{
+    public $helpers = array('Html', 'Form');
+    public $name = 'Reminder';
 
-	public function add() {
+    public function add()
+    {
 
-		$this->set('cssIncludes',array('themes/default','themes/default.date','themes/default.time'));
-		$this->set('jsIncludes',array('reminder-views/add','libs/lib/picker','libs/lib/picker.date','libs/lib/picker.time','libs/lib/legacy'));
+        $this->set('cssIncludes', array('themes/default', 'themes/default.date', 'themes/default.time'));
+        $this->set(
+            'jsIncludes',
+            array(
+                'reminder-views/add',
+                'libs/lib/picker',
+                'libs/lib/picker.date',
+                'libs/lib/picker.time',
+                'libs/lib/legacy'
+            )
+        );
 
-		if($this->request->is('post')) {	
+        if ($this->request->is('post')) {
 
-			$this->Reminder->set($this->request->data);
+            $this->Reminder->set($this->request->data);
 
-			if($this->Reminder->validates()) {
+            if ($this->Reminder->validates()) {
 
-				App::uses('CakeTime','Utility');
+                App::uses('CakeTime', 'Utility');
 
-				$userTimezone = $this->Reminder->User->getUserDetails($this->Session->read('User.userId'),'timezone');
-      			
-				$tempString = $this->request->data['formatted_date_input_submit'] . " " .
-											$this->request->data['formatted_time_input_submit'] . " " . 
-												$userTimezone;
-                                
-				// Using preceding $userTimezone, generate unix timestamp ready to be saved
-				$unixTimestamp = strtotime($tempString);
+                $userTimezone = $this->Reminder->User->getUserDetails($this->Session->read('User.userId'), 'timezone');
 
-				// Construct our own $data to include the users Id.
-				$data = array('user_id' => $this->Session->read('User.userId'),
-					'title' => $this->request->data['Reminder']['title'],
-					'body' => $this->request->data['Reminder']['body'],
-					'date' => $this->request->data['formatted_date_input_submit'],
-					'time' => $this->request->data['formatted_time_input_submit'],
-					'timestamp' => $unixTimestamp
-					);
+                $tempString = $this->request->data['formatted_date_input_submit'] . " " .
+                    $this->request->data['formatted_time_input_submit'] . " " .
+                    $userTimezone;
 
-				$this->Reminder->save($data);
+                // Using preceding $userTimezone, generate unix timestamp ready to be saved
+                $unixTimestamp = strtotime($tempString);
 
-				$this->flash("Reminder Added","Reminder/add");
+                // Construct our own $data to include the users Id.
+                $data = array(
+                    'user_id' => $this->Session->read('User.userId'),
+                    'title' => $this->request->data['Reminder']['title'],
+                    'body' => $this->request->data['Reminder']['body'],
+                    'date' => $this->request->data['formatted_date_input_submit'],
+                    'time' => $this->request->data['formatted_time_input_submit'],
+                    'timestamp' => $unixTimestamp
+                );
 
-				$this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
-			
-			} else  {
+                $this->Reminder->save($data);
 
-				echo $this->Reminder->validationErrors;
-				$this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
-			}
-		}
-	}
+                $this->flash("Reminder Added", "Reminder/add");
 
-	public function get() {
+                $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
 
-		$id = $this->Session->read('User.userId');
+            } else {
 
-		$usersReminders = $this->Reminder->getReminders($id,'all');
+                echo $this->Reminder->validationErrors;
+                $this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
+            }
+        }
+    }
 
-		if(!$usersReminders)  {
-			
-			$this->render('no_reminders'); 
-		
-		} else {
+    public function get()
+    {
 
-			$this->set('jsIncludes',array('reminder-views/get'));
+        $id = $this->Session->read('User.userId');
 
-			$this->set('reminders',$usersReminders);
-		}
-	}
+        $usersReminders = $this->Reminder->getReminders($id, 'all');
+
+        if (!$usersReminders) {
+
+            $this->render('no_reminders');
+
+        } else {
+
+            $this->set('jsIncludes', array('reminder-views/get'));
+
+            $this->set('reminders', $usersReminders);
+        }
+    }
 
 
-	public function delete() {
-
-		$this->Reminder->delete($this->params['url']['id']);
-		$this->redirect(array('controller' => 'Reminder','action' => 'get'));
-	}
+    public function delete()
+    {
+        $this->Reminder->delete($this->params['url']['id']);
+        $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
+    }
 
 }
 

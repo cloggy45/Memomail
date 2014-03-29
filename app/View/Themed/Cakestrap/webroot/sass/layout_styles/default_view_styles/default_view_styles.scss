@@ -1,0 +1,43 @@
+@import "layout_styles/_user_variables";
+
+body {
+  padding-top: 50px;
+
+  ul {
+    li {
+      a:hover {
+        color:#962418 !important;
+      }
+    }
+  }
+
+  footer {
+    color: $body-bg;
+    background: $navbar-default-bg;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+    #footer {
+      p {
+        padding: 5px 0px;
+        text-align: center;
+        margin: 0px;
+        color:#962418;
+      }
+
+      a {
+        color:white;
+      }
+      a:hover {
+        text-decoration: none;
+        color:#962418;
+      }
+    }
+  }
+}
+
+#flashMessage {
+  text-align: center;
+  margin: 10px;
+}

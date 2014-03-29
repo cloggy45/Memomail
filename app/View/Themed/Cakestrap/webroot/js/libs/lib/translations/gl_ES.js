@@ -1,6 +1,6 @@
 // Galician
 
-jQuery.extend( jQuery.fn.pickadate.defaults, {
+jQuery.extend(jQuery.fn.pickadate.defaults, {
     monthsFull: [ 'Xaneiro', 'Febreiro', 'Marzo', 'Abril', 'Maio', 'Xuño', 'Xullo', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Decembro' ],
     monthsShort: [ 'xan', 'feb', 'mar', 'abr', 'mai', 'xun', 'xul', 'ago', 'sep', 'out', 'nov', 'dec' ],
     weekdaysFull: [ 'domingo', 'luns', 'martes', 'mércores', 'xoves', 'venres', 'sábado' ],

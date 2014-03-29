@@ -1,46 +1,46 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-	// Create our own password comparison because the default uses 'name' attr.
-	$.formUtils.addValidator({
+    // Create our own password comparison because the default uses 'name' attr.
+    $.formUtils.addValidator({
 
-		name: 'original_password',
-		validatorFunction : function(value, $el,config, language, $form) {
-	
-				var otherFieldValue = $("#UserPassword").val();
-			
-				if(value == otherFieldValue) {
-					return true;
-				}
+        name: 'original_password',
+        validatorFunction: function (value, $el, config, language, $form) {
 
-		},
-		errorMessage : 'Passwords entered do not match',
-		errorMessageKey : 'badPasswordValidation'
+            var otherFieldValue = $("#UserPassword").val();
 
-	});
+            if (value == otherFieldValue) {
+                return true;
+            }
 
-	$.formUtils.addValidator({
+        },
+        errorMessage: 'Passwords entered do not match',
+        errorMessageKey: 'badPasswordValidation'
 
-		name: 'original_email',
-		validatorFunction : function(value, $el,config, language, $form) {
-			
-			var otherFieldValue = $("#UserEmail").val();
+    });
 
-			if(value == otherFieldValue) {
-				return true;
-			}
-		},
-		errorMessage : 'Emails entered do not match',
-		errorMessageKey : 'badEmailValidation'
+    $.formUtils.addValidator({
 
-	});
+        name: 'original_email',
+        validatorFunction: function (value, $el, config, language, $form) {
 
-	$.validate({
+            var otherFieldValue = $("#UserEmail").val();
 
-		modules : 'security',
-		borderColorOnError : '#FFF',
-  		addValidClassOnAll : true,
-  		//validateOnBlur : false,
-	});
+            if (value == otherFieldValue) {
+                return true;
+            }
+        },
+        errorMessage: 'Emails entered do not match',
+        errorMessageKey: 'badEmailValidation'
+
+    });
+
+    $.validate({
+
+        modules: 'security',
+        borderColorOnError: '#FFF',
+        addValidClassOnAll: true,
+        //validateOnBlur : false,
+    });
 
 
 });

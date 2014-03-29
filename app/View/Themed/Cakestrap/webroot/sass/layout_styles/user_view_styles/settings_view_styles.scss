@@ -1,38 +1,38 @@
 #settings_view {
 
-	h1 {
-		@include make-sm-column-offset(4);
-		padding-left:10px;
-		
-	}
-	
+  h2 {
+    @include make-sm-column-offset(4);
+    padding-left: 10px;
+  }
 
-	h3 {
-		@include make-sm-column-offset(4);
-		padding-left:15px;
+  h4 {
+    @include make-sm-column-offset(4);
+    padding-left: 15px;
+  }
 
+  .checkbox {
+    @include make-sm-column-offset(4);
+    padding-left: 36px;
+  }
 
-	}
+  .form-input {
+    @include make-sm-column-offset(4);
+    @include make-sm-column(4);
+  }
 
-	.checkbox {
-		@include make-sm-column-offset(4);
-		padding-left: 36px;
+  #deleteBtn {
+    position: relative;
+    bottom: 15px;
+  }
 
-		// #UserClearAll {
-		// 	background: blue;
-		// }
-		
-	}
+  .submit-button {
+    margin-top: 20px;
+    @include make-sm-column-offset(4);
+    @include make-sm-column(1);
+  }
 
-	.form-input {
-		@include make-sm-column-offset(4);
-		@include make-sm-column(4);
-	}
-
-	.submit-button {
-		margin-top: 20px;
-		@include make-sm-column-offset(4);
-		@include make-sm-column(1);
-	}
+  #apply-btn {
+    margin-bottom:50px;
+  }
 
 }

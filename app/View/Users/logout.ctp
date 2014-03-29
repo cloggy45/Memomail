@@ -1,3 +1,3 @@
 <section>
-	<<h2>Logged Out.</h2>
+    <h2>Logged Out.</h2>
 </section>

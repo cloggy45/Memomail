@@ -1,16 +1,5 @@
 TODO
 
-Add form validation for register - Done
-Change recaptcha to visual captcha
-
-Add recover account.
-Add login protection. 
-Add support for multiple timezone.
-
-Format reminder email - Easy
-Fix date/time format bug - Done 
-enable social media logins
-
 
 Add Settings UI
 

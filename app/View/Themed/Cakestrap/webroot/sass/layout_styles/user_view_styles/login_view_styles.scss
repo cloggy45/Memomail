@@ -1,26 +1,20 @@
 #login_view {
-	
-	h1 {
-		@include make-sm-column-offset(4);
-		padding-left: 9px;
-	}
+  background: $body-bg;
+  h2 {
+    @include make-sm-column-offset(4);
+    padding-left: 9px;
+  }
 
-	.form-group {
-		
-		// label {
-		// 	@include make-sm-column-offset(3);
-		// 	@include make-sm-column(2);
+  .form-group {
 
-		// }
+    .form-input {
+      @include make-sm-column-offset(4);
+      @include make-sm-column(4);
+    }
 
-		.form-input {
-			@include make-sm-column-offset(4);
-			@include make-sm-column(4);
-		}
-		
-		.submit-button {
-			@include make-sm-column-offset(4);
-			@include make-sm-column(1);
-		}
-	}
+    .submit-button {
+      @include make-sm-column-offset(4);
+      @include make-sm-column(1);
+    }
+  }
 }

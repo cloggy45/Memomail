@@ -2,7 +2,6 @@
 // Thumbnails
 // --------------------------------------------------
 
-
 // Mixin and adjust the regular image class
 .thumbnail {
   @extend .img-thumbnail;
@@ -15,7 +14,6 @@
     margin-right: auto;
   }
 }
-
 
 // Add a hover state for linked versions only
 a.thumbnail:hover,

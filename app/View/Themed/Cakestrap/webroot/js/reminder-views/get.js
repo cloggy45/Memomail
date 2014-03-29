@@ -1,9 +1,9 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-	$('button').click(function() {
-		console.log($(this).attr('data-id'));
-		$('.modal-body').append('')
-	})
+    $('button').click(function () {
+        console.log($(this).attr('data-id'));
+        $('.modal-body').append('')
+    })
 
 
 });

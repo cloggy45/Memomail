@@ -1,60 +1,64 @@
 <section id="login_view">
-	
-	<?php echo $this->Session->flash('auth'); ?>
-	
-	<h1>Login</h1>
 
-	<?php echo $this->Form->create('User',array(
-		'type' => 'post',
-		'action' => 'login',
-		'inputDefaults' => array(
-			'label' => false,
-			'div' => false),
-		'class' => "form-horizontal",
-		'role' => "form"
-	)); ?>
+    <?php echo $this->Session->flash('auth'); ?>
 
-	<!-- Username -->
-	<div class="form-group">
-		
-		<!-- <label class="control-label">Username</label> -->
+    <h2>Login</h2>
 
-		<div class="form-input">
-			<?php echo $this->Form->input('username', array('type' => 'text', 'placeholder' => 'Username',
-				'class' => 'form-control'
-				)); ?>
-		</div>
-	</div>
-	
+    <?php echo $this->Form->create(
+        'User',
+        array(
+            'type' => 'post',
+            'action' => 'login',
+            'inputDefaults' => array(
+                'label' => false,
+                'div' => false
+            ),
+            'class' => "form-horizontal",
+            'role' => "form"
+        )
+    ); ?>
 
-	<!-- Password -->
-	<div class="form-group">
-		
-		<!-- <label class="control-label">Password</label> -->
-		
-		<div class="form-input">
-			<?php echo $this->Form->input('password', array('type' => 'password', 'placeholder' => 'Password',
-				'class' => 'form-control'
-				)); ?>
-		</div>
-	</div>
-	
-	<!-- Button -->
-	<div class="form-group">
-		<div class="submit-button">
-			<?php echo $this->Form->button('Login',array('type' => 'submit','class' => 'btn btn-default')); ?>
-		</div>
-	</div>
+    <!-- Username -->
+    <div class="form-group">
+        <div class="form-input">
+            <?php echo $this->Form->input(
+                'username',
+                array(
+                    'type' => 'text',
+                    'placeholder' => 'Username',
+                    'class' => 'form-control'
+                )
+            ); ?>
+        </div>
+    </div>
 
-	<?php echo $this->Form->end(); ?>
-	
+    <!-- Password -->
+    <div class="form-group">
+        <div class="form-input">
+            <?php echo $this->Form->input(
+                'password',
+                array(
+                    'type' => 'password',
+                    'placeholder' => 'Password',
+                    'class' => 'form-control'
+                )
+            ); ?>
+        </div>
+    </div>
+
+    <!-- Button -->
+    <div class="form-group">
+        <div class="submit-button">
+            <?php echo $this->Form->button(
+                'Login',
+                array(
+                    'type' => 'submit',
+                    'class' => 'btn btn-default'
+                )
+            ); ?>
+        </div>
+    </div>
+
+    <?php echo $this->Form->end(); ?>
+
 </section>
-
-<!---
-
-	Form
-		Div
-			Label
-			Input
-		/Div
-

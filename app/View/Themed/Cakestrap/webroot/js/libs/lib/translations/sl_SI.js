@@ -1,6 +1,6 @@
 // Slovenian
 
-jQuery.extend( jQuery.fn.pickadate.defaults, {
+jQuery.extend(jQuery.fn.pickadate.defaults, {
     monthsFull: [ 'januar', 'februar', 'marec', 'april', 'maj', 'junij', 'julij', 'avgust', 'september', 'oktober', 'november', 'december' ],
     monthsShort: [ 'jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'avg', 'sep', 'okt', 'nov', 'dec' ],
     weekdaysFull: [ 'nedelja', 'ponedeljek', 'torek', 'sreda', 'četrtek', 'petek', 'sobota' ],

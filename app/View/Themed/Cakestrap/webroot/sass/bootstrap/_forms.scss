@@ -2,7 +2,6 @@
 // Forms
 // --------------------------------------------------
 
-
 // Normalize non-controls
 //
 // Restyle and baseline non-control form elements.
@@ -30,7 +29,6 @@ label {
   margin-bottom: 5px;
   font-weight: bold;
 }
-
 
 // Normalize form controls
 
@@ -100,7 +98,6 @@ output {
   @include placeholder();
 }
 
-
 // Common form controls
 //
 // Shared size and type resets for form controls. Apply `.form-control` to any
@@ -136,7 +133,7 @@ output {
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
   border: 1px solid $input-border;
   border-radius: $input-border-radius;
-  @include box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
+  @include box-shadow(inset 0 1px 1px rgba(0, 0, 0, .075));
   @include transition(border-color ease-in-out .15s, box-shadow ease-in-out .15s);
 
   // Customize the `:focus` state to imitate native WebKit styles.
@@ -161,7 +158,6 @@ textarea.form-control {
   height: auto;
 }
 
-
 // Form groups
 //
 // Designed to help with the organization and spacing of vertical forms. For
@@ -170,7 +166,6 @@ textarea.form-control {
 .form-group {
   margin-bottom: 15px;
 }
-
 
 // Checkboxes and radios
 //
@@ -191,6 +186,7 @@ textarea.form-control {
     cursor: pointer;
   }
 }
+
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
@@ -198,6 +194,7 @@ textarea.form-control {
   float: left;
   margin-left: -20px;
 }
+
 .radio + .radio,
 .checkbox + .checkbox {
   margin-top: -5px; // Move up sibling radios or checkboxes for tighter spacing
@@ -213,6 +210,7 @@ textarea.form-control {
   font-weight: normal;
   cursor: pointer;
 }
+
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
@@ -240,7 +238,6 @@ input[type="checkbox"],
 
 @include input-size('.input-lg', $input-height-large, $padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-large, $border-radius-large);
 
-
 // Form control feedback states
 //
 // Apply contextual and semantic states to individual form controls.
@@ -249,15 +246,16 @@ input[type="checkbox"],
 .has-warning {
   @include form-control-validation($state-warning-text, $state-warning-text, $state-warning-bg);
 }
+
 // Error
 .has-error {
   @include form-control-validation($state-danger-text, $state-danger-text, $state-danger-bg);
 }
+
 // Success
 .has-success {
   @include form-control-validation($state-success-text, $state-success-text, $state-success-bg);
 }
-
 
 // Static form control text
 //
@@ -267,7 +265,6 @@ input[type="checkbox"],
 .form-control-static {
   margin-bottom: 0; // Remove default margin from `p`
 }
-
 
 // Help text
 //
@@ -280,8 +277,6 @@ input[type="checkbox"],
   margin-bottom: 10px;
   color: lighten($text-color, 25%); // lighten the text some for contrast
 }
-
-
 
 // Inline forms
 //
@@ -299,7 +294,7 @@ input[type="checkbox"],
   // Kick in the inline
   @media (min-width: $screen-sm) {
     // Inline-block all the things for "inline"
-    .form-group  {
+    .form-group {
       display: inline-block;
       margin-bottom: 0;
       vertical-align: middle;
@@ -327,7 +322,6 @@ input[type="checkbox"],
     }
   }
 }
-
 
 // Horizontal forms
 //

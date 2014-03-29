@@ -1,6 +1,6 @@
 <div class="row">
     <div id="sub-container">
-        
+
         <td><?php echo $title ?> </td>
 
 
@@ -9,10 +9,10 @@
             <?php $stringDisplay = substr($body, 0, 20); ?>
 
             <td><?php echo $stringDisplay . ".
-                                    .."; ?> 
-            
-            <?php echo "<a data-toggle='modal' data-id=" . $id . " data-target='#myModal" . $id . "'>More</a>";
-            ?>
+                                    .."; ?>
+
+                <?php echo "<a data-toggle='modal' data-id=" . $id . " data-target='#myModal" . $id . "'>More</a>";
+                ?>
             </td>
 
         <?php else: ?>

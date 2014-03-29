@@ -1,140 +1,152 @@
 <?php
 
-App::uses('SimplePasswordHasher','Controller/Component/Auth');
+App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
 
-class User extends AppModel {
-	public $useTable = 'users';
+class User extends AppModel
+{
+    public $useTable = 'users';
 
-	public $hasMany = array(
-		'Reminder' => array(
-			'className' => 'Reminder'
-			)
-		);
-        
+    public $hasMany = array(
+        'Reminder' => array(
+            'className' => 'Reminder'
+        )
+    );
+
     public $hasOne = 'Registration';
 
-	public $validate = array(
-			'username' => array(
-				'alphaNumeric' => array(
-					'rule' => 'alphaNumeric',
-					'message' => 'Alphabets and numbers only'
-					),
-				'between' => array(
-					'rule' => array('between',5,15),
-					'message' => 'Between 5 to 15 characters'
-					),
-				'unique' => array(
-					'rule' => 'isUnique',
-					'message' => 'Username is already taken'
-					)
-				),
-			'password' => array(
-				'between' => array(
-					'rule' => array('between',5,20),
-					'message' => 'Between 5 to 20',
-					),
-				'compareFields' => array(
-					'rule' => array('compareFields','confirm_password'),
-					'message' => 'Passwords do not match',
-					)
-				),	
-			'email' => array(
-				'email' => array(
-					'rule' => 'email',
-					'message' => 'Please enter valid email address',
-					'required' => 'create'
-					),
-				'unique' => array(
-					'rule' => 'isUnique',
-					'message' => 'Email is already in use',
-					),
-				'compareFields' => array(
-					'rule' => array('compareFields','confirm_email'),
-					'message' => 'Emails do not match',
-					'required' => 'update'
-					)
-				),
-			'timezone' => array(
-				'isValid' => array(
-					'rule' => 'isValid',
-					'message' => 'Please select a timezone',
-					'required' => 'create'
-					)
-				)
-			);
-	
-	
+    public $validate = array(
+        'username' => array(
+            'alphaNumeric' => array(
+                'rule' => 'alphaNumeric',
+                'message' => 'Alphabets and numbers only'
+            ),
+            'between' => array(
+                'rule' => array('between', 5, 15),
+                'message' => 'Between 5 to 15 characters'
+            ),
+            'unique' => array(
+                'rule' => 'isUnique',
+                'message' => 'Username is already taken'
+            )
+        ),
+        'password' => array(
+            'between' => array(
+                'rule' => array('between', 5, 20),
+                'message' => 'Between 5 to 20',
+            ),
+            'compareFields' => array(
+                'rule' => array('compareFields', 'confirm_password'),
+                'message' => 'Passwords do not match',
+            )
+        ),
+        'email' => array(
+            'email' => array(
+                'rule' => 'email',
+                'message' => 'Please enter valid email address',
+                'required' => 'create'
+            ),
+            'unique' => array(
+                'rule' => 'isUnique',
+                'message' => 'Email is already in use',
+            ),
+            'compareFields' => array(
+                'rule' => array('compareFields', 'confirm_email'),
+                'message' => 'Emails do not match',
+                'required' => 'update'
+            )
+        ),
+        'timezone' => array(
+            'isValid' => array(
+                'rule' => 'isValid',
+                'message' => 'Please select a timezone',
+                'required' => 'create'
+            )
+        )
+    );
+
+
     public $confirm_email = null;
-	public $confirm_password = null;
- 
-	public function isValid($check) {
-                
-		$value = array_values($check);
-                            
-		if(empty($value[0])) 
-        {   
+    public $confirm_password = null;
+
+    public function isValid($check)
+    {
+
+        $value = array_values($check);
+
+        if (empty($value[0])) {
             echo "<br/>";
             return false;
-        } 
-        else {
+        } else {
             echo "Here<br/>";
             return true;
         }
-	}       
+    }
 
-	public function compareFields($check,$comparedField=null) {
-		
-		$fieldOne = array_values($check);
+    public function compareFields($check, $comparedField = null)
+    {
 
-		if($fieldOne[0] == $this->data[$this->alias][$comparedField]) 
-			return true;
-	}
+        $fieldOne = array_values($check);
 
-	public function beforeValidate($options = array()) {
-		
-		if(isset($this->confirm_email)) {
-			$this->data[$this->alias]['confirm_email'] = $this->confirm_email;
-		}
+        if ($fieldOne[0] == $this->data[$this->alias][$comparedField]) {
+            return true;
+        }
+    }
 
-		if(isset($this->confirm_password)) {
-			$this->data[$this->alias]['confirm_password'] = $this->confirm_password;
-		}
-	}
+    public function beforeValidate($options = array())
+    {
+
+        if (isset($this->confirm_email)) {
+            $this->data[$this->alias]['confirm_email'] = $this->confirm_email;
+        }
+
+        if (isset($this->confirm_password)) {
+            $this->data[$this->alias]['confirm_password'] = $this->confirm_password;
+        }
+    }
 
 
-	public function beforeSave($options = array()) {
+    public function beforeSave($options = array())
+    {
 
-	    if (!empty($this->data[$this->alias]['password'])) {
-	        
-	        $passwordHasher = new SimplePasswordHasher();
-	       
-	        $this->data[$this->alias]['password'] = $passwordHasher->hash(
-	            $this->data[$this->alias]['password']
-	        );
-	    }
-		
-	    return true;
-	}
+        if (!empty($this->data[$this->alias]['password'])) {
 
-	public function getUserId($username) {
+            $passwordHasher = new SimplePasswordHasher();
 
-		$temp = $this->find('first',array(
-			'conditions' => array('username' => $username),
-			'fields' => array('User.id')
-			));
+            $this->data[$this->alias]['password'] = $passwordHasher->hash(
+                $this->data[$this->alias]['password']
+            );
+        }
 
-		return $temp['User']['id'];
-	}
+        return true;
+    }
 
-	public function getUserDetails($id,$userField) {
-		
-		$userDetails = $this->find('first',array(
-			'conditions' => array('User.id' => $id),
-			'fields' => $userField
-			));
+    public function getUserId($username)
+    {
 
-		return $userDetails['User'][$userField];
-	}
-}	
+        $temp = $this->find(
+            'first',
+            array(
+                'conditions' => array('username' => $username),
+                'fields' => array('User.id')
+            )
+        );
+
+        return $temp['User']['id'];
+    }
+
+    public function getUserDetails($id, $userField)
+    {
+
+        $userDetails = $this->find(
+            'first',
+            array(
+                'conditions' => array('User.id' => $id),
+                'fields' => $userField
+            )
+        );
+
+        return $userDetails['User'][$userField];
+    }
+}
 
 ?>

@@ -74,6 +74,7 @@ Backtrace:
 /usr/local/bin/compass:19
 */
 body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined mixin 'respond-to'.\A         on line 3 of /var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss, in `respond-to'\A         from line 3 of /var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss\A \A 1: /var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss"; }
+    white-space: pre;
+    font-family: monospace;
+    content: "Syntax error: Undefined mixin 'respond-to'.\A         on line 3 of /var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss, in `respond-to'\A         from line 3 of /var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss\A \A 1: /var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss";
+}

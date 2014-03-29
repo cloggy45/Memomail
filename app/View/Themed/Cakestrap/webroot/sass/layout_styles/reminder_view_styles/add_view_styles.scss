@@ -1,51 +1,50 @@
 #add_view {
 
-	h1 {
-		@include make-sm-column-offset(4);
-		padding-left:9px;
-	}
-	
-	#time_block {
-		margin-top: 10px;
-	}
+  h2 {
+    @include make-sm-column-offset(4);
+    padding-left: 9px;
+  }
 
+  #time_block {
+    margin-top: 10px;
+  }
 
-	.form-group {
+  .form-group {
 
-		margin-bottom: -15px;
-		
-		h3 {
-			@include make-sm-column-offset(4);
-			padding-left: 15px;
-		
-		}
+    margin-bottom: -15px;
 
-		.form-input {
-			@include make-sm-column-offset(4);
-			@include make-sm-column(4);
-		}
+    h3 {
+      @include make-sm-column-offset(4);
+      padding-left: 15px;
 
-		.picker__input {
-			background: $input-bg;
-		}
+    }
 
-		button {
-			margin-top: 30px;
-		}
+    .form-input {
+      @include make-sm-column-offset(4);
+      @include make-sm-column(4);
+    }
 
-		p {
-			@include make-sm-column-offset(4);
-			@include make-sm-column(3);
-			font-size: 12px;
-			padding-top: 5px;
-			padding-bottom: 10px;
-		}
+    .picker__input {
+      background: $input-bg;
+    }
 
-		.submit-button {
-			@include make-sm-column-offset(4);
-			@include make-sm-column(1);
-		}
+    button {
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
 
-	
-	}
+    p {
+      @include make-sm-column-offset(4);
+      @include make-sm-column(3);
+      font-size: 12px;
+      padding-top: 5px;
+      padding-bottom: 10px;
+    }
+
+    .submit-button {
+      @include make-sm-column-offset(4);
+      @include make-sm-column(1);
+    }
+
+  }
 }

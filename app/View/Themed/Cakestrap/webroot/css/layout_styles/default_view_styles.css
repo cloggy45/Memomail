@@ -1,10 +1,10 @@
 /* line 1, ../../sass/layout_styles/default_view_styles.scss */
 body {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 
 /* line 5, ../../sass/layout_styles/default_view_styles.scss */
 #flashMessage {
-  text-align: center;
-  margin: 10px;
+    text-align: center;
+    margin: 10px;
 }

@@ -18,99 +18,107 @@
 
 $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
 ?>
-<?php echo $this->Html->docType('html5'); ?> 
 
+<?php echo $this->Html->docType('html5'); ?>
 
 <html>
-	<head>
-		<?php echo $this->Html->charset(); ?>
-		<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
-		<title>
-			<?php echo $cakeDescription ?>:
-			<?php echo $title_for_layout; ?>
-		</title>
+<head>
+    <?php echo $this->Html->charset(); ?>
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0"/>
+    <title>
+        <?php echo $cakeDescription ?>:
+        <?php echo $title_for_layout; ?>
+    </title>
 
-		<?php
-			echo $this->Html->meta('icon');
-			
-			echo $this->fetch('meta');
+    <?php
+    echo $this->Html->meta('icon');
 
-			echo $this->Html->css('bootstrap');
-			echo $this->Html->css('main');
+    echo $this->fetch('meta');
 
-			if(isset($cssIncludes)) {
-				foreach($cssIncludes as $css) {
-					echo $this->Html->css($css);	
-				}
-			}
+    echo $this->Html->css('bootstrap');
+    echo $this->Html->css('main');
 
-			echo $this->fetch('css');
-			
+    if (isset($cssIncludes)) {
+        foreach ($cssIncludes as $css) {
+            echo $this->Html->css($css);
+        }
+    }
 
-			echo $this->Html->script('//code.jquery.com/jquery-1.10.2.min.js');
-			echo $this->Html->script('//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.1.38/jquery.form-validator.min.js');
-			
-			echo $this->Html->script('libs/bootstrap.min');
-
-			if(isset($jsIncludes)) {
-				foreach($jsIncludes as $js) {
-					echo $this->Html->script($js);
-				}
-			}
-			
-			echo $this->fetch('script');
-		?>
+    echo $this->fetch('css');
 
 
-	</head>
+    echo $this->Html->script('//code.jquery.com/jquery-1.10.2.min.js');
+    echo $this->Html->script(
+        '//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.1.38/jquery.form-validator.min.js'
+    );
 
-	<body data-grid-framework="b3" data-grid-color="blue" data-grid-opacity="0.1" data-grid-zindex="10" data-grid-gutterwidth="30px" data-grid-nbcols="12">
+    echo $this->Html->script('libs/bootstrap.min');
 
-		<div id="main-container">
-		
-			<div id="header" class="container">
+    if (isset($jsIncludes)) {
+        foreach ($jsIncludes as $js) {
+            echo $this->Html->script($js);
+        }
+    }
 
-				<div class="navbar navbar-default navbar-fixed-top">
-				    <div class="container">
-			   		   <div class="navbar-header">
-				        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				          <span class="icon-bar"></span>
-				          <span class="icon-bar"></span>
-				          <span class="icon-bar"></span>
-				        </button>
-				        <a class="navbar-brand" href="#">Remind Me</a>
-				    </div>
+    echo $this->fetch('script');
+    ?>
 
-				      <div class="collapse navbar-collapse">
-				        <ul class="nav navbar-nav navbar-right">
-				          
-								<?php if($this->Session->check('User')): ?>
-								
-								<li> <?php echo $this->Html->link('Logout','/Users/logout'); ?> </li>
-								<li> <?php echo $this->Html->link('Settings','/Users/settings'); ?> </li>
-								<li> <?php echo $this->Html->link('Add Reminders','/Reminder/add'); ?> </li>
-								<li> <?php echo $this->Html->link('View Reminders','/Reminder/get'); ?> </li>
-									
-								<?php else: ?>
-									
-								<li id='login'><?php echo $this->Html->link('Login','/Users/login'); ?></li>
-								<li><?php echo $this->Html->link('Register','/Users/register'); ?></li>
 
-								<?php endif; ?>
-				        </ul>
-				      </div><!--/.nav-collapse -->
-				    </div>
-				  </div>
+</head>
 
-			</div><!-- /#header .container -->
-			
-			<div id="content" class="container">
-				<?php echo $this->Session->flash(); ?>
-				<?php echo $this->fetch('content'); ?>
-			</div><!-- /#content .container -->
-			
-		</div><!-- /#main-container -->
+<body data-grid-framework="b3" data-grid-color="blue" data-grid-opacity="0.1" data-grid-zindex="10"
+      data-grid-gutterwidth="30px" data-grid-nbcols="12">
 
-		</div><!-- /.container -->
-	</body>
+<div id="main-container">
+
+    <div id="header" class="container">
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Remind Me</a>
+                </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <?php if ($this->Session->check('User')): ?>
+
+                            <li> <?php echo $this->Html->link('Logout', '/Users/logout'); ?> </li>
+                            <li> <?php echo $this->Html->link('Settings', '/Users/settings'); ?> </li>
+                            <li> <?php echo $this->Html->link('Add Reminders', '/Reminder/add'); ?> </li>
+                            <li> <?php echo $this->Html->link('View Reminders', '/Reminder/get'); ?> </li>
+
+                        <?php else: ?>
+
+                            <li id='login'><?php echo $this->Html->link('Login', '/Users/login'); ?></li>
+                            <li> <?php echo $this->Html->link('Register', '/Users/register'); ?> </li>
+
+                        <?php endif; ?>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="content" class="container">
+        <?php echo $this->Session->flash(); ?>
+        <?php echo $this->fetch('content'); ?>
+    </div>
+
+    <footer>
+        <div id="footer">
+            <p>Created by <?php echo $this->Html->link('Paul Mcloughlin', 'https://github.com/cloggy45'); ?>
+                built using <?php echo $this->Html->link('CakePHP', 'http://cakephp.org/'); ?>
+                and <?php echo $this->Html->link('Bootstrap', 'http://getbootstrap.com/'); ?></p>
+        </div>
+    </footer>
+
+</div>
+
+</body>
 </html>

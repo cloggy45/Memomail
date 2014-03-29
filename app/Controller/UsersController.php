@@ -1,173 +1,185 @@
-<?php 
+<?php
 
-App::uses('AppController','Controller');
+App::uses('AppController', 'Controller');
 
-class UsersController extends AppController {
-	public $helpers = array('Html', 'Form','Timezone.Timezone');
-	public $components = array('Session','Auth','Email');
+class UsersController extends AppController
+{
+    public $helpers = array('Html', 'Form', 'Timezone.Timezone');
+    public $components = array('Session', 'Auth', 'Email');
 
-	public function beforeFilter() {
-		
-		$this->Auth->allow('*');
-		$this->Auth->loginAction = array('controller' => 'Users',
-			'action' => 'login');	
+    public function beforeFilter()
+    {
 
-		$this->set('password',$this->Auth->password($this->data['User']['password']));
-		$this->Auth->allow();
+        $this->Auth->allow('*');
+        $this->Auth->loginAction = array(
+            'controller' => 'Users',
+            'action' => 'login'
+        );
 
-	}
+        $this->set('password', $this->Auth->password($this->data['User']['password']));
+        $this->Auth->allow();
 
-	public function login() {
-                
-		if($this->request->is('post')) {
+    }
 
-			if($this->Auth->login()) {
+    public function login()
+    {
 
-				$this->Session->write('User.username', $this->request->data['User']['username']);
-				
-				$userId = $this->User->getUserId($this->request->data['User']['username']);
+        if ($this->request->is('post')) {
 
-				$this->Session->write('User.userId',$userId);
-                                
-				$registrationValid = $this->User->Registration->getRegValidStatus($userId);
+            if ($this->Auth->login()) {
 
-                if(!$registrationValid) {
-                     
+                $this->Session->write('User.username', $this->request->data['User']['username']);
+
+                $userId = $this->User->getUserId($this->request->data['User']['username']);
+
+                $this->Session->write('User.userId', $userId);
+
+                $registrationValid = $this->User->Registration->getRegValidStatus($userId);
+
+                if (!$registrationValid) {
+
                     $this->Session->setFlash('Activate Email First');
                     $this->Session->delete('User');
-					
-					return $this->redirect($this->Auth->logout());
+
+                    return $this->redirect($this->Auth->logout());
 
                 } else {
-                    $this->redirect(array('controller' => 'Reminder','action' => 'get'));
+                    $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
                 }
-                			
-			} else {
+
+            } else {
                 $this->Session->setFlash("Incorrect login information");
-				
-			}	
-		}
-	}	
 
-	public function logout() {
+            }
+        }
+    }
 
-		$this->Session->delete('User');
+    public function logout()
+    {
 
-		$this->redirect($this->Auth->logout());
-	}
+        $this->Session->delete('User');
 
-	public function settings() {
+        $this->redirect($this->Auth->logout());
+    }
 
-		// Todo: Display stacked validation errors
-		// Todo: Add fade to setFlash messages
-		
-		$this->set('jsIncludes',array('formValidation'));
+    public function settings()
+    {
 
-		if($this->request->is('post')) {
+        // Todo: Display stacked validation errors
+        // Todo: Add fade to setFlash messages
 
-			$SettingsChanged = false;
+        $this->set('jsIncludes', array('formValidation'));
 
-			$this->User->id = $this->Session->read('Auth.User.id');
+        if ($this->request->is('post')) {
 
-			if($this->request->data['User']['Clear All']) {
+            $SettingsChanged = false;
 
-				$this->User->Reminder->deleteAll(array('Reminder.user_id' => $this->Session->read('Auth.User.id'),false));
-			
-			} 
+            $this->User->id = $this->Session->read('Auth.User.id');
 
-			if(!empty($this->request->data['User']['email'])) {
+            if ($this->request->data['User']['Clear All']) {
 
-				$this->User->confirm_email = $this->request->data['User']['confirm_email'];
-				
-				if($this->User->saveField('email',$this->request->data['User']['email'],true)) {
-					$SettingsChanged = true;
-				}
-		
-			}
+                $this->User->Reminder->deleteAll(
+                    array('Reminder.user_id' => $this->Session->read('Auth.User.id'), false)
+                );
 
-			// Change existing password
-			if(!empty($this->request->data['User']['password'])) {
+            }
 
-				$this->User->confirm_password = $this->request->data['User']['confirm_password'];
+            if (!empty($this->request->data['User']['email'])) {
 
-				if($this->User->saveField('password', $this->request->data['User']['password'],true)) {
-					$SettingsChanged = true;
-				}
-			}
+                $this->User->confirm_email = $this->request->data['User']['confirm_email'];
+
+                if ($this->User->saveField('email', $this->request->data['User']['email'], true)) {
+                    $SettingsChanged = true;
+                }
+
+            }
+
+            // Change existing password
+            if (!empty($this->request->data['User']['password'])) {
+
+                $this->User->confirm_password = $this->request->data['User']['confirm_password'];
+
+                if ($this->User->saveField('password', $this->request->data['User']['password'], true)) {
+                    $SettingsChanged = true;
+                }
+            }
 
 
-			if($this->request->data['User']['timezone'] < 99) {
-				if($this->User->saveField('timezone', $this->request->data['User']['timezone'],true)) {
-					$SettingsChanged = true;
-				}
-			} 
+            if ($this->request->data['User']['timezone'] < 99) {
+                if ($this->User->saveField('timezone', $this->request->data['User']['timezone'], true)) {
+                    $SettingsChanged = true;
+                }
+            }
 
-			if($this->request->data['User']['Clear All']) {
-				$SettingsChanged = true;
-				$this->Session->setFlash('Cleared all reminders');
-			}
+            if ($this->request->data['User']['Clear All']) {
+                $SettingsChanged = true;
+                $this->Session->setFlash('Cleared all reminders');
+            }
 
-			if($SettingsChanged) {
-				$this->Session->setFlash('Settings Changed');
+            if ($SettingsChanged) {
+                $this->Session->setFlash('Settings Changed');
 
-			} else {
-				$this->Session->setFlash('Nothing Changed');
-			}
-		}
-	}
+            } else {
+                $this->Session->setFlash('Nothing Changed');
+            }
+        }
+    }
 
-	public function deleteAccount()
-	{
-		$id = $this->Session->read('User.userId');
+    public function deleteAccount()
+    {
+        $id = $this->Session->read('User.userId');
 
-		// For some reason default cascade deletion doesn't work, this will do for now.
-		$this->User->delete($id);
-		$this->User->Registration->delete($id);
-		$this->User->Reminder->delete($id);
+        $this->User->delete($id);
 
-		$this->Session->delete('User');
+        $this->User->Registration->deleteAll(array('user_id' => $id),false);
+        $this->User->Reminder->deleteAll(array('user_id' => $id),false);
 
-		//$this->Session->setFlash('Account Sucessfully Deleted');
+        $this->Session->delete('User');
 
-		$this->redirect(array(
-			'controller' => 'Users',
-			'action' => 'login'));
-	}
+        $this->redirect(
+            array(
+                'controller' => 'Users',
+                'action' => 'login'
+            )
+        );
+    }
 
-	public function activateAccount() 
-	{
-		$hash = $this->request->params['named']['hash'];
+    public function activateAccount()
+    {
+        $hash = $this->request->params['named']['hash'];
 
-		$isHashValid = $this->User->Registration->getRegHashValidStatus($hash);
+        $isHashValid = $this->User->Registration->getRegHashValidStatus($hash);
 
-		if($isHashValid) {
-			$this->Session->setFlash('Account Validated');
+        if ($isHashValid) {
+            $this->Session->setFlash('Account Validated');
 
-			$this->redirect(array(
-				'controller' => 'Users',
-				'action' => 'login'
-				));
-			
-		} else {
-			$this->Session->setFlash('Account not valid');
-		}
-	}
+            $this->redirect(
+                array(
+                    'controller' => 'Users',
+                    'action' => 'login'
+                )
+            );
 
-	public function sendActivationEmail()
-	{
-        
-		require_once APP . 'Config/SendGridAuth.php';
+        } else {
+            $this->Session->setFlash('Account not valid');
+        }
+    }
 
-    	$id = $this->request->params['named']['id'];
+    public function sendActivationEmail()
+    {
+
+        require_once APP . 'Config/SendGridAuth.php';
+
+        $id = $this->request->params['named']['id'];
 
         $this->Email->smtpOptions = $userAuth;
         $this->Email->delivery = 'smtp';
         $this->Email->from = $fromEmail;
-        $this->Email->to = $this->User->getUserDetails($id,'email');
-        
-        $this->set('username',$this->User->getUserDetails($id,'username'));	
-        $this->set('hash',$this->User->Registration->getEmailHash($id));
-        
+        $this->Email->to = $this->User->getUserDetails($id, 'email');
+
+        $this->set('username', $this->User->getUserDetails($id, 'username'));
+        $this->set('hash', $this->User->Registration->getEmailHash($id));
+
         $this->Email->subject = 'Please Activate Email';
         $this->Email->template = 'registration_activation';
         $this->Email->sendAs = 'both';
@@ -175,34 +187,43 @@ class UsersController extends AppController {
 
         $this->Session->setFlash('Activation email sent');
 
-        $this->redirect(array(
-					'controller' => 'Users',
-					'action' => 'login',
-					));
-	}
+        $this->redirect(
+            array(
+                'controller' => 'Users',
+                'action' => 'login',
+            )
+        );
+    }
 
-  
-	public function register() {
-            
-		$this->set('jsIncludes',array('formValidation','user-views/register'));
-	
-		if($this->request->is('post')) {
-                        
-			if($this->User->save($this->request->data)) {
-                
-                $saveHashedEmail = $this->User->Registration->saveEmailHash($this->User->id,
-                												$this->request->data['User']['email']);
-                if(!$saveHashedEmail) {
-                	CakeLog::write('Error', 'UsersController: Unable to save hashed email');
-                }    
 
-				$this->redirect(array(
-					'controller' => 'Users',
-					'action' => 'sendActivationEmail',
-					'id' => $this->User->id));
-			}
-		}
-	}
+    public function register()
+    {
+
+        $this->set('jsIncludes', array('formValidation', 'user-views/register'));
+
+        if ($this->request->is('post')) {
+
+            if ($this->User->save($this->request->data)) {
+
+                $saveHashedEmail = $this->User->Registration->saveEmailHash(
+                    $this->User->id,
+                    $this->request->data['User']['email']
+                );
+
+                if (!$saveHashedEmail) {
+                    CakeLog::write('Error', 'UsersController: Unable to save hashed email');
+                }
+
+                $this->redirect(
+                    array(
+                        'controller' => 'Users',
+                        'action' => 'sendActivationEmail',
+                        'id' => $this->User->id
+                    )
+                );
+            }
+        }
+    }
 }
 
 
