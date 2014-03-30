@@ -41,7 +41,6 @@ class Registration extends AppModel
 
     public function saveEmailHash($id, $email)
     {
-
         $hashedEmail = Security::hash($email, 'sha1', true);
 
         if ($this->save(

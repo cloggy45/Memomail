@@ -74,19 +74,15 @@ class User extends AppModel
         $value = array_values($check);
 
         if (empty($value[0])) {
-            echo "<br/>";
             return false;
         } else {
-            echo "Here<br/>";
             return true;
         }
     }
 
     public function compareFields($check, $comparedField = null)
     {
-
         $fieldOne = array_values($check);
-
         if ($fieldOne[0] == $this->data[$this->alias][$comparedField]) {
             return true;
         }
@@ -120,18 +116,37 @@ class User extends AppModel
         return true;
     }
 
-    public function getUserId($username)
+    public function getUserId($field, $value)
     {
+
+        $fieldName = $this->alias . "." . $field;
 
         $temp = $this->find(
             'first',
             array(
-                'conditions' => array('username' => $username),
+                'conditions' => array($fieldName => $value),
                 'fields' => array('User.id')
             )
         );
 
         return $temp['User']['id'];
+    }
+
+    public function checkEmailExists($userEmail)
+    {
+        if ($this->find(
+            'first',
+            array(
+                'conditions' => array(
+                    'email' => $userEmail
+                )
+            )
+        )
+        ) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public function getUserDetails($id, $userField)
@@ -145,8 +160,37 @@ class User extends AppModel
             )
         );
 
-        return $userDetails['User'][$userField];
+        return $userDetails[$this->alias][$userField];
     }
+
+    public function saveEmailHash($id, $email)
+    {
+        $hashedEmail = Security::hash($email, 'sha1', true);
+
+        $this->id = $id;
+
+        if ($this->saveField('email_hash',$hashedEmail))
+        {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public function getEmailHash($id)
+    {
+        $emailHash = $this->find(
+            'first',
+            array(
+                'conditions' => array('User.id' => $id),
+                'fields' => array('User.email_hash')
+            )
+        );
+
+        return $emailHash['User']['email_hash'];
+    }
+
+
 }
 
 ?>

@@ -211,3 +211,123 @@ Stack Trace:
 #3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-03-30 17:49:12 Error: [SocketException] php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /cake/Users/sendActivationEmail/type:activation/id:1
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Network/Email/SmtpTransport.php(99): CakeSocket->connect()
+#1 /var/www/cake/lib/Cake/Network/Email/SmtpTransport.php(59): SmtpTransport->_connect()
+#2 /var/www/cake/lib/Cake/Network/Email/CakeEmail.php(1122): SmtpTransport->send(Object(CakeEmail))
+#3 /var/www/cake/lib/Cake/Controller/Component/EmailComponent.php(345): CakeEmail->send(NULL)
+#4 /var/www/cake/app/Controller/UsersController.php(262): EmailComponent->send()
+#5 [internal function]: UsersController->sendActivationEmail()
+#6 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-30 18:57:18 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email'
+Request URL: /cake/users/resetPassword
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(1667): Model->save(Array, Array)
+#5 /var/www/cake/app/Model/User.php(172): Model->saveField('email_hash', '41a00d9009893ba...')
+#6 /var/www/cake/app/Controller/UsersController.php(164): User->saveEmailHash(NULL, 1396220238)
+#7 [internal function]: UsersController->resetPassword()
+#8 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-30 19:00:20 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email'
+Request URL: /cake/users/resetPassword
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(1667): Model->save(Array, Array)
+#5 /var/www/cake/app/Controller/UsersController.php(159): Model->saveField('password', 'snake45', true)
+#6 [internal function]: UsersController->resetPassword()
+#7 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-03-30 19:03:07 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email'
+Request URL: /cake/users/resetPassword
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(1667): Model->save(Array, Array)
+#5 /var/www/cake/app/Controller/UsersController.php(159): Model->saveField('password', 'snake45', true)
+#6 [internal function]: UsersController->resetPassword()
+#7 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-03-30 19:07:45 Error: Fatal Error (64): Can't use method return value in write context in [/var/www/cake/app/Controller/UsersController.php, line 154]
+2014-03-30 19:07:45 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /cake/Users/logout
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/var/www/cake/a...', 154)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/var/www/cake/a...', 154, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/var/www/cake/a...', 154, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 19:11:16 Error: Fatal Error (64): Can't use method return value in write context in [/var/www/cake/app/Controller/UsersController.php, line 154]
+2014-03-30 19:11:16 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /cake/Users/resetPassword/hash:1105783467b290a0c3746df9c633ca68
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/var/www/cake/a...', 154)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/var/www/cake/a...', 154, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/var/www/cake/a...', 154, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 19:18:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email'
+Request URL: /cake/users/resetPassword
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(1667): Model->save(Array, Array)
+#5 /var/www/cake/app/Controller/UsersController.php(166): Model->saveField('password', 'manman', true)
+#6 [internal function]: UsersController->resetPassword()
+#7 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-03-30 19:24:43 Error: Fatal Error (64): Can't use method return value in write context in [/var/www/cake/app/Controller/UsersController.php, line 157]
+2014-03-30 19:24:43 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /cake/Users/resetPassword/hash:1105783467b290a0c3746df9c633ca68
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/var/www/cake/a...', 157)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/var/www/cake/a...', 157, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/var/www/cake/a...', 157, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 19:28:55 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email'
+Request URL: /cake/users/resetPassword
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cake/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(1667): Model->save(Array, Array)
+#5 /var/www/cake/app/Controller/UsersController.php(173): Model->saveField('password', 'totheman', true)
+#6 [internal function]: UsersController->resetPassword()
+#7 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

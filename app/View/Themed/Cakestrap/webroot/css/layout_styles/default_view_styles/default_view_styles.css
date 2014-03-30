@@ -19,16 +19,16 @@ body footer #footer p {
   padding: 5px 0px;
   text-align: center;
   margin: 0px;
-  color: #962418;
+  color: white;
 }
 /* line 29, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer a {
-  color: white;
+  color: #962418;
 }
 /* line 32, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer a:hover {
   text-decoration: none;
-  color: #962418;
+  color: white;
 }
 
 /* line 40, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
