@@ -1,8 +1,9 @@
-/* line 9, ../../../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
+/* line 10, ../../../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
 #get_view li h2 {
-  word-wrap: break-word;
+    word-wrap: break-word;
 }
-/* line 31, ../../../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
+
+/* line 32, ../../../sass/layout_styles/reminder_view_styles/get_view_styles.scss */
 #get_view .modal-body p {
-  word-wrap: break-word;
+    word-wrap: break-word;
 }

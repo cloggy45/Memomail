@@ -10,9 +10,12 @@ class Registration extends AppModel
 {
     public $belongsTo = 'User';
 
+    /**
+     * @param $id
+     * @return array
+     */
     public function getRegValidStatus($id)
     {
-
         $temp = $this->find(
             'first',
             array(
@@ -21,42 +24,42 @@ class Registration extends AppModel
             )
         );
 
-        return $temp['Registration']['reg_valid'];
+        return $temp[$this->alias]['reg_valid'];
     }
 
-
-    public function getRegHashValidStatus($hash)
+    /**
+     * @param $hash string
+     * @return bool
+     */
+    public function setRegIsValidStatus($hash)
     {
-
-        if ($this->updateAll(
-            array('Registration.reg_valid' => true),
-            array('Registration.hash' => $hash)
-        )
-        ) {
-            return true;
-        } else {
+        if (strlen($hash) != 32) {
             return false;
+        } else if ($this->updateAll(array('Registration.reg_valid' => true), array('Registration.hash' => $hash))) {
+            return true;
         }
     }
 
-    public function saveEmailHash($id, $email)
+    /**
+     * @param $id
+     * @param $email string
+     * @return bool
+     */
+    public function saveEmailAsHash($id, $email)
     {
         $hashedEmail = Security::hash($email, 'sha1', true);
 
-        if ($this->save(
-            array(
-                'user_id' => $id,
-                'reg_valid' => 'false',
-                'hash' => $hashedEmail
-            )
-        )
-        ) {
-            return true;
-        } else {
+        if (empty($email)) {
             return false;
+        } else if ($this->save(array('user_id' => $id, 'reg_valid' => 'false', 'hash' => $hashedEmail))) {
+            return true;
         }
     }
 
+    /**
+     * @param $id
+     * @return mixed
+     */
     public function getEmailHash($id)
     {
         $emailHash = $this->find(
@@ -67,7 +70,7 @@ class Registration extends AppModel
             )
         );
 
-        return $emailHash['Registration']['hash'];
+        return $emailHash[$this->alias]['hash'];
     }
 
 

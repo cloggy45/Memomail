@@ -150,10 +150,10 @@ class UsersController extends AppController
 
             $tempHash = $this->request->params['named']['hash'];
 
-            $this->Session->write('User.id', $this->User->getUserId('email_hash',$tempHash));
-            $this->Session->write('User.hash', $tempHash);
+            $this->Session->write('Config.id', $this->User->getUserId('email_hash',$tempHash));
+            $this->Session->write('Config.hash', $tempHash);
 
-            $tempId = $this->Session->read('User.id');
+            $tempId = $this->Session->read('Config.id');
 
             if(empty($tempId)) {
                 $this->Session->destroy();
@@ -164,7 +164,7 @@ class UsersController extends AppController
 
         if ($this->request->is('post')) {
 
-            $id = $this->Session->read('User.id');
+            $id = $this->Session->read('Config.id');
 
             $this->User->id = $id;
             $this->User->confirm_password = $this->request->data['User']['confirm_password'];
@@ -218,7 +218,7 @@ class UsersController extends AppController
     {
         $hash = $this->request->params['named']['hash'];
 
-        $isHashValid = $this->User->Registration->getRegHashValidStatus($hash);
+        $isHashValid = $this->User->Registration->setRegValidStatus($hash);
 
         if ($isHashValid) {
             $this->Session->setFlash('Account Validated');
@@ -302,7 +302,7 @@ class UsersController extends AppController
                     CakeLog::write('Error', 'UsersController: Unable to save hashed email');
                 }
 
-                $this->User->saveEmailHash($id, $email);
+                $this->User->saveEmailAsHash($id, $email);
 
                 $this->redirect(
                     array(

@@ -1,5 +1,6 @@
 <?php
 
+
 class Reminder extends AppModel
 {
     public $belongsTo = 'User';
@@ -32,6 +33,11 @@ class Reminder extends AppModel
         )
     );
 
+    /**
+     * @param $id
+     * @param $type        http://book.cakephp.org/2.0/en/models/retrieving-your-data.html
+     * @return array
+     */
     public function getReminders($id, $type)
     {
         $reminders = $this->find(

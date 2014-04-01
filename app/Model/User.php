@@ -129,7 +129,7 @@ class User extends AppModel
             )
         );
 
-        return $temp['User']['id'];
+        return $temp[$this->alias]['id'];
     }
 
     public function checkEmailExists($userEmail)
@@ -187,7 +187,7 @@ class User extends AppModel
             )
         );
 
-        return $emailHash['User']['email_hash'];
+        return $emailHash[$this->alias]['email_hash'];
     }
 
 
