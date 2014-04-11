@@ -86,24 +86,21 @@ class UsersController extends AppController
 
             if (!empty($this->request->data['User']['email'])) {
 
-                $this->User->confirm_email = $this->request->data['User']['confirm_email'];
+                $this->User->setConfirmEmail($this->request->data['User']['confirm_email']);
 
                 if ($this->User->saveField('email', $this->request->data['User']['email'], true)) {
                     $SettingsChanged = true;
                 }
-
             }
 
-            // Change existing password
             if (!empty($this->request->data['User']['password'])) {
 
-                $this->User->confirm_password = $this->request->data['User']['confirm_password'];
+                $this->User->setConfirmPassword($this->request->data['User']['confirm_password']);
 
                 if ($this->User->saveField('password', $this->request->data['User']['password'], true)) {
                     $SettingsChanged = true;
                 }
             }
-
 
             if ($this->request->data['User']['timezone'] < 99) {
                 if ($this->User->saveField('timezone', $this->request->data['User']['timezone'], true)) {
@@ -188,7 +185,8 @@ class UsersController extends AppController
         if ($this->request->is('post')) {
 
             $email = $this->request->data['User']['resetEmail'];
-            $emailExists = $this->User->checkEmailExists($email);
+
+            $emailExists = $this->User->checkValueExists('email',$email);
 
             $id = $this->User->getUserId('email', $email);
 
@@ -218,7 +216,7 @@ class UsersController extends AppController
     {
         $hash = $this->request->params['named']['hash'];
 
-        $isHashValid = $this->User->Registration->setRegValidStatus($hash);
+        $isHashValid = $this->User->Registration->setRegIsValidStatus($hash);
 
         if ($isHashValid) {
             $this->Session->setFlash('Account Validated');
@@ -296,13 +294,13 @@ class UsersController extends AppController
 
                 $email += $time;
 
-                $saveHashedEmail = $this->User->Registration->saveEmailHash($id, $email);
+                $saveHashedEmail = $this->User->Registration->saveEmailAsHash($id, $email);
 
                 if (!$saveHashedEmail) {
                     CakeLog::write('Error', 'UsersController: Unable to save hashed email');
                 }
 
-                $this->User->saveEmailAsHash($id, $email);
+                $this->User->saveEmailHash($id, $email);
 
                 $this->redirect(
                     array(

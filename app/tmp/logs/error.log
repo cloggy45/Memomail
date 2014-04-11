@@ -211,3 +211,159 @@ Stack Trace:
 #3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-04-05 20:51:08 Error: Fatal Error (4): syntax error, unexpected T_RETURN in [/var/www/cake/app/Model/User.php, line 104]
+2014-04-05 20:51:08 Error: [FatalErrorException] syntax error, unexpected T_RETURN
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 104)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 104, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 104, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 20:51:24 Error: Fatal Error (4): syntax error, unexpected T_RETURN in [/var/www/cake/app/Model/User.php, line 104]
+2014-04-05 20:51:24 Error: [FatalErrorException] syntax error, unexpected T_RETURN
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 104)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 104, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 104, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 20:52:25 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(2923): PDOStatement->execute()
+#1 /var/www/cake/lib/Cake/TestSuite/Fixture/CakeTestFixture.php(284): DboSource->insertMulti('reminders', Array, Array)
+#2 /var/www/cake/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php(212): CakeTestFixture->insert(Object(Mysql))
+#3 /var/www/cake/lib/Cake/TestSuite/CakeTestCase.php(80): CakeFixtureManager->load(Object(UserTest))
+#4 /usr/share/php/PHPUnit/Framework/TestSuite.php(775): CakeTestCase->run(Object(PHPUnit_Framework_TestResult))
+#5 /usr/share/php/PHPUnit/Framework/TestSuite.php(745): PHPUnit_Framework_TestSuite->runTest(Object(UserTest), Object(PHPUnit_Framework_TestResult))
+#6 /usr/share/php/PHPUnit/TextUI/TestRunner.php(349): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#7 /var/www/cake/lib/Cake/TestSuite/CakeTestRunner.php(60): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#8 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteCommand.php(95): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#9 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(243): CakeTestSuiteCommand->run(Array)
+#10 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#11 /var/www/cake/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#12 /var/www/cake/app/webroot/test.php(98): CakeTestSuiteDispatcher::run()
+#13 {main}
+2014-04-11 20:23:36 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveEmailHash' at line 1
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('saveEmailHash', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('saveEmailHash', Array, Array)
+#3 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('saveEmailHash', Array, Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(800): DboSource->query('saveEmailHash', Array, Object(Registration))
+#5 /var/www/cake/app/Controller/UsersController.php(297): Model->__call('saveEmailHash', Array)
+#6 /var/www/cake/app/Controller/UsersController.php(297): Registration->saveEmailHash('1', 1397262215)
+#7 [internal function]: UsersController->register()
+#8 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-11 20:28:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveEmailAsHash' at line 1
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('saveEmailAsHash', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('saveEmailAsHash', Array, Array)
+#3 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('saveEmailAsHash', Array, Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(800): DboSource->query('saveEmailAsHash', Array, Object(User))
+#5 /var/www/cake/app/Controller/UsersController.php(303): Model->__call('saveEmailAsHash', Array)
+#6 /var/www/cake/app/Controller/UsersController.php(303): User->saveEmailAsHash('1', 1397262529)
+#7 [internal function]: UsersController->register()
+#8 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-11 20:34:08 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveEmailAsHash' at line 1
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('saveEmailAsHash', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('saveEmailAsHash', Array, Array)
+#3 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('saveEmailAsHash', Array, Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(800): DboSource->query('saveEmailAsHash', Array, Object(User))
+#5 /var/www/cake/app/Controller/UsersController.php(303): Model->__call('saveEmailAsHash', Array)
+#6 /var/www/cake/app/Controller/UsersController.php(303): User->saveEmailAsHash('1', 1397262847)
+#7 [internal function]: UsersController->register()
+#8 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-11 20:41:02 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveEmailAsHash' at line 1
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('saveEmailAsHash', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('saveEmailAsHash', Array, Array)
+#3 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('saveEmailAsHash', Array, Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(800): DboSource->query('saveEmailAsHash', Array, Object(User))
+#5 /var/www/cake/app/Controller/UsersController.php(303): Model->__call('saveEmailAsHash', Array)
+#6 /var/www/cake/app/Controller/UsersController.php(303): User->saveEmailAsHash('1', 1397263261)
+#7 [internal function]: UsersController->register()
+#8 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-11 20:45:29 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveEmailAsHash' at line 1
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('saveEmailAsHash', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('saveEmailAsHash', Array, Array)
+#3 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('saveEmailAsHash', Array, Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(800): DboSource->query('saveEmailAsHash', Array, Object(User))
+#5 /var/www/cake/app/Controller/UsersController.php(303): Model->__call('saveEmailAsHash', Array)
+#6 /var/www/cake/app/Controller/UsersController.php(303): User->saveEmailAsHash('1', 1397263528)
+#7 [internal function]: UsersController->register()
+#8 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-11 20:53:19 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/cake/app/Controller/UsersController.php, line 312]
+2014-04-11 20:53:19 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cake/Users/register
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cake/a...', 312)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cake/a...', 312, Array)
+#2 /var/www/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cake/a...', 312, Array)
+#3 /var/www/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-11 21:15:53 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'setRegValidStatus' at line 1
+Request URL: /cake/Users/activateAccount/hash:49b4d1e51fbda1f56ed2df5fcadd4de2
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('setRegValidStat...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('setRegValidStat...', Array, Array)
+#3 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('setRegValidStat...', Array, Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(800): DboSource->query('setRegValidStat...', Array, Object(Registration))
+#5 /var/www/cake/app/Controller/UsersController.php(219): Model->__call('setRegValidStat...', Array)
+#6 /var/www/cake/app/Controller/UsersController.php(219): Registration->setRegValidStatus('49b4d1e51fbda1f...')
+#7 [internal function]: UsersController->activateAccount()
+#8 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-11 21:18:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'setRegValidIsStatus' at line 1
+Request URL: /cake/Users/activateAccount/hash:49b4d1e51fbda1f56ed2df5fcadd4de2
+Stack Trace:
+#0 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('setRegValidIsSt...', Array)
+#2 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('setRegValidIsSt...', Array, Array)
+#3 /var/www/cake/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('setRegValidIsSt...', Array, Array)
+#4 /var/www/cake/lib/Cake/Model/Model.php(800): DboSource->query('setRegValidIsSt...', Array, Object(Registration))
+#5 /var/www/cake/app/Controller/UsersController.php(219): Model->__call('setRegValidIsSt...', Array)
+#6 /var/www/cake/app/Controller/UsersController.php(219): Registration->setRegValidIsStatus('49b4d1e51fbda1f...')
+#7 [internal function]: UsersController->activateAccount()
+#8 /var/www/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}

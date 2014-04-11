@@ -5,6 +5,7 @@ App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
 class User extends AppModel
 {
     public $useTable = 'users';
+    public $hasOne = 'Registration';
 
     public $hasMany = array(
         'Reminder' => array(
@@ -12,7 +13,8 @@ class User extends AppModel
         )
     );
 
-    public $hasOne = 'Registration';
+    private $confirm_email = null;
+    private $confirm_password = null;
 
     public $validate = array(
         'username' => array(
@@ -64,13 +66,39 @@ class User extends AppModel
         )
     );
 
+    /**
+     * @param $confirmEmail
+     * @return bool
+     */
+        public function setConfirmEmail($confirmEmail) {
 
-    public $confirm_email = null;
-    public $confirm_password = null;
+        if(empty($confirmEmail)) {
+            return false;
+        } else {
+            $this->confirm_email = $confirmEmail;
+            return true;
+        }
+    }
 
+    /**
+     * @param $confirmPassword
+     * @return bool
+     */
+    public function setConfirmPassword($confirmPassword) {
+        if(empty($confirmPassword)) {
+            return false;
+        } else {
+            $this->confirm_password = $confirmPassword;
+            return true;
+        }
+    }
+
+    /**
+     * @param $check array
+     * @return bool
+     */
     public function isValid($check)
     {
-
         $value = array_values($check);
 
         if (empty($value[0])) {
@@ -80,15 +108,24 @@ class User extends AppModel
         }
     }
 
-    public function compareFields($check, $comparedField = null)
+    /**
+     * @param $check array
+     * @param null $comparedField
+     * @return bool
+     */
+    public function compareFields($check, $comparedField)
     {
         $fieldOne = array_values($check);
+
         if ($fieldOne[0] == $this->data[$this->alias][$comparedField]) {
             return true;
+        } else {
+            return false;
         }
     }
 
-    public function beforeValidate($options = array())
+
+    public function beforeValidate()
     {
 
         if (isset($this->confirm_email)) {
@@ -132,13 +169,13 @@ class User extends AppModel
         return $temp[$this->alias]['id'];
     }
 
-    public function checkEmailExists($userEmail)
+    public function checkValueExists($field, $userEmail)
     {
         if ($this->find(
             'first',
             array(
                 'conditions' => array(
-                    'email' => $userEmail
+                    $field => $userEmail
                 )
             )
         )
