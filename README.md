@@ -7,3 +7,4 @@
 * Add SendGrid credentials into: `app/config/SendGridAuth.php`
 * Change `Security.salt` and `Security.cipherSeed` in `app/config/core.php`
 
+

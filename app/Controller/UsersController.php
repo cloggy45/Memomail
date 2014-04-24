@@ -7,6 +7,8 @@ class UsersController extends AppController
     public $helpers = array('Html', 'Form', 'Timezone.Timezone');
     public $components = array('Session', 'Auth', 'Email');
 
+    private $address = 'http://192.168.0.11';
+
     public function beforeFilter()
     {
         $this->Auth->allow('*');
@@ -164,7 +166,8 @@ class UsersController extends AppController
             $id = $this->Session->read('Config.id');
 
             $this->User->id = $id;
-            $this->User->confirm_password = $this->request->data['User']['confirm_password'];
+
+            $this->User->setConfirmPassword($this->request->data['User']['confirm_password']);
 
             if($this->User->saveField('password', $this->request->data['User']['password'],true)) {
 
@@ -251,6 +254,7 @@ class UsersController extends AppController
         if ($emailType == "activation") {
 
             $this->set('hash', $this->User->Registration->getEmailHash($id));
+            $this->set('address', $this->address . '/cake/Users/activateAccount/hash:');
 
             $this->Email->subject = 'Please Activate Email';
             $this->Email->template = 'registration_activation';
@@ -262,6 +266,7 @@ class UsersController extends AppController
         } elseif ($emailType == "reset") {
 
             $this->set('hash', $this->User->getEmailHash($id));
+            $this->set('address', $this->address . '/cake/Users/resetPassword/hash:');
 
             $this->Email->subject = 'Reset Password';
             $this->Email->template = 'password_reset';

@@ -1,6 +1,37 @@
-<h2>Hey <?php echo $username ?><h2>
+<table class="row">
+    <tr>
+        <td class="wrapper last">
+            <table class="twelve columns">
+                <tr>
+                    <td>
+                        <h1>Hi, <?php echo $username; ?> </h1>
 
-        In order to reset your password. Please <?php echo $this->Html->link(
-            'Click Here',
-            'http://192.168.0.6/cake/Users/resetPassword/hash:' . $hash
-        ); ?> to finish your registration.
+                        <p class="lead">In order to reset your password. Please <?php echo $this->Html->link(
+                                'Click Here',
+                                $address . $hash
+                            ); ?> to reset your password.</p>
+                    </td>
+                    <td class="expander"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!--                <table class="row callout">-->
+<!--                    <tr>-->
+<!--                        <td class="wrapper last">-->
+<!---->
+<!--                            <table class="twelve columns">-->
+<!--                                <tr>-->
+<!--                                    <td class="panel">-->
+<!--                                        <p>Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor,-->
+<!--                                            fringilla et pharetra vitae. <a href="#">Click it! »</a></p>-->
+<!--                                    </td>-->
+<!--                                    <td class="expander"></td>-->
+<!--                                </tr>-->
+<!--                            </table>-->
+<!---->
+<!--                        </td>-->
+<!--                    </tr>-->
+<!--                </table>-->

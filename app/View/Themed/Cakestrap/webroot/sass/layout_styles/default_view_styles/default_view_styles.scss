@@ -1,7 +1,13 @@
 @import "layout_styles/_user_variables";
 
+
+
 body {
   padding-top: 50px;
+
+  #title {
+    font-weight: 700;
+  }
 
   ul {
     li {

@@ -9760,15 +9760,19 @@ td.visible-print {
 * Moreover, a specific value in px can be passed which is
 * used to generate a max-width media query.
 */
-/* line 3, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 5, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body {
   padding-top: 50px;
 }
 /* line 8, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+body #title {
+  font-weight: 700;
+}
+/* line 14, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body ul li a:hover {
   color: #962418 !important;
 }
-/* line 14, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 20, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer {
   color: #fdf2d8;
   background: #e75849;
@@ -9776,24 +9780,24 @@ body footer {
   bottom: 0px;
   width: 100%;
 }
-/* line 22, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 28, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer p {
   padding: 5px 0px;
   text-align: center;
   margin: 0px;
   color: white;
 }
-/* line 29, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 35, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer a {
   color: #962418;
 }
-/* line 32, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 38, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer a:hover {
   text-decoration: none;
   color: white;
 }
 
-/* line 40, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 46, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 #flashMessage {
   text-align: center;
   margin: 10px;
