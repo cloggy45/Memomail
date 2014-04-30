@@ -1,3 +1,11 @@
+#submit_form {
+  h2 {
+    @include respond-to(tablet-portrait) {
+      padding-left: 0px;
+    }
+  }
+}
+
 #login_view {
   h2 {
     @include respond-to(tablet-portrait) {

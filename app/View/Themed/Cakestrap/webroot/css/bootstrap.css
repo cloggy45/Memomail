@@ -10270,68 +10270,79 @@ body footer #footer a:hover {
 }
 
 /* line 2, ../sass/layout_styles/media_queries.scss */
-#login_view h2 {
+#submit_form h2 {
   /* Landscape phones and down */
 }
 @media (max-width: 767px) {
   /* line 2, ../sass/layout_styles/media_queries.scss */
+  #submit_form h2 {
+    padding-left: 0px;
+  }
+}
+
+/* line 10, ../sass/layout_styles/media_queries.scss */
+#login_view h2 {
+  /* Landscape phones and down */
+}
+@media (max-width: 767px) {
+  /* line 10, ../sass/layout_styles/media_queries.scss */
   #login_view h2 {
     padding-left: 0px;
   }
 }
 
-/* line 11, ../sass/layout_styles/media_queries.scss */
+/* line 19, ../sass/layout_styles/media_queries.scss */
 #register_view h2 {
   /* Landscape phones and down */
 }
 @media (max-width: 767px) {
-  /* line 11, ../sass/layout_styles/media_queries.scss */
+  /* line 19, ../sass/layout_styles/media_queries.scss */
   #register_view h2 {
     padding-left: 0px;
   }
 }
 
-/* line 19, ../sass/layout_styles/media_queries.scss */
+/* line 27, ../sass/layout_styles/media_queries.scss */
 #send_reset_email h2 {
   /* Landscape phones and down */
 }
 @media (max-width: 767px) {
-  /* line 19, ../sass/layout_styles/media_queries.scss */
+  /* line 27, ../sass/layout_styles/media_queries.scss */
   #send_reset_email h2 {
     padding-left: 0px;
   }
 }
 
-/* line 27, ../sass/layout_styles/media_queries.scss */
+/* line 35, ../sass/layout_styles/media_queries.scss */
 #reset_password_view h2 {
   /* Landscape phones and down */
 }
 @media (max-width: 767px) {
-  /* line 27, ../sass/layout_styles/media_queries.scss */
+  /* line 35, ../sass/layout_styles/media_queries.scss */
   #reset_password_view h2 {
     position: relative;
     right: 10px;
   }
 }
 
-/* line 36, ../sass/layout_styles/media_queries.scss */
+/* line 44, ../sass/layout_styles/media_queries.scss */
 #settings_view h2 {
   /* Landscape phones and down */
 }
 @media (max-width: 767px) {
-  /* line 36, ../sass/layout_styles/media_queries.scss */
+  /* line 44, ../sass/layout_styles/media_queries.scss */
   #settings_view h2 {
     position: relative;
     right: 10px;
   }
 }
 
-/* line 46, ../sass/layout_styles/media_queries.scss */
+/* line 54, ../sass/layout_styles/media_queries.scss */
 #add_view h2 {
   /* Landscape phones and down */
 }
 @media (max-width: 767px) {
-  /* line 46, ../sass/layout_styles/media_queries.scss */
+  /* line 54, ../sass/layout_styles/media_queries.scss */
   #add_view h2 {
     padding-left: 0px;
   }
