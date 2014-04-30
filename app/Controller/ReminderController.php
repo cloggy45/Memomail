@@ -7,7 +7,6 @@ class ReminderController extends AppController
 
     public function add()
     {
-
         $this->set('cssIncludes', array('themes/default', 'themes/default.date', 'themes/default.time'));
         $this->set(
             'jsIncludes',

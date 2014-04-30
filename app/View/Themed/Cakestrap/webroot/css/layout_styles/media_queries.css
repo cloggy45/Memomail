@@ -1,13 +1,13 @@
 /*
 Syntax error: Undefined mixin 'respond-to'.
-        on line 3 of /var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss, in `respond-to'
-        from line 3 of /var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss
+        on line 3 of /var/www/Remind-Me/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss, in `respond-to'
+        from line 3 of /var/www/Remind-Me/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss
 
-1: /var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss
+1: /var/www/Remind-Me/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss
 
 Backtrace:
-/var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss:3:in `respond-to'
-/var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss:3
+/var/www/Remind-Me/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss:3:in `respond-to'
+/var/www/Remind-Me/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss:3
 /var/lib/gems/1.8/gems/sass-3.2.14/lib/sass/../sass/tree/visitors/perform.rb:253:in `visit_mixin'
 /var/lib/gems/1.8/gems/sass-3.2.14/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
 /var/lib/gems/1.8/gems/sass-3.2.14/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
@@ -76,4 +76,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'respond-to'.\A         on line 3 of /var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss, in `respond-to'\A         from line 3 of /var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss\A \A 1: /var/www/cake/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss"; }
+  content: "Syntax error: Undefined mixin 'respond-to'.\A         on line 3 of /var/www/Remind-Me/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss, in `respond-to'\A         from line 3 of /var/www/Remind-Me/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss\A \A 1: /var/www/Remind-Me/app/View/Themed/Cakestrap/webroot/sass/layout_styles/media_queries.scss"; }

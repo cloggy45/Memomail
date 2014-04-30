@@ -1,0 +1,26 @@
+#submit_form {
+
+  h2 {
+    @include make-sm-column-offset(4);
+    padding-left: 9px;
+  }
+
+
+  .form-group {
+
+    .form-input {
+      @include make-sm-column-offset(4);
+      @include make-sm-column(4);
+    }
+
+    button {
+      margin-bottom: 50px;
+    }
+
+    .submit-button {
+      @include make-sm-column-offset(4);
+      @include make-sm-column(1);
+    }
+
+  }
+}

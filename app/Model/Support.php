@@ -1,6 +1,6 @@
 <?php
 
-class User extends AppModel
+class Support extends AppModel
 {
-
+    public $belongsTo = 'User';
 }

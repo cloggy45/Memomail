@@ -10104,6 +10104,61 @@ body footer #footer a:hover {
   }
 }
 
+/* line 3, ../sass/layout_styles/support_view_styles/submitForm_view_styles.scss */
+#submit_form h2 {
+  padding-left: 9px;
+}
+@media (min-width: 768px) {
+  /* line 3, ../sass/layout_styles/support_view_styles/submitForm_view_styles.scss */
+  #submit_form h2 {
+    margin-left: 33.33333%;
+  }
+}
+/* line 11, ../sass/layout_styles/support_view_styles/submitForm_view_styles.scss */
+#submit_form .form-group .form-input {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  /* line 11, ../sass/layout_styles/support_view_styles/submitForm_view_styles.scss */
+  #submit_form .form-group .form-input {
+    margin-left: 33.33333%;
+  }
+}
+@media (min-width: 768px) {
+  /* line 11, ../sass/layout_styles/support_view_styles/submitForm_view_styles.scss */
+  #submit_form .form-group .form-input {
+    float: left;
+    width: 33.33333%;
+  }
+}
+/* line 16, ../sass/layout_styles/support_view_styles/submitForm_view_styles.scss */
+#submit_form .form-group button {
+  margin-bottom: 50px;
+}
+/* line 20, ../sass/layout_styles/support_view_styles/submitForm_view_styles.scss */
+#submit_form .form-group .submit-button {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  /* line 20, ../sass/layout_styles/support_view_styles/submitForm_view_styles.scss */
+  #submit_form .form-group .submit-button {
+    margin-left: 33.33333%;
+  }
+}
+@media (min-width: 768px) {
+  /* line 20, ../sass/layout_styles/support_view_styles/submitForm_view_styles.scss */
+  #submit_form .form-group .submit-button {
+    float: left;
+    width: 8.33333%;
+  }
+}
+
 /* line 3, ../sass/layout_styles/reminder_view_styles/add_view_styles.scss */
 #add_view h2 {
   padding-left: 9px;

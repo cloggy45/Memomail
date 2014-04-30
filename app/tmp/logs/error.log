@@ -220,3 +220,102 @@ Request URL: /cake/%5D
 Stack Trace:
 #0 /var/www/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-04-29 21:57:26 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Support/submit_form.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Support/submit_form.ctp',
+)
+Request URL: /Remind-Me/Support/submitForm
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SupportController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-29 21:58:44 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Support/submit_form.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Support/submit_form.ctp',
+)
+Request URL: /Remind-Me/Support/submitForm
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SupportController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-29 21:59:31 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Support/submit_form.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Support/submit_form.ctp',
+)
+Request URL: /Remind-Me/Support/submitForm
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SupportController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-29 22:02:05 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Support/submit_form.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Support/submit_form.ctp',
+)
+Request URL: /Remind-Me/Support/submitForm
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SupportController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-29 22:15:46 Error: Fatal Error (64): Cannot redeclare class User in [/var/www/Remind-Me/app/Model/Support.php, line 6]
+2014-04-29 22:15:46 Error: [FatalErrorException] Cannot redeclare class User
+Request URL: /Remind-Me/Support/submitForm
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/Remind...', 6)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/Remind...', 6, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/Remind...', 6, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-29 22:16:12 Error: [MissingTableException] Table supports for model Support was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'supports',
+  'class' => 'Support',
+  'ds' => 'default',
+)
+Request URL: /Remind-Me/Support/submitForm
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Model.php(3496): Model->setSource('supports')
+#1 /var/www/Remind-Me/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /var/www/Remind-Me/lib/Cake/View/Helper/FormHelper.php(199): Model->schema()
+#3 /var/www/Remind-Me/lib/Cake/View/Helper/FormHelper.php(451): FormHelper->_introspectModel('Support', 'fields')
+#4 /var/www/Remind-Me/app/View/Support/submit_form.ctp(15): FormHelper->create('Support', Array)
+#5 /var/www/Remind-Me/lib/Cake/View/View.php(929): include('/var/www/Remind...')
+#6 /var/www/Remind-Me/lib/Cake/View/View.php(891): View->_evaluate('/var/www/Remind...', Array)
+#7 /var/www/Remind-Me/lib/Cake/View/View.php(460): View->_render('/var/www/Remind...')
+#8 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SupportController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-29 22:31:42 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/Remind-Me/app/Model/Support.php, line 5]
+2014-04-29 22:31:42 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /Remind-Me/Support/submitForm
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 5, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 5, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-29 22:32:20 Error: Fatal Error (1): Call to undefined function input() in [/var/www/Remind-Me/app/View/Support/submit_form.ctp, line 19]
+2014-04-29 22:32:20 Error: [FatalErrorException] Call to undefined function input()
+Request URL: /Remind-Me/Support/submitForm
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/Remind...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/Remind...', 19, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/Remind...', 19, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
