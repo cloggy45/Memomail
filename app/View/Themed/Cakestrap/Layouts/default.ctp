@@ -86,7 +86,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
                     <ul class="nav navbar-nav navbar-right">
 
                         <?php if ($this->Session->check('User')): ?>
-                            <li class="disabled"> <?php echo $this->Html->link('Welcome ' . $this->Session->read('User.username'),'#'); ?></li>
+<!--                            <li class="disabled"> --><?php //echo $this->Html->link('Welcome ' . $this->Session->read('User.username'),'#'); ?><!--</li>-->
                             <li> <?php echo $this->Html->link('Logout', '/Users/logout'); ?> </li>
                             <li> <?php echo $this->Html->link('Settings', '/Users/settings'); ?> </li>
                             <li> <?php echo $this->Html->link('Add Reminders', '/Reminder/add'); ?> </li>

@@ -244,7 +244,7 @@ class UsersController extends AppController
         $id = $this->request->params['named']['id'];
         $emailType = $this->request->params['named']['type'];
 
-        $this->Email->smtpOptions = $userAuth;
+        $this->Email->smtpOptions = $sendAuth;
         $this->Email->delivery = 'smtp';
         $this->Email->from = $fromEmail;
         $this->Email->to = $this->User->getUserDetails($id, 'email');

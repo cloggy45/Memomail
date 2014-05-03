@@ -29,13 +29,23 @@
 
     <div class="form-group">
         <div class="form-input">
-            <select class="form-control">
-                <option>Bug</option>
-                <option>Feature Request</option>
-                <option>General</option>
-            </select>
+            <?php echo $this->Form->input(
+                'category',
+                array('options' => array('Bug', 'Feature Request', 'General'),
+                'class' => 'form-control')
+            ); ?>
         </div>
     </div>
+
+<!--    <div class="form-group">-->
+<!--        <div class="form-input">-->
+<!--            <select class="form-control" >-->
+<!--                <option>Bug</option>-->
+<!--                <option>Feature Request</option>-->
+<!--                <option>General</option>-->
+<!--            </select>-->
+<!--        </div>-->
+<!--    </div>-->
 
     <div class="form-group">
         <div class="form-input">
