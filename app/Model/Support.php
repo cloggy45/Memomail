@@ -11,7 +11,7 @@ class Support extends AppModel
                 'message' => 'This field cannot be left blank'
             ),
             'maxLength' => array(
-                'rule' => array('maxLength', 30),
+                'rule' => array('maxLength', 50),
                 'message' => 'Subject can only have a maximum of 30 characters'
             )
         ),
@@ -21,7 +21,7 @@ class Support extends AppModel
                 'message' => 'This field cannot be left blank'
             ),
             'maxLength' => array(
-                'rule' => array('maxLength', 100),
+                'rule' => array('maxLength', 300),
                 'message' => 'Body can only have a maxmimum of 100 characters'
             )
         )

@@ -48,9 +48,9 @@ class ReminderController extends AppController
 
                 $this->Reminder->save($data);
 
-                $this->flash("Reminder Added", "Reminder/add");
+                $this->Session->setFlash('Reminder Added','successFlash');
 
-                $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
+                $this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
 
             } else {
 

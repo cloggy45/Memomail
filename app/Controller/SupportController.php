@@ -11,6 +11,9 @@ class SupportController extends AppController
     {
         if($this->request->is('post'))
         {
+            $this->Session->setFlash('Support Ticket Submitted','myFlash');
+            $this->redirect(array('controller' => 'Support', 'action' => 'submitForm'));
+
             $data = array(
                 'user_id' => $this->Session->read('User.userId'),
                 'subject' => $this->request->data['Support']['subject'],
@@ -20,7 +23,11 @@ class SupportController extends AppController
 
             if($this->Support->save($data))
             {
-                $this->Session->setFlash('Support Ticket Submitted');
+                $this->Session->setFlash('Support ticket submitted.','successFlash');
+                $this->redirect(array('controller' => 'Support', 'action' => 'submitForm'));
+
+            } else {
+                $this->Session->setFlash('Unable to submit support ticket, try again.','failureFlash');
                 $this->redirect(array('controller' => 'Support', 'action' => 'submitForm'));
             }
         }

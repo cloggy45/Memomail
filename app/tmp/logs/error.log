@@ -483,3 +483,23 @@ Stack Trace:
 #8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2014-05-04 14:56:59 Error: Fatal Error (1): Call to a member function flash() on a non-object in [/var/www/Remind-Me/app/Controller/SupportController.php, line 24]
+2014-05-04 14:56:59 Error: [FatalErrorException] Call to a member function flash() on a non-object
+Request URL: /Remind-Me/Support/submitForm
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Remind...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Remind...', 24, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Remind...', 24, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-04 14:57:16 Error: Fatal Error (1): Call to a member function flash() on a non-object in [/var/www/Remind-Me/app/Controller/SupportController.php, line 24]
+2014-05-04 14:57:16 Error: [FatalErrorException] Call to a member function flash() on a non-object
+Request URL: /Remind-Me/Support/submitForm
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Remind...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Remind...', 24, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Remind...', 24, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

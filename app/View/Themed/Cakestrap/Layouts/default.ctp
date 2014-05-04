@@ -37,6 +37,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
     echo $this->Html->css('bootstrap');
     echo $this->Html->css('main');
+    echo $this->Html->css('alertify.core');
+    echo $this->Html->css('alertify.bootstrap');
 
     if (isset($cssIncludes)) {
         foreach ($cssIncludes as $css) {
@@ -46,13 +48,13 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
     echo $this->fetch('css');
 
-
     echo $this->Html->script('//code.jquery.com/jquery-1.10.2.min.js');
     echo $this->Html->script(
         '//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.1.38/jquery.form-validator.min.js'
     );
 
     echo $this->Html->script('libs/bootstrap.min');
+    echo $this->Html->script('alertify.min');
 
     if (isset($jsIncludes)) {
         foreach ($jsIncludes as $js) {
