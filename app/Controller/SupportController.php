@@ -11,9 +11,6 @@ class SupportController extends AppController
     {
         if($this->request->is('post'))
         {
-            $this->Session->setFlash('Support Ticket Submitted','myFlash');
-            $this->redirect(array('controller' => 'Support', 'action' => 'submitForm'));
-
             $data = array(
                 'user_id' => $this->Session->read('User.userId'),
                 'subject' => $this->request->data['Support']['subject'],
