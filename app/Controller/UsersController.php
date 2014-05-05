@@ -45,6 +45,7 @@ class UsersController extends AppController
                 if (!$registrationValid) {
 
                     $this->Session->setFlash('Activate Email First');
+                    $this->Session->setFlash('Activate email first','failureFlash');
                     $this->Session->delete('User');
 
                     return $this->redirect($this->Auth->logout());
@@ -55,6 +56,7 @@ class UsersController extends AppController
 
             } else {
                 $this->Session->setFlash("Incorrect login information");
+                $this->Session->setFlash('Incorrect login information','failureFlash');
             }
         }
     }
@@ -69,10 +71,6 @@ class UsersController extends AppController
 
     public function settings()
     {
-
-        // Todo: Display stacked validation errors
-        // Todo: Add fade to setFlash messages
-
         $this->set('jsIncludes', array('formValidation'));
 
         if ($this->request->is('post')) {
@@ -114,14 +112,15 @@ class UsersController extends AppController
 
             if ($this->request->data['User']['Clear All']) {
                 $SettingsChanged = true;
-                $this->Session->setFlash('Cleared all reminders');
+
+                $this->Session->setFlash('Cleared all reminders','successFlash');
             }
 
             if ($SettingsChanged) {
-                $this->Session->setFlash('Settings Changed');
+                $this->Session->setFlash('Settings Changed','successFlash');
 
             } else {
-                $this->Session->setFlash('Nothing Changed');
+                $this->Session->setFlash('Support ticket submitted','failureFlash');
             }
         }
     }
@@ -197,7 +196,7 @@ class UsersController extends AppController
 
             if ($emailExists && !$this->User->Registration->getRegValidStatus($id)) {
 
-                $this->Session->setFlash("You must activate account before changing passwords");
+                $this->Session->setFlash('You must activate your account before changing passwords','failureFlash');
 
             } elseif ($emailExists) {
 
@@ -211,7 +210,7 @@ class UsersController extends AppController
                 );
 
             } else {
-                $this->Session->setFlash("Account does not exist");
+                $this->Session->setFlash('Account does not exist','failureFlash');
             }
 
         }
@@ -224,7 +223,8 @@ class UsersController extends AppController
         $isHashValid = $this->User->Registration->setRegIsValidStatus($hash);
 
         if ($isHashValid) {
-            $this->Session->setFlash('Account Validated');
+
+            $this->Session->setFlash('Account Validated','successFlash');
 
             $this->redirect(
                 array(
@@ -234,7 +234,7 @@ class UsersController extends AppController
             );
 
         } else {
-            $this->Session->setFlash('Account not valid');
+            $this->Session->setFlash('Account is not valid','failureFlash');
         }
     }
 
@@ -262,7 +262,7 @@ class UsersController extends AppController
             $this->Email->sendAs = 'both';
             $this->Email->send();
 
-            $this->Session->setFlash('Activation email sent');
+            $this->Session->setFlash('Activation email sent','successFlash');
 
         } elseif ($emailType == "reset") {
 
@@ -274,7 +274,7 @@ class UsersController extends AppController
             $this->Email->sendAs = 'both';
             $this->Email->send();
 
-            $this->Session->setFlash('Reset instructions sent');
+            $this->Session->setFlash('Reset instructions sent','successFlash');
         }
 
         $this->redirect(
