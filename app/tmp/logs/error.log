@@ -48,3 +48,2217 @@ Stack Trace:
 #3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-05-05 22:24:09 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/var/www/Remind-Me/app/Controller/ReminderController.php, line 86]
+2014-05-05 22:24:09 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /Remind-Me/Reminder/get
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 86, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 86, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-05 22:25:58 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/var/www/Remind-Me/app/Controller/ReminderController.php, line 86]
+2014-05-05 22:25:58 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /Remind-Me/Reminder/get
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 86, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 86, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-05 22:27:35 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Reminder/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Reminder/delete.ctp',
+)
+Request URL: /Remind-Me/Reminder/delete?id=1
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-05 23:00:21 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Reminder/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Reminder/delete.ctp',
+)
+Request URL: /Remind-Me/Reminder/delete?id=1
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-05 23:00:22 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/Remind-Me/app/View/Elements/prompt.ctp, line 8]
+2014-05-05 23:00:22 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /Remind-Me/Reminder/delete?id=1
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 8, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 8, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-05 23:00:33 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Reminder/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Reminder/delete.ctp',
+)
+Request URL: /Remind-Me/Reminder/delete?id=1
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-05 23:00:58 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Reminder/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Reminder/delete.ctp',
+)
+Request URL: /Remind-Me/Reminder/delete?id=1
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-05 23:01:35 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Reminder/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Reminder/delete.ctp',
+)
+Request URL: /Remind-Me/Reminder/delete?id=1
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-05 23:01:42 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Reminder/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Reminder/delete.ctp',
+)
+Request URL: /Remind-Me/Reminder/delete?id=1
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-06 09:12:07 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:09 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:09 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:09 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:09 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:09 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:09 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:12 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:12 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:13 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:13 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:14 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:15 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:15 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:12:16 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(113): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:13:46 Error: Fatal Error (1): Class 'Opauth' not found in [/var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php, line 139]
+2014-05-06 09:13:46 Error: [FatalErrorException] Class 'Opauth' not found
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Opauth' ...', '/var/www/Remind...', 139)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Opauth' ...', '/var/www/Remind...', 139, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Opauth' ...', '/var/www/Remind...', 139, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:15:21 Error: Fatal Error (1): Class 'Opauth' not found in [/var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php, line 139]
+2014-05-06 09:15:21 Error: [FatalErrorException] Class 'Opauth' not found
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Opauth' ...', '/var/www/Remind...', 139)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Opauth' ...', '/var/www/Remind...', 139, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Opauth' ...', '/var/www/Remind...', 139, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:15:52 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:15:53 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:15:53 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:15:53 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:15:53 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:15:53 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:15:53 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:15:56 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:15:56 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:15:57 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:15:58 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:15:58 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:15:59 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:15:59 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:02 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:03 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:03 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:03 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:03 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:03 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:03 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:05 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:06 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:08 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:08 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(114): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:09 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:09 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:10 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:17:10 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:01 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:02 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:02 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:02 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:02 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:02 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:02 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:05 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:05 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:06 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:06 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:07 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:07 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:08 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:09 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:25 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:25 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:26 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:26 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:26 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:26 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:26 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:30 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:19:30 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:20:01 Error: Fatal Error (1): Class 'Opauth' not found in [/var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php, line 139]
+2014-05-06 09:20:01 Error: [FatalErrorException] Class 'Opauth' not found
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Opauth' ...', '/var/www/Remind...', 139)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Opauth' ...', '/var/www/Remind...', 139, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Opauth' ...', '/var/www/Remind...', 139, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:20:35 Error: Fatal Error (1): Class 'Opauth' not found in [/var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php, line 139]
+2014-05-06 09:20:35 Error: [FatalErrorException] Class 'Opauth' not found
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Opauth' ...', '/var/www/Remind...', 139)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Opauth' ...', '/var/www/Remind...', 139, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Opauth' ...', '/var/www/Remind...', 139, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:25:09 Error: Fatal Error (1): Class 'Opauth' not found in [/var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php, line 139]
+2014-05-06 09:25:09 Error: [FatalErrorException] Class 'Opauth' not found
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Opauth' ...', '/var/www/Remind...', 139)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Opauth' ...', '/var/www/Remind...', 139, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Opauth' ...', '/var/www/Remind...', 139, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:28:59 Error: [MissingPluginException] Plugin Opauth could not be found.
+Exception Attributes: array (
+  'plugin' => 'Opauth',
+)
+Stack Trace:
+#0 /var/www/Remind-Me/app/Config/bootstrap.php(116): CakePlugin::load('Opauth', Array)
+#1 /var/www/Remind-Me/lib/Cake/Core/Configure.php(92): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/Remind-Me/app/webroot/index.php(90): include('/var/www/Remind...')
+#4 {main}
+2014-05-06 09:29:53 Error: [MissingControllerException] Controller class AuthController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 09:32:03 Error: [MissingControllerException] Controller class AuthController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 09:33:17 Error: [MissingControllerException] Controller class AuthController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 09:34:40 Error: [MissingControllerException] Controller class AuthController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 09:34:53 Error: [MissingControllerException] Controller class AuthController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 09:36:38 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:36:38 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:36:39 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:36:39 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:37:38 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:37:38 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:37:38 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:37:38 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:38:11 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:38:11 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:38:11 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:38:11 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:39:37 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:39:37 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:39:37 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:39:37 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:39:40 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:39:40 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:39:41 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:39:41 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:40:01 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:40:01 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:40:02 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:40:02 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:41:37 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:41:37 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:41:37 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:41:37 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:45:34 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:45:34 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:45:35 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:45:35 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:45:39 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:45:39 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/Facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('Facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:45:39 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:45:39 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/Facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:47:59 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:47:59 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/Facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('Facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:47:59 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:47:59 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/Facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:48:05 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:48:05 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/Facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('Facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:48:05 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:48:05 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/Facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:48:13 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:48:13 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:48:14 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:48:14 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:48:22 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:48:22 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index()
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:48:23 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:48:23 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:48:28 Error: Fatal Error (4): syntax error, unexpected '-', expecting '(' in [/var/www/Remind-Me/app/Controller/UsersController.php, line 28]
+2014-05-06 09:48:28 Error: [FatalErrorException] syntax error, unexpected '-', expecting '('
+Request URL: /Remind-Me/users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 28, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 28, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:49:25 Error: Fatal Error (4): syntax error, unexpected '-', expecting '(' in [/var/www/Remind-Me/app/Controller/UsersController.php, line 28]
+2014-05-06 09:49:25 Error: [FatalErrorException] syntax error, unexpected '-', expecting '('
+Request URL: /Remind-Me/users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 28, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 28, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:49:44 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:49:44 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:49:45 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:49:45 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:51:01 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:51:01 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('facebook')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-06 09:51:02 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - auth in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-06 09:51:02 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - auth
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 10:03:07 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 11:13:57 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/Remind-Me/app/Controller/UsersController.php, line 32]
+2014-05-06 11:13:57 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /Remind-Me/Users/register
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 32, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 32, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 11:14:11 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/Remind-Me/app/Controller/UsersController.php, line 32]
+2014-05-06 11:14:11 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /Remind-Me/Users/register
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 32, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 32, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 11:14:14 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/Remind-Me/app/Controller/UsersController.php, line 32]
+2014-05-06 11:14:14 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /Remind-Me/Users/register
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 32, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 32, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 11:14:16 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/Remind-Me/app/Controller/UsersController.php, line 32]
+2014-05-06 11:14:16 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /Remind-Me/Users/register
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 32, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 32, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 11:14:17 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/Remind-Me/app/Controller/UsersController.php, line 32]
+2014-05-06 11:14:17 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /Remind-Me/Users/register
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 32, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 32, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 11:26:35 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 1606087646282035' at line 1
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('count', Array)
+#6 /var/www/Remind-Me/app/Controller/UsersController.php(34): Model->find('count', Array)
+#7 [internal function]: UsersController->opauth_complete()
+#8 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 [internal function]: OpauthAppController->callback()
+#13 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#14 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#15 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#16 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-05-06 11:26:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 1606087646282035' at line 1
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('count', Array)
+#6 /var/www/Remind-Me/app/Controller/UsersController.php(34): Model->find('count', Array)
+#7 [internal function]: UsersController->opauth_complete()
+#8 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 [internal function]: OpauthAppController->callback()
+#13 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#14 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#15 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#16 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-05-06 11:27:04 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 11:52:48 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/var/www/Remind-Me/app/Controller/UsersController.php, line 41]
+2014-05-06 11:52:48 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 41, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 41, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 11:53:12 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 13:11:49 Error: Fatal Error (4): syntax error, unexpected T_IF in [/var/www/Remind-Me/app/Controller/UsersController.php, line 35]
+2014-05-06 13:11:49 Error: [FatalErrorException] syntax error, unexpected T_IF
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 35, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 35, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 13:12:26 Error: Fatal Error (4): syntax error, unexpected T_IF in [/var/www/Remind-Me/app/Controller/UsersController.php, line 35]
+2014-05-06 13:12:26 Error: [FatalErrorException] syntax error, unexpected T_IF
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 35, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 35, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 13:12:59 Error: Fatal Error (4): syntax error, unexpected T_IF in [/var/www/Remind-Me/app/Controller/UsersController.php, line 35]
+2014-05-06 13:12:59 Error: [FatalErrorException] syntax error, unexpected T_IF
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 35, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 35, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 13:13:11 Error: Fatal Error (4): syntax error, unexpected T_IF in [/var/www/Remind-Me/app/Controller/UsersController.php, line 35]
+2014-05-06 13:13:11 Error: [FatalErrorException] syntax error, unexpected T_IF
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 35, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 35, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 13:14:14 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/var/www/Remind-Me/app/Controller/UsersController.php, line 43]
+2014-05-06 13:14:14 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 43, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 43, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 13:14:44 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/var/www/Remind-Me/app/Controller/UsersController.php, line 43]
+2014-05-06 13:14:44 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 43, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 43, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 13:14:52 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/var/www/Remind-Me/app/Controller/UsersController.php, line 43]
+2014-05-06 13:14:52 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 43, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 43, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 13:15:33 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/var/www/Remind-Me/app/Controller/UsersController.php, line 43]
+2014-05-06 13:15:33 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 43, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 43, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 13:15:44 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 13:52:18 Error: Fatal Error (4): syntax error, unexpected ')', expecting T_STRING or T_VARIABLE or '{' or '$' in [/var/www/Remind-Me/app/Controller/UsersController.php, line 36]
+2014-05-06 13:52:18 Error: [FatalErrorException] syntax error, unexpected ')', expecting T_STRING or T_VARIABLE or '{' or '$'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 36, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 36, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 13:52:38 Error: Fatal Error (1): Call to a member function userExists() on a non-object in [/var/www/Remind-Me/app/Controller/UsersController.php, line 36]
+2014-05-06 13:52:38 Error: [FatalErrorException] Call to a member function userExists() on a non-object
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Remind...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Remind...', 36, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Remind...', 36, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 13:55:55 Error: Fatal Error (4): syntax error, unexpected ',' in [/var/www/Remind-Me/app/Model/OpauthUser.php, line 9]
+2014-05-06 13:55:55 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 9, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 9, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 13:57:20 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cakephp.OpauthUsers' doesn't exist
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/Database/Mysql.php(331): DboSource->_execute('SHOW FULL COLUM...')
+#2 /var/www/Remind-Me/lib/Cake/Model/Model.php(1358): Mysql->describe(Object(OpauthUser))
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1400): Model->schema()
+#4 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(2563): Model->getColumnType('OpauthUsers.id')
+#5 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(2518): DboSource->_parseKey(Object(OpauthUser), 'OpauthUsers.id', '160608764628203...')
+#6 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(2401): DboSource->conditionKeysToString(Array, true, Object(OpauthUser))
+#7 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1715): DboSource->conditions(Array, true, true, Object(OpauthUser))
+#8 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1512): DboSource->buildStatement(Array, Object(OpauthUser))
+#9 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1075): DboSource->generateAssociationQuery(Object(OpauthUser), NULL, NULL, NULL, NULL, Array, false, NULL)
+#10 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(OpauthUser), Array)
+#11 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('count', Array)
+#12 /var/www/Remind-Me/app/Model/OpauthUser.php(9): Model->find('count', Array)
+#13 /var/www/Remind-Me/app/Controller/UsersController.php(36): OpauthUser->userExists('160608764628203...')
+#14 [internal function]: UsersController->opauth_complete()
+#15 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#16 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#17 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 [internal function]: OpauthAppController->callback()
+#20 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#21 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#22 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#23 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#24 {main}
+2014-05-06 13:57:26 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cakephp.OpauthUsers' doesn't exist
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/Database/Mysql.php(331): DboSource->_execute('SHOW FULL COLUM...')
+#2 /var/www/Remind-Me/lib/Cake/Model/Model.php(1358): Mysql->describe(Object(OpauthUser))
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1400): Model->schema()
+#4 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(2563): Model->getColumnType('OpauthUsers.id')
+#5 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(2518): DboSource->_parseKey(Object(OpauthUser), 'OpauthUsers.id', '160608764628203...')
+#6 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(2401): DboSource->conditionKeysToString(Array, true, Object(OpauthUser))
+#7 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1715): DboSource->conditions(Array, true, true, Object(OpauthUser))
+#8 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1512): DboSource->buildStatement(Array, Object(OpauthUser))
+#9 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1075): DboSource->generateAssociationQuery(Object(OpauthUser), NULL, NULL, NULL, NULL, Array, false, NULL)
+#10 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(OpauthUser), Array)
+#11 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('count', Array)
+#12 /var/www/Remind-Me/app/Model/OpauthUser.php(9): Model->find('count', Array)
+#13 /var/www/Remind-Me/app/Controller/UsersController.php(36): OpauthUser->userExists('160608764628203...')
+#14 [internal function]: UsersController->opauth_complete()
+#15 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#16 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#17 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 [internal function]: OpauthAppController->callback()
+#20 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#21 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#22 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#23 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#24 {main}
+2014-05-06 13:57:55 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cakephp.OpauthUsers' doesn't exist
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/Database/Mysql.php(331): DboSource->_execute('SHOW FULL COLUM...')
+#2 /var/www/Remind-Me/lib/Cake/Model/Model.php(1358): Mysql->describe(Object(OpauthUser))
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1400): Model->schema()
+#4 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(2563): Model->getColumnType('OpauthUsers.id')
+#5 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(2518): DboSource->_parseKey(Object(OpauthUser), 'OpauthUsers.id', '160608764628203...')
+#6 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(2401): DboSource->conditionKeysToString(Array, true, Object(OpauthUser))
+#7 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1715): DboSource->conditions(Array, true, true, Object(OpauthUser))
+#8 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1512): DboSource->buildStatement(Array, Object(OpauthUser))
+#9 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1075): DboSource->generateAssociationQuery(Object(OpauthUser), NULL, NULL, NULL, NULL, Array, false, NULL)
+#10 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(OpauthUser), Array)
+#11 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('count', Array)
+#12 /var/www/Remind-Me/app/Model/OpauthUser.php(9): Model->find('count', Array)
+#13 /var/www/Remind-Me/app/Controller/UsersController.php(36): OpauthUser->userExists('160608764628203...')
+#14 [internal function]: UsersController->opauth_complete()
+#15 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#16 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#17 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 [internal function]: OpauthAppController->callback()
+#20 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#21 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#22 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#23 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#24 {main}
+2014-05-06 13:58:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OpauthUsers.id' in 'where clause'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(OpauthUser), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('count', Array)
+#6 /var/www/Remind-Me/app/Model/OpauthUser.php(9): Model->find('count', Array)
+#7 /var/www/Remind-Me/app/Controller/UsersController.php(36): OpauthUser->userExists('160608764628203...')
+#8 [internal function]: UsersController->opauth_complete()
+#9 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 [internal function]: OpauthAppController->callback()
+#14 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#15 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#16 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#17 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2014-05-06 13:58:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OpauthUsers.id' in 'where clause'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(OpauthUser), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('count', Array)
+#6 /var/www/Remind-Me/app/Model/OpauthUser.php(9): Model->find('count', Array)
+#7 /var/www/Remind-Me/app/Controller/UsersController.php(36): OpauthUser->userExists('160608764628203...')
+#8 [internal function]: UsersController->opauth_complete()
+#9 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 [internal function]: OpauthAppController->callback()
+#14 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#15 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#16 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#17 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2014-05-06 13:59:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opauthUsers.uid' in 'where clause'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(OpauthUser), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('count', Array)
+#6 /var/www/Remind-Me/app/Model/OpauthUser.php(9): Model->find('count', Array)
+#7 /var/www/Remind-Me/app/Controller/UsersController.php(36): OpauthUser->userExists('160608764628203...')
+#8 [internal function]: UsersController->opauth_complete()
+#9 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 [internal function]: OpauthAppController->callback()
+#14 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#15 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#16 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#17 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2014-05-06 14:01:25 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 14:18:56 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 14:25:50 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 14:30:05 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 14:30:33 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 14:35:06 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/var/www/Remind-Me/app/Controller/UsersController.php, line 45]
+2014-05-06 14:35:06 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /Remind-Me/Users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 45, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 45, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 14:35:53 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 14:36:59 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 14:37:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OpauthUser.user_id' in 'on clause'
+Request URL: /Remind-Me/users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /var/www/Remind-Me/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /var/www/Remind-Me/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('cloggy45', 'totheman45_45')
+#8 /var/www/Remind-Me/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/Remind-Me/app/Controller/UsersController.php(72): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-05-06 14:38:57 Error: [MissingTableException] Table opauth_users for model opauthUser was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'opauth_users',
+  'class' => 'opauthUser',
+  'ds' => 'default',
+)
+Request URL: /Remind-Me/users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Model.php(3496): Model->setSource('opauth_users')
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1063): Model->getDataSource()
+#2 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#4 /var/www/Remind-Me/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#5 /var/www/Remind-Me/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('cloggy45', 'totheman45_45')
+#6 /var/www/Remind-Me/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/Remind-Me/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/Controller/UsersController.php(72): AuthComponent->login()
+#9 [internal function]: UsersController->login()
+#10 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 14:40:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opauth_users.user_id' in 'on clause'
+Request URL: /Remind-Me/users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /var/www/Remind-Me/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /var/www/Remind-Me/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('cloggy45', 'totheman45_45')
+#8 /var/www/Remind-Me/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/Remind-Me/app/Controller/UsersController.php(72): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-05-06 14:40:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OpauthUser.user_id' in 'on clause'
+Request URL: /Remind-Me/users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /var/www/Remind-Me/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /var/www/Remind-Me/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('cloggy45', 'totheman45_45')
+#8 /var/www/Remind-Me/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/Remind-Me/app/Controller/UsersController.php(72): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-05-06 14:41:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OpauthUser.user_id' in 'on clause'
+Request URL: /Remind-Me/users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /var/www/Remind-Me/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /var/www/Remind-Me/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('cloggy45', 'totheman45-45')
+#8 /var/www/Remind-Me/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/Remind-Me/app/Controller/UsersController.php(72): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-05-06 15:16:08 Error: Fatal Error (1): Call to a member function userExists() on a non-object in [/var/www/Remind-Me/app/Controller/UsersController.php, line 36]
+2014-05-06 15:16:08 Error: [FatalErrorException] Call to a member function userExists() on a non-object
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Remind...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Remind...', 36, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Remind...', 36, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 15:16:38 Error: Fatal Error (1): Call to a member function userExists() on a non-object in [/var/www/Remind-Me/app/Controller/UsersController.php, line 36]
+2014-05-06 15:16:38 Error: [FatalErrorException] Call to a member function userExists() on a non-object
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Remind...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Remind...', 36, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Remind...', 36, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 15:19:21 Error: Fatal Error (1): Call to a member function userExists() on a non-object in [/var/www/Remind-Me/app/Controller/UsersController.php, line 37]
+2014-05-06 15:19:21 Error: [FatalErrorException] Call to a member function userExists() on a non-object
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Remind...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Remind...', 37, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Remind...', 37, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 15:19:29 Error: Fatal Error (1): Call to a member function userExists() on a non-object in [/var/www/Remind-Me/app/Controller/UsersController.php, line 37]
+2014-05-06 15:19:29 Error: [FatalErrorException] Call to a member function userExists() on a non-object
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Remind...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Remind...', 37, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Remind...', 37, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 15:19:48 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/Remind-Me/app/Controller/UsersController.php, line 62]
+2014-05-06 15:19:48 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Remind...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Remind...', 62, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Remind...', 62, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 15:20:09 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 16:52:45 Error: Fatal Error (4): syntax error, unexpected T_ENDIF in [/var/www/Remind-Me/app/View/Users/settings.ctp, line 78]
+2014-05-06 16:52:45 Error: [FatalErrorException] syntax error, unexpected T_ENDIF
+Request URL: /Remind-Me/Users/settings
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 78)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 78, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 78, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 18:27:23 Error: Fatal Error (1): Cannot access empty property in [/var/www/Remind-Me/app/Controller/UsersController.php, line 140]
+2014-05-06 18:27:23 Error: [FatalErrorException] Cannot access empty property
+Request URL: /Remind-Me/Users/settings
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/var/www/Remind...', 140)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/var/www/Remind...', 140, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/var/www/Remind...', 140, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 18:52:44 Error: Fatal Error (1): Call to undefined method AuthComponent::read() in [/var/www/Remind-Me/app/Controller/UsersController.php, line 118]
+2014-05-06 18:52:44 Error: [FatalErrorException] Call to undefined method AuthComponent::read()
+Request URL: /Remind-Me/Users/settings
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/Remind...', 118)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/Remind...', 118, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/Remind...', 118, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 19:08:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1832): DboSource->create(Object(OpauthUser), Array, Array)
+#4 /var/www/Remind-Me/app/Controller/UsersController.php(50): Model->save(Array)
+#5 [internal function]: UsersController->opauth_complete()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-06 19:10:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uid' in 'where clause'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(OpauthUser), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('count', Array)
+#6 /var/www/Remind-Me/app/Model/OpauthUser.php(17): Model->find('count', Array)
+#7 /var/www/Remind-Me/app/Controller/UsersController.php(37): OpauthUser->userExists('160608764628203...')
+#8 [internal function]: UsersController->opauth_complete()
+#9 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 [internal function]: OpauthAppController->callback()
+#14 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#15 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#16 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#17 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2014-05-06 19:13:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uid' in 'where clause'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(OpauthUser), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('count', Array)
+#6 /var/www/Remind-Me/app/Model/OpauthUser.php(17): Model->find('count', Array)
+#7 /var/www/Remind-Me/app/Controller/UsersController.php(37): OpauthUser->userExists('160608764628203...')
+#8 [internal function]: UsersController->opauth_complete()
+#9 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 [internal function]: OpauthAppController->callback()
+#14 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#15 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#16 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#17 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2014-05-06 19:26:13 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1832): DboSource->create(Object(OpauthUser), Array, Array)
+#4 /var/www/Remind-Me/app/Controller/UsersController.php(50): Model->save(Array)
+#5 [internal function]: UsersController->opauth_complete()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-06 20:29:53 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /Remind-Me/Users
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-06 21:15:13 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 21:33:46 Error: [MissingViewException] View file "/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/Remind-Me/app/View/Themed/Cakestrap/Users/opauth_complete.ctp',
+)
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 [internal function]: OpauthAppController->callback()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-06 22:22:26 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/Remind-Me/app/Model/OpauthUser.php, line 19]
+2014-05-06 22:22:26 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 19, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 19, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 22:22:31 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/Remind-Me/app/Model/OpauthUser.php, line 19]
+2014-05-06 22:22:31 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 19, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 19, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 22:22:50 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/Remind-Me/app/Model/OpauthUser.php, line 19]
+2014-05-06 22:22:50 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 19, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 19, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 22:23:13 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/Remind-Me/app/Model/OpauthUser.php, line 19]
+2014-05-06 22:23:13 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 19, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 19, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 22:28:44 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/var/www/Remind-Me/app/Model/OpauthUser.php, line 14]
+2014-05-06 22:28:44 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 14, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 14, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 22:30:21 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /Remind-Me/Users
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

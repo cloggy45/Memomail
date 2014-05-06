@@ -10,6 +10,7 @@ class Registration extends AppModel
 {
     public $belongsTo = 'User';
 
+
     /**
      * @param $id
      * @return array

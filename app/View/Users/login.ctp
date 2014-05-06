@@ -49,6 +49,7 @@
     <!-- Button -->
     <div class="form-group">
         <div class="form-input"><?php echo $this->Html->link('Forgotten password?','/users/sendResetEmail'); ?></div>
+        <div class="form-input"><?php echo $this->Html->link('Sign in with Facebook?','/auth/facebook'); ?></div>
         <div class="submit-button">
             <?php echo $this->Form->button(
                 'Login',

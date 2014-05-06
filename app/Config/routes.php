@@ -24,36 +24,52 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
-	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
-	Router::connect('/sendActivationEmail/:param1/:param2',array(
-		'controller' => 'Users',
-		'action' => 'sendActivationEmail'),
-		array('type' => "[0-9]+",'id' => "[0-9]+"));
+Router::connect(
+    '/sendActivationEmail/:param1/:param2',
+    array(
+        'controller' => 'Users',
+        'action' => 'sendActivationEmail'
+    ),
+    array('type' => "[0-9]+", 'id' => "[0-9]+")
+);
 
-	Router::connect('/activateAccount/:param1',array(
-		'controller' => 'Users',
-		'action' => 'activateAccount'),
-		array('hash' => "*+"));
+Router::connect(
+    '/activateAccount/:param1',
+    array(
+        'controller' => 'Users',
+        'action' => 'activateAccount'
+    ),
+    array('hash' => "*+")
+);
 
-    Router::connect('/resetPassword/:param1',array(
-            'controller' => 'Users',
-            'action' => 'resetPassword'),
-        array('hash' => "*+"));
+Router::connect(
+    '/resetPassword/:param1',
+    array(
+        'controller' => 'Users',
+        'action' => 'resetPassword'
+    ),
+    array('hash' => "*+")
+);
 
+Router::connect(
+    '/opauth-complete/*',
+    array('controller' => 'users', 'action' => 'opauth_complete')
+);
 
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.
  */
-	CakePlugin::routes();
+CakePlugin::routes();
 
 /**
  * Load the CakePHP default routes. Only remove this if you do not want to use
  * the built-in default routes.
  */
-	require CAKE . 'Config' . DS . 'routes.php';
+require CAKE . 'Config' . DS . 'routes.php';

@@ -6,7 +6,9 @@ class UsersController extends AppController
 {
     public $helpers = array('Html', 'Form', 'Timezone.Timezone');
     public $components = array('Session', 'Auth', 'Email');
+    public $uses = array('User', 'OpauthUser');
 
+    public $hasOne = "OpauthUser";
 
     private $address = "http://192.168.0.11/Remind-Me";
 
@@ -19,17 +21,54 @@ class UsersController extends AppController
             'action' => 'login'
         );
 
-        if(array_key_exists('password',$this->data)) {
+        if (array_key_exists('password', $this->data)) {
             $this->set('password', $this->Auth->password($this->data['User']['password']));
         }
         $this->Auth->allow();
     }
 
+    public function opauth_complete()
+    {
+        $opauthUid = $this->data['auth']['uid'];
+        $opauthUsername = $this->data['auth']['info']['name'];
+
+        $loginUser = array('id' => $opauthUid, 'username' => $opauthUsername);
+
+        if ($this->OpauthUser->userExists($opauthUid)) {
+
+            if($this->Auth->login($loginUser)) {
+
+                $this->Session->write('User.authType', 'opauth');
+                $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
+
+            } else {
+                $this->Session->setFlash('Unable to log in', 'failureFlash');
+            }
+
+        } else {
+
+            if ($this->OpauthUser->save($loginUser, false)) {
+
+                if($this->Auth->login($loginUser)) {
+
+                    $this->Session->write('User.authType', 'opauth');
+                    $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
+
+                } else {
+                    $this->Session->setFlash('Unable to log in', 'failureFlash');
+                }
+
+            } else {
+                $this->Session->setFlash('Unable to store user information, try again', 'failureFlash');
+            }
+        }
+    }
+
+
+
     public function login()
     {
-
         if ($this->request->is('post')) {
-
             if ($this->Auth->login()) {
 
                 $this->Session->write('User.username', $this->request->data['User']['username']);
@@ -39,13 +78,13 @@ class UsersController extends AppController
                 $userId = $this->User->getUserId('username', $fieldValue);
 
                 $this->Session->write('User.userId', $userId);
+                $this->Session->write('User.authType', 'local');
 
                 $registrationValid = $this->User->Registration->getRegValidStatus($userId);
 
                 if (!$registrationValid) {
 
-                    $this->Session->setFlash('Activate Email First');
-                    $this->Session->setFlash('Activate email first','failureFlash');
+                    $this->Session->setFlash('Activate email first', 'failureFlash');
                     $this->Session->delete('User');
 
                     return $this->redirect($this->Auth->logout());
@@ -55,8 +94,8 @@ class UsersController extends AppController
                 }
 
             } else {
-                $this->Session->setFlash("Incorrect login information");
-                $this->Session->setFlash('Incorrect login information','failureFlash');
+                $this->Session->setFlash('Incorrect login information', 'failureFlash');
+                $this->redirect(array('controller' => 'Users', 'action' => 'login'));
             }
         }
     }
@@ -77,7 +116,9 @@ class UsersController extends AppController
 
             $SettingsChanged = false;
 
-            $this->User->id = $this->Session->read('Auth.User.id');
+            $userId = $this->Auth->user('id');
+
+            $this->User->id = $userId;
 
             if ($this->request->data['User']['Clear All']) {
 
@@ -88,16 +129,24 @@ class UsersController extends AppController
 
             if (!empty($this->request->data['User']['email'])) {
 
-                $this->User->setConfirmEmail($this->request->data['User']['confirm_email']);
+                if($this->Session->read('User.authType') == 'opauth') {
 
-                if ($this->User->saveField('email', $this->request->data['User']['email'], true)) {
-                    $SettingsChanged = true;
+                    $this->OpauthUser->id = $userId;
+
+                    if($this->OpauthUser->saveField('email', $this->request->data['User']['email'], true)) {
+                        $SettingsChanged = true;
+                    }
+
+                } else {
+
+                    if ($this->User->saveField('email', $this->request->data['User']['email'], true)) {
+                        $SettingsChanged = true;
+
+                    }
                 }
             }
 
             if (!empty($this->request->data['User']['password'])) {
-
-                $this->User->setConfirmPassword($this->request->data['User']['confirm_password']);
 
                 if ($this->User->saveField('password', $this->request->data['User']['password'], true)) {
                     $SettingsChanged = true;
@@ -105,6 +154,14 @@ class UsersController extends AppController
             }
 
             if ($this->request->data['User']['timezone'] < 99) {
+                if($this->Session->read('User.authType') == 'opauth') {
+
+                    $this->OpauthUser->id = $userId;
+
+                    if ($this->OpauthUser->saveField('timezone', $this->request->data['User']['timezone'], true)) {
+                        $SettingsChanged = true;
+                    }
+                }
                 if ($this->User->saveField('timezone', $this->request->data['User']['timezone'], true)) {
                     $SettingsChanged = true;
                 }
@@ -113,14 +170,14 @@ class UsersController extends AppController
             if ($this->request->data['User']['Clear All']) {
                 $SettingsChanged = true;
 
-                $this->Session->setFlash('Cleared all reminders','successFlash');
+                $this->Session->setFlash('Cleared all reminders', 'successFlash');
             }
 
             if ($SettingsChanged) {
-                $this->Session->setFlash('Settings Changed','successFlash');
+                $this->Session->setFlash('Settings Changed', 'successFlash');
 
             } else {
-                $this->Session->setFlash('Support ticket submitted','failureFlash');
+                $this->Session->setFlash('Unable to update settings, try again', 'failureFlash');
             }
         }
     }
@@ -146,16 +203,16 @@ class UsersController extends AppController
 
     public function resetPassword()
     {
-        if(count($this->request->params['named']) == 1) {
+        if (count($this->request->params['named']) == 1) {
 
             $tempHash = $this->request->params['named']['hash'];
 
-            $this->Session->write('Config.id', $this->User->getUserId('email_hash',$tempHash));
+            $this->Session->write('Config.id', $this->User->getUserId('email_hash', $tempHash));
             $this->Session->write('Config.hash', $tempHash);
 
             $tempId = $this->Session->read('Config.id');
 
-            if(empty($tempId)) {
+            if (empty($tempId)) {
                 $this->Session->destroy();
                 $this->Session->setFlash("Link is old");
                 $this->redirect('login');
@@ -170,14 +227,14 @@ class UsersController extends AppController
 
             $this->User->setConfirmPassword($this->request->data['User']['confirm_password']);
 
-            if($this->User->saveField('password', $this->request->data['User']['password'],true)) {
+            if ($this->User->saveField('password', $this->request->data['User']['password'], true)) {
 
                 $this->Session->setFlash('Password changed');
 
-                $email = $this->User->getUserDetails($id,'email');
+                $email = $this->User->getUserDetails($id, 'email');
                 $email += $this->Session->read('Config.time');
 
-                $this->User->saveEmailHash($id,$email);
+                $this->User->saveEmailHash($id, $email);
 
                 $this->redirect('login');
             }
@@ -190,13 +247,13 @@ class UsersController extends AppController
 
             $email = $this->request->data['User']['resetEmail'];
 
-            $emailExists = $this->User->checkValueExists('email',$email);
+            $emailExists = $this->User->checkValueExists('email', $email);
 
             $id = $this->User->getUserId('email', $email);
 
             if ($emailExists && !$this->User->Registration->getRegValidStatus($id)) {
 
-                $this->Session->setFlash('You must activate your account before changing passwords','failureFlash');
+                $this->Session->setFlash('You must activate your account before changing passwords', 'failureFlash');
 
             } elseif ($emailExists) {
 
@@ -210,7 +267,7 @@ class UsersController extends AppController
                 );
 
             } else {
-                $this->Session->setFlash('Account does not exist','failureFlash');
+                $this->Session->setFlash('Account does not exist', 'failureFlash');
             }
 
         }
@@ -224,7 +281,7 @@ class UsersController extends AppController
 
         if ($isHashValid) {
 
-            $this->Session->setFlash('Account Validated','successFlash');
+            $this->Session->setFlash('Account Validated', 'successFlash');
 
             $this->redirect(
                 array(
@@ -234,7 +291,7 @@ class UsersController extends AppController
             );
 
         } else {
-            $this->Session->setFlash('Account is not valid','failureFlash');
+            $this->Session->setFlash('Account is not valid', 'failureFlash');
         }
     }
 
@@ -262,7 +319,7 @@ class UsersController extends AppController
             $this->Email->sendAs = 'both';
             $this->Email->send();
 
-            $this->Session->setFlash('Activation email sent','successFlash');
+            $this->Session->setFlash('Activation email sent', 'successFlash');
 
         } elseif ($emailType == "reset") {
 
@@ -274,7 +331,7 @@ class UsersController extends AppController
             $this->Email->sendAs = 'both';
             $this->Email->send();
 
-            $this->Session->setFlash('Reset instructions sent','successFlash');
+            $this->Session->setFlash('Reset instructions sent', 'successFlash');
         }
 
         $this->redirect(

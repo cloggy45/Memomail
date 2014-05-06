@@ -5,16 +5,13 @@ App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
 class User extends AppModel
 {
     public $useTable = 'users';
-    public $hasOne = 'Registration';
+    public $hasOne = array('Registration');
 
     public $hasMany = array(
         'Reminder' => array(
             'className' => 'Reminder'
         )
     );
-
-    private $confirm_email = null;
-    private $confirm_password = null;
 
     public $validate = array(
         'username' => array(
@@ -35,10 +32,6 @@ class User extends AppModel
             'between' => array(
                 'rule' => array('between', 5, 20),
                 'message' => 'Between 5 to 20',
-            ),
-            'compareFields' => array(
-                'rule' => array('compareFields', 'confirm_password'),
-                'message' => 'Passwords do not match',
             )
         ),
         'email' => array(
@@ -50,11 +43,6 @@ class User extends AppModel
             'unique' => array(
                 'rule' => 'isUnique',
                 'message' => 'Email is already in use',
-            ),
-            'compareFields' => array(
-                'rule' => array('compareFields', 'confirm_email'),
-                'message' => 'Emails do not match',
-                'required' => 'update'
             )
         ),
         'timezone' => array(
@@ -65,33 +53,6 @@ class User extends AppModel
             )
         )
     );
-
-    /**
-     * @param $confirmEmail
-     * @return bool
-     */
-        public function setConfirmEmail($confirmEmail) {
-
-        if(empty($confirmEmail)) {
-            return false;
-        } else {
-            $this->confirm_email = $confirmEmail;
-            return true;
-        }
-    }
-
-    /**
-     * @param $confirmPassword
-     * @return bool
-     */
-    public function setConfirmPassword($confirmPassword) {
-        if(empty($confirmPassword)) {
-            return false;
-        } else {
-            $this->confirm_password = $confirmPassword;
-            return true;
-        }
-    }
 
     /**
      * @param $check array
@@ -107,36 +68,6 @@ class User extends AppModel
             return true;
         }
     }
-
-    /**
-     * @param $check array
-     * @param null $comparedField
-     * @return bool
-     */
-    public function compareFields($check, $comparedField)
-    {
-        $fieldOne = array_values($check);
-
-        if ($fieldOne[0] == $this->data[$this->alias][$comparedField]) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-
-    public function beforeValidate()
-    {
-
-        if (isset($this->confirm_email)) {
-            $this->data[$this->alias]['confirm_email'] = $this->confirm_email;
-        }
-
-        if (isset($this->confirm_password)) {
-            $this->data[$this->alias]['confirm_password'] = $this->confirm_password;
-        }
-    }
-
 
     public function beforeSave($options = array())
     {

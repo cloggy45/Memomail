@@ -110,3 +110,12 @@ CakeLog::config('error', array(
 
 CakePlugin::load('Timezone');
 CakePlugin::load('DebugKit');
+
+
+CakePlugin::load('Opauth', array('routes' => true, 'bootstrap' => true));
+Configure::write('Opauth.path', '/Remind-Me/auth/');
+
+Configure::write('Opauth.Strategy.Facebook', array(
+        'app_id' => '628432490569021',
+        'app_secret' => '5a40f6b03e6265603ce8e424d044c9ac'
+    ));

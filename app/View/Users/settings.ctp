@@ -53,6 +53,7 @@
         </div>
     </div>
 
+    <?php if ($this->Session->read('User.authType') == 'local'): ?>
     <!-- Enter Password -->
     <div class="form-group">
         <h4>Change Password</h4>
@@ -89,6 +90,8 @@
             ); ?>
         </div>
     </div>
+
+    <?php endif; ?>
 
     <!-- Change Timezone -->
     <div class="form-group">
