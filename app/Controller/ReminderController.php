@@ -4,6 +4,7 @@ class ReminderController extends AppController
 {
     public $helpers = array('Html', 'Form');
     public $name = 'Reminder';
+    public $uses = array('Reminder', 'OpauthUser');
 
     public function add()
     {
@@ -19,6 +20,16 @@ class ReminderController extends AppController
             )
         );
 
+        if ($this->Session->read('User.authType') == 'opauth') {
+            if (!$this->OpauthUser->userHasSetTimezoneAndEmail($this->Session->read('Auth.User.id'))) {
+                $this->Session->setFlash(
+                    "You must add a Email and Timezone in order to be able to add reminders",
+                    'failureFlash'
+                );
+                $this->redirect(array('controller' => 'users', 'action' => 'settings'));
+            }
+        }
+
         if ($this->request->is('post')) {
 
             $this->Reminder->set($this->request->data);
@@ -27,7 +38,7 @@ class ReminderController extends AppController
 
                 App::uses('CakeTime', 'Utility');
 
-                $userTimezone = $this->Reminder->User->getUserDetails($this->Session->read('User.userId'), 'timezone');
+                $userTimezone = $this->Reminder->User->getUserDetails($this->Session->read('Auth.User.id'), 'timezone');
 
                 $tempString = $this->request->data['formatted_date_input_submit'] . " " .
                     $this->request->data['formatted_time_input_submit'] . " " .
@@ -38,7 +49,7 @@ class ReminderController extends AppController
 
                 // Construct our own $data to include the users Id.
                 $data = array(
-                    'user_id' => $this->Session->read('User.userId'),
+                    'user_id' => $this->Session->read('Auth.User.id'),
                     'title' => $this->request->data['Reminder']['title'],
                     'body' => $this->request->data['Reminder']['body'],
                     'date' => $this->request->data['formatted_date_input_submit'],
@@ -48,12 +59,11 @@ class ReminderController extends AppController
 
                 $this->Reminder->save($data);
 
-                $this->Session->setFlash('Reminder Added','successFlash');
+                $this->Session->setFlash('Reminder Added', 'successFlash');
 
                 $this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
 
             } else {
-
                 echo $this->Reminder->validationErrors;
                 $this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
             }
@@ -63,7 +73,7 @@ class ReminderController extends AppController
     public function get()
     {
 
-        $id = $this->Session->read('User.userId');
+        $id = $this->Session->read('Auth.User.id');
 
         $usersReminders = $this->Reminder->getReminders($id, 'all');
 

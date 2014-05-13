@@ -36,7 +36,7 @@ class UsersController extends AppController
 
         if ($this->OpauthUser->userExists($opauthUid)) {
 
-            if($this->Auth->login($loginUser)) {
+            if ($this->Auth->login($loginUser)) {
 
                 $this->Session->write('User.authType', 'opauth');
                 $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
@@ -49,7 +49,7 @@ class UsersController extends AppController
 
             if ($this->OpauthUser->save($loginUser, false)) {
 
-                if($this->Auth->login($loginUser)) {
+                if ($this->Auth->login($loginUser)) {
 
                     $this->Session->write('User.authType', 'opauth');
                     $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
@@ -65,7 +65,6 @@ class UsersController extends AppController
     }
 
 
-
     public function login()
     {
         if ($this->request->is('post')) {
@@ -77,7 +76,6 @@ class UsersController extends AppController
 
                 $userId = $this->User->getUserId('username', $fieldValue);
 
-                $this->Session->write('User.userId', $userId);
                 $this->Session->write('User.authType', 'local');
 
                 $registrationValid = $this->User->Registration->getRegValidStatus($userId);
@@ -104,19 +102,18 @@ class UsersController extends AppController
     {
 
         $this->Session->delete('User');
-
         $this->redirect($this->Auth->logout());
     }
 
+    // Need to clean this up :c
     public function settings()
     {
         $this->set('jsIncludes', array('formValidation'));
 
         if ($this->request->is('post')) {
-
             $SettingsChanged = false;
 
-            $userId = $this->Auth->user('id');
+            $userId = $this->Session->read('Auth.User.id');
 
             $this->User->id = $userId;
 
@@ -129,11 +126,10 @@ class UsersController extends AppController
 
             if (!empty($this->request->data['User']['email'])) {
 
-                if($this->Session->read('User.authType') == 'opauth') {
-
+                if ($this->Session->read('User.authType') == 'opauth') {
                     $this->OpauthUser->id = $userId;
 
-                    if($this->OpauthUser->saveField('email', $this->request->data['User']['email'], true)) {
+                    if ($this->OpauthUser->saveField('email', $this->request->data['User']['email'], true)) {
                         $SettingsChanged = true;
                     }
 
@@ -141,7 +137,6 @@ class UsersController extends AppController
 
                     if ($this->User->saveField('email', $this->request->data['User']['email'], true)) {
                         $SettingsChanged = true;
-
                     }
                 }
             }
@@ -153,23 +148,24 @@ class UsersController extends AppController
                 }
             }
 
-            if ($this->request->data['User']['timezone'] < 99) {
-                if($this->Session->read('User.authType') == 'opauth') {
+            if ($this->request->data['User']['timezone'] !== "empty") {
+                debug($this->request->data['User']['timezone']);
 
+                if ($this->Session->read('User.authType') == 'opauth') {
                     $this->OpauthUser->id = $userId;
-
                     if ($this->OpauthUser->saveField('timezone', $this->request->data['User']['timezone'], true)) {
                         $SettingsChanged = true;
                     }
-                }
-                if ($this->User->saveField('timezone', $this->request->data['User']['timezone'], true)) {
-                    $SettingsChanged = true;
+
+                } else {
+                    if ($this->User->saveField('timezone', $this->request->data['User']['timezone'], true)) {
+                        $SettingsChanged = true;
+                    }
                 }
             }
 
             if ($this->request->data['User']['Clear All']) {
                 $SettingsChanged = true;
-
                 $this->Session->setFlash('Cleared all reminders', 'successFlash');
             }
 
@@ -177,19 +173,20 @@ class UsersController extends AppController
                 $this->Session->setFlash('Settings Changed', 'successFlash');
 
             } else {
-                $this->Session->setFlash('Unable to update settings, try again', 'failureFlash');
+                $this->Session->setFlash('Nothing to update', 'failureFlash');
             }
         }
     }
 
     public function deleteAccount()
     {
-        $id = $this->Session->read('User.userId');
+        $id = $this->Session->read('Auth.User.id');
 
         $this->User->delete($id);
 
         $this->User->Registration->deleteAll(array('user_id' => $id), false);
         $this->User->Reminder->deleteAll(array('user_id' => $id), false);
+        $this->OpauthUser->deleteAll(array('id' => $id), false);
 
         $this->Session->delete('User');
 
@@ -225,7 +222,7 @@ class UsersController extends AppController
 
             $this->User->id = $id;
 
-            $this->User->setConfirmPassword($this->request->data['User']['confirm_password']);
+            //$this->User->setConfirmPassword($this->request->data['User']['confirm_password']);
 
             if ($this->User->saveField('password', $this->request->data['User']['password'], true)) {
 
@@ -277,6 +274,7 @@ class UsersController extends AppController
     {
         $hash = $this->request->params['named']['hash'];
 
+        $isHashValid = $this->User->Registration->setRegIsValidStatus($hash);
         $isHashValid = $this->User->Registration->setRegIsValidStatus($hash);
 
         if ($isHashValid) {
