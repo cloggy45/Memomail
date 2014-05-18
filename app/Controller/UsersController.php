@@ -10,6 +10,7 @@ class UsersController extends AppController
 
     public $hasOne = "OpauthUser";
 
+    //
     private $address = "http://192.168.0.11/Remind-Me";
 
     public function beforeFilter()
@@ -222,8 +223,6 @@ class UsersController extends AppController
 
             $this->User->id = $id;
 
-            //$this->User->setConfirmPassword($this->request->data['User']['confirm_password']);
-
             if ($this->User->saveField('password', $this->request->data['User']['password'], true)) {
 
                 $this->Session->setFlash('Password changed');
@@ -274,7 +273,6 @@ class UsersController extends AppController
     {
         $hash = $this->request->params['named']['hash'];
 
-        $isHashValid = $this->User->Registration->setRegIsValidStatus($hash);
         $isHashValid = $this->User->Registration->setRegIsValidStatus($hash);
 
         if ($isHashValid) {
@@ -342,7 +340,6 @@ class UsersController extends AppController
 
     public function register()
     {
-
         $this->set('jsIncludes', array('formValidation', 'user-views/register'));
 
         if ($this->request->is('post')) {

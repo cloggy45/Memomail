@@ -2386,3 +2386,97 @@ Stack Trace:
 #10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #11 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2014-05-18 14:56:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/img/logo.gif
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-18 16:33:35 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [/var/www/Remind-Me/app/View/Users/login.ctp, line 52]
+2014-05-18 16:33:35 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+Request URL: /Remind-Me/users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 52, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 52, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-18 16:40:29 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /Remind-Me/users/users/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-18 16:40:55 Error: [MissingActionException] Action UsersController::auth() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'auth',
+)
+Request URL: /Remind-Me/Users/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-18 16:44:44 Error: [MissingActionException] Action UsersController::auth() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'auth',
+)
+Request URL: /Remind-Me/Users/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-18 19:20:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/img/googleLogin.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-18 19:21:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/img/googleLogin.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-18 22:34:23 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-18 22:34:23 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('google')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-18 22:34:25 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-18 22:34:25 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

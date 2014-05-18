@@ -1,8 +1,15 @@
 #login_view {
   background: $body-bg;
+
   h2 {
     @include make-sm-column-offset(4);
     padding-left: 9px;
+  }
+
+  .divider {
+    height:1px;
+    background:#e75849;
+    border-bottom:5px solid #e75849;
   }
 
   .form-group {
@@ -18,5 +25,13 @@
 
       margin-top:10px;
     }
+  }
+
+  img {
+    margin-bottom: 10px;
+  }
+
+  #googleSignIn {
+    margin-bottom: 30px;
   }
 }

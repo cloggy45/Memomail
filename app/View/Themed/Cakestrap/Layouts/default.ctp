@@ -80,7 +80,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" id="title" href="#">Remind Me</a>
+                    <a class="navbar-brand" id="title" href="#"><?php echo $this->Html->image('logo.gif', array('id' => 'mainLogo', 'alt' => 'Remind.Me Logo')); ?></a>
                 </div>
 
                 <div class="collapse navbar-collapse">
@@ -111,9 +111,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
     <footer>
         <div id="footer">
-            <p>Created by <?php echo $this->Html->link('Paul Mcloughlin', 'https://github.com/cloggy45'); ?>
-                built using <?php echo $this->Html->link('CakePHP', 'http://cakephp.org/'); ?>
-                and <?php echo $this->Html->link('Bootstrap', 'http://getbootstrap.com/'); ?></p>
+            <p>Created by <?php echo $this->Html->link('Paul Mcloughlin', 'https://github.com/cloggy45'); ?></p>
         </div>
     </footer>
 

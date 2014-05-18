@@ -1,6 +1,13 @@
 @import "layout_styles/_user_variables";
 
+#mainLogo {
+  width:150px;
+}
 
+.navbar-brand {
+  padding: 5px;
+  padding-left: 14px;
+}
 
 body {
   padding-top: 50px;
@@ -33,7 +40,7 @@ body {
       }
 
       a {
-        color:#962418;
+        color:white;
       }
       a:hover {
         text-decoration: none;

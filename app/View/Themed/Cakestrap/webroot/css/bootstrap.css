@@ -9760,19 +9760,30 @@ td.visible-print {
 * Moreover, a specific value in px can be passed which is
 * used to generate a max-width media query.
 */
-/* line 5, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 3, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+#mainLogo {
+  width: 150px;
+}
+
+/* line 7, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+.navbar-brand {
+  padding: 5px;
+  padding-left: 14px;
+}
+
+/* line 12, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body {
   padding-top: 50px;
 }
-/* line 8, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 15, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body #title {
   font-weight: 700;
 }
-/* line 14, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 21, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body ul li a:hover {
   color: #962418 !important;
 }
-/* line 20, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 27, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer {
   color: #fdf2d8;
   background: #e75849;
@@ -9780,24 +9791,24 @@ body footer {
   bottom: 0px;
   width: 100%;
 }
-/* line 28, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 35, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer p {
   padding: 5px 0px;
   text-align: center;
   margin: 0px;
   color: white;
 }
-/* line 35, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 42, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer a {
-  color: #962418;
+  color: white;
 }
-/* line 38, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 45, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer a:hover {
   text-decoration: none;
   color: white;
 }
 
-/* line 46, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 53, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 #flashMessage {
   text-align: center;
   margin: 10px;
@@ -9858,17 +9869,23 @@ body footer #footer a:hover {
 #login_view {
   background: #fdf2d8;
 }
-/* line 3, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
+/* line 4, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
 #login_view h2 {
   padding-left: 9px;
 }
 @media (min-width: 768px) {
-  /* line 3, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
+  /* line 4, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
   #login_view h2 {
     margin-left: 33.33333%;
   }
 }
-/* line 10, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
+/* line 9, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
+#login_view .divider {
+  height: 1px;
+  background: #e75849;
+  border-bottom: 5px solid #e75849;
+}
+/* line 17, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
 #login_view .form-group .form-input {
   position: relative;
   min-height: 1px;
@@ -9876,19 +9893,19 @@ body footer #footer a:hover {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 10, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
+  /* line 17, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
   #login_view .form-group .form-input {
     margin-left: 33.33333%;
   }
 }
 @media (min-width: 768px) {
-  /* line 10, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
+  /* line 17, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
   #login_view .form-group .form-input {
     float: left;
     width: 33.33333%;
   }
 }
-/* line 15, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
+/* line 22, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
 #login_view .form-group .submit-button {
   position: relative;
   min-height: 1px;
@@ -9897,17 +9914,25 @@ body footer #footer a:hover {
   margin-top: 10px;
 }
 @media (min-width: 768px) {
-  /* line 15, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
+  /* line 22, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
   #login_view .form-group .submit-button {
     margin-left: 33.33333%;
   }
 }
 @media (min-width: 768px) {
-  /* line 15, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
+  /* line 22, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
   #login_view .form-group .submit-button {
     float: left;
     width: 8.33333%;
   }
+}
+/* line 30, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
+#login_view img {
+  margin-bottom: 10px;
+}
+/* line 34, ../sass/layout_styles/user_view_styles/login_view_styles.scss */
+#login_view #googleSignIn {
+  margin-bottom: 30px;
 }
 
 /* line 3, ../sass/layout_styles/user_view_styles/settings_view_styles.scss */
