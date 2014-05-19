@@ -10,7 +10,6 @@ class UsersController extends AppController
 
     public $hasOne = "OpauthUser";
 
-    //
     private $address = "http://192.168.0.11/Remind-Me";
 
     public function beforeFilter()
@@ -38,10 +37,8 @@ class UsersController extends AppController
         if ($this->OpauthUser->userExists($opauthUid)) {
 
             if ($this->Auth->login($loginUser)) {
-
                 $this->Session->write('User.authType', 'opauth');
                 $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
-
             } else {
                 $this->Session->setFlash('Unable to log in', 'failureFlash');
             }
@@ -118,7 +115,6 @@ class UsersController extends AppController
             $this->User->id = $userId;
 
             if ($this->request->data['User']['Clear All']) {
-
                 $this->User->Reminder->deleteAll(
                     array('Reminder.user_id' => $this->Session->read('Auth.User.id'), false)
                 );
@@ -126,16 +122,25 @@ class UsersController extends AppController
 
             if (!empty($this->request->data['User']['email'])) {
 
+                $this->User->set($this->request->data);
+                $this->OpauthUser->set($this->request->data);
+
+                $validUser = $this->User->validates(array('fieldList' => array('email')));
+                $validOpauth = $this->OpauthUser->validates(array('fieldList' => array('email')));
+
                 if ($this->Session->read('User.authType') == 'opauth') {
+
                     $this->OpauthUser->id = $userId;
 
-                    if ($this->OpauthUser->saveField('email', $this->request->data['User']['email'], true)) {
+                    if ($validOpauth && $validUser) {
+                        $this->OpauthUser->saveField('email', $this->request->data['User']['email'], false);
                         $SettingsChanged = true;
                     }
 
                 } else {
 
-                    if ($this->User->saveField('email', $this->request->data['User']['email'], true)) {
+                    if ($validUser && $validOpauth) {
+                        $this->User->saveField('email', $this->request->data['User']['email'], false);
                         $SettingsChanged = true;
                     }
                 }
@@ -149,11 +154,9 @@ class UsersController extends AppController
             }
 
             if ($this->request->data['User']['timezone'] !== "empty") {
-                debug($this->request->data['User']['timezone']);
-
                 if ($this->Session->read('User.authType') == 'opauth') {
                     $this->OpauthUser->id = $userId;
-                    if ($this->OpauthUser->saveField('timezone', $this->request->data['User']['timezone'], true)) {
+                    if ($this->OpauthUser->saveField('timezone', $this->request->data['User']['timezone'], false)) {
                         $SettingsChanged = true;
                     }
 
@@ -264,7 +267,6 @@ class UsersController extends AppController
             } else {
                 $this->Session->setFlash('Account does not exist', 'failureFlash');
             }
-
         }
     }
 
@@ -375,10 +377,15 @@ class UsersController extends AppController
                         'id' => $this->User->id
                     )
                 );
+
             } else {
+
                 $errors = $this->User->validationErrors;
-                $errors = $this->OpauthUser->validationErrors;
-                debug($errors);
+                $errors += $this->OpauthUser->validationErrors;
+
+                foreach ($errors as $error) {
+                    $this->Session->setFlash($error, 'failureFlash');
+                }
             }
         }
     }

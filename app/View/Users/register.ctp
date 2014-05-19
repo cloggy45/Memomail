@@ -23,7 +23,8 @@
                 array(
                     'type' => 'text',
                     'class' => "form-control",
-                    'placeholder' => "Username"
+                    'placeholder' => "Username",
+                    'error' => false
                 )
             ); ?>
         </div>
@@ -70,7 +71,8 @@
                 array(
                     'type' => 'email',
                     'class' => 'form-control',
-                    'placeholder' => 'Email'
+                    'placeholder' => 'Email',
+                    'error' => false
                 )
             ); ?>
         </div>
@@ -86,6 +88,7 @@
                     'class' => 'form-control',
                     'placeholder' => 'Re-enter Email',
                     'data-validation' => "email original_email",
+                    'error' => false
                 )
             ); ?>
         </div>

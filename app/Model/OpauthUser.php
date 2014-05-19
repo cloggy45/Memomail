@@ -25,6 +25,7 @@ class OpauthUser extends AppModel
             $this->data[$this->alias]['email'] = $this->data[$this->alias]['User']['email'];
         }
     }
+
     public function userExists($uid)
     {
         if($this->find('count', array('conditions' => array('id' => $uid))) == 0)

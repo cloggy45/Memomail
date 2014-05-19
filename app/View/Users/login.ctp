@@ -26,7 +26,8 @@
                 array(
                     'type' => 'text',
                     'placeholder' => 'Username',
-                    'class' => 'form-control'
+                    'class' => 'form-control',
+
                 )
             ); ?>
         </div>

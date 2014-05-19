@@ -2507,3 +2507,63 @@ Stack Trace:
 #3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-05-19 15:13:50 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/var/www/Remind-Me/app/View/Users/register.ctp, line 75]
+2014-05-19 15:13:50 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /Remind-Me/Users/register
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 75)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 75, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 75, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-19 15:31:24 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/var/www/Remind-Me/app/Controller/UsersController.php, line 137]
+2014-05-19 15:31:24 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /Remind-Me/Users/settings
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 137)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 137, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 137, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-19 16:18:08 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/var/www/Remind-Me/app/Controller/UsersController.php, line 147]
+2014-05-19 16:18:08 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /Remind-Me/Users/settings
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 147)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 147, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 147, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-19 16:31:45 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/Remind-Me/app/Controller/UsersController.php, line 150]
+2014-05-19 16:31:45 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /Remind-Me/Users/settings
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 150)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 150, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 150, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-19 18:14:54 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/var/www/Remind-Me/app/Model/User.php, line 52]
+2014-05-19 18:14:54 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /Remind-Me/users/settings
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 52, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 52, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-19 18:42:01 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/var/www/Remind-Me/app/Model/User.php, line 52]
+2014-05-19 18:42:01 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /Remind-Me/users/settings
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 52, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 52, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

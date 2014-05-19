@@ -49,7 +49,7 @@ class User extends AppModel
             'isValid' => array(
                 'rule' => 'isValid',
                 'message' => 'Please select a timezone',
-                'required' => 'create'
+                'on' => 'create'
             )
         )
     );
@@ -61,12 +61,16 @@ class User extends AppModel
     public function isValid($check)
     {
         $value = array_values($check);
-
-        if (empty($value[0])) {
+        if ($value[0] == 'empty') {
             return false;
         } else {
             return true;
         }
+    }
+
+    public function beforeValidate()
+    {
+        debug($this->data[$this->alias]);
     }
 
     public function beforeSave($options = array())
@@ -118,7 +122,6 @@ class User extends AppModel
 
     public function getUserDetails($id, $userField)
     {
-
         $userDetails = $this->find(
             'first',
             array(

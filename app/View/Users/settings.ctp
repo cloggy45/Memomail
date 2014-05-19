@@ -29,6 +29,7 @@
                     'class' => 'form-control',
                     'value' => "",
                     'data-validation-optional' => 'true'
+//                    'errorMessage' => false
                 )
             ); ?>
 
