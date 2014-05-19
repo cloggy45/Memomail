@@ -2567,3 +2567,195 @@ Stack Trace:
 #3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-05-19 20:55:11 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 20:55:11 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('google')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-19 20:55:11 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 20:55:11 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-19 20:58:42 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 20:58:42 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('google')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-19 20:58:42 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 20:58:42 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-19 21:09:56 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 21:09:56 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('google')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-19 21:09:56 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 21:09:56 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-19 21:10:45 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 21:10:45 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('google')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-19 21:10:46 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 21:10:46 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-19 21:12:50 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 21:12:50 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('google')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-19 21:12:51 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 21:12:51 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-19 21:12:59 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 21:12:59 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('google')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-19 21:13:00 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 21:13:00 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-19 21:16:09 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 21:16:09 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('google')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-19 21:16:09 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 21:16:09 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-19 21:30:44 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 21:30:44 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('google')
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-19 21:30:44 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - google in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-19 21:30:44 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - google
+Request URL: /Remind-Me/auth/google
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/var/www/Remind...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/var/www/Remind...', 120, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

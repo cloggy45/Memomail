@@ -94,7 +94,7 @@ class Opauth{
 	 */
 	public function run(){
 		$this->parseUri();
-		
+
 		if (!empty($this->env['params']['strategy'])){
 			if (strtolower($this->env['params']['strategy']) == 'callback'){
 				$this->callback();

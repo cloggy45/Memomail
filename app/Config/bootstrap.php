@@ -119,3 +119,8 @@ Configure::write('Opauth.Strategy.Facebook', array(
         'app_id' => '628432490569021',
         'app_secret' => '5a40f6b03e6265603ce8e424d044c9ac'
     ));
+
+Configure::write('Opauth.Strategy.Google', array(
+        'client_id' => '207017072356-ugfieue15cad6h3kmb64vc6rg1hp2tpo.apps.googleusercontent.com',
+        'client_secret' => 'YLP0H3jTMVT4nBdevmg1uDOr'
+    ));

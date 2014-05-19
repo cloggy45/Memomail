@@ -74,4 +74,9 @@ Configure::write('Opauth.strategy_dir', dirname(dirname(__FILE__)).'/Strategy/')
  * ));
  *
  */
+
+
+
+
+
 Configure::write('Opauth.Strategy', array());
