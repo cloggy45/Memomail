@@ -71,7 +71,6 @@ class User extends AppModel
 
     public function beforeSave($options = array())
     {
-
         if (!empty($this->data[$this->alias]['password'])) {
 
             $passwordHasher = new SimplePasswordHasher();

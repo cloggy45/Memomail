@@ -101,7 +101,6 @@ class UsersController extends AppController
 
     public function logout()
     {
-
         $this->Session->delete('User');
         $this->redirect($this->Auth->logout());
     }
@@ -344,7 +343,15 @@ class UsersController extends AppController
 
         if ($this->request->is('post')) {
 
-            if ($this->User->save($this->request->data)) {
+            $this->User->set($this->request->data);
+            $this->OpauthUser->set($this->request->data);
+
+            $validUser = $this->User->validates();
+            $validOpauth = $this->OpauthUser->validates();
+
+            if ($validUser && $validOpauth) {
+
+                $this->User->save($this->request->data, false);
 
                 $id = $this->User->id;
                 $email = $this->request->data['User']['email'];
@@ -368,6 +375,10 @@ class UsersController extends AppController
                         'id' => $this->User->id
                     )
                 );
+            } else {
+                $errors = $this->User->validationErrors;
+                $errors = $this->OpauthUser->validationErrors;
+                debug($errors);
             }
         }
     }

@@ -88,13 +88,13 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
                         <?php if ($this->Session->check('User')): ?>
                             <li class="disabled"> <?php echo $this->Html->link('Welcome ' . $this->Session->read('Auth.User.username'),'#'); ?></li>
-                            <li> <?php echo $this->Html->link('Logout', '/Users/logout'); ?> </li>
+                            <li> <?php echo $this->Html->link('Sign Out', '/Users/logout'); ?> </li>
                             <li> <?php echo $this->Html->link('Settings', '/Users/settings'); ?> </li>
                             <li> <?php echo $this->Html->link('Add Reminders', '/Reminder/add'); ?> </li>
                             <li> <?php echo $this->Html->link('View Reminders', '/Reminder/get'); ?> </li>
                             <li> <?php echo $this->Html->link('Support', '/Support/submitForm'); ?> </li>
                         <?php else: ?>
-                            <li id='login'><?php echo $this->Html->link('Login', '/Users/login'); ?></li>
+                            <li id='login'><?php echo $this->Html->link('Sign In', '/Users/login'); ?></li>
                             <li> <?php echo $this->Html->link('Register', '/Users/register'); ?> </li>
 
                         <?php endif; ?>
