@@ -68,11 +68,6 @@ class User extends AppModel
         }
     }
 
-    public function beforeValidate()
-    {
-        debug($this->data[$this->alias]);
-    }
-
     public function beforeSave($options = array())
     {
         if (!empty($this->data[$this->alias]['password'])) {
