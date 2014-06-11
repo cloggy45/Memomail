@@ -81,3 +81,4 @@ Configure::write('Opauth.Strategy.Facebook', array(
     'app_secret' => '5a40f6b03e6265603ce8e424d044c9ac'
 ));
 
+lsgit
