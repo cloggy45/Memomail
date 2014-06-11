@@ -10,7 +10,7 @@ class UsersController extends AppController
 
     public $hasOne = "OpauthUser";
 
-    private $address = "http://192.168.0.11/Remind-Me";
+    private $address = "http://192.168.33.101/Remind-Me";
 
     public function beforeFilter()
     {

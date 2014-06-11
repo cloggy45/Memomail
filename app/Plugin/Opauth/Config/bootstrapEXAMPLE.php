@@ -76,8 +76,12 @@ Configure::write('Opauth.strategy_dir', dirname(dirname(__FILE__)).'/Strategy/')
  */
 
 
-Configure::write('Opauth.Strategy.Facebook', array(
-    'app_id' => '628432490569021',
-    'app_secret' => '5a40f6b03e6265603ce8e424d044c9ac'
-));
+//Configure::write('Opauth.Strategy.Facebook', array(
+//    'app_id' => 'YOUR FACEBOOK APP ID',
+//    'app_secret' => 'YOUR FACEBOOK APP SECRET'
+//));
 
+//Configure::write('Opauth.Strategy.Google', array(
+//    'client_id' => 'YOUR CLIENT ID',
+//    'client_secret' => 'YOUR CLIENT SECRET'
+//));

@@ -2759,3 +2759,54 @@ Stack Trace:
 #3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-06-07 20:46:10 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /Remind-Me/
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-07 20:46:27 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /Remind-Me/users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#3 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-10 14:12:54 Error: Fatal Error (256): Strategy class file (/var/www/Remind-Me/app/Plugin/Opauth/Strategy/Facebook/FacebookStrategy.php) is missing in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 307]
+2014-06-10 14:12:54 Error: [FatalErrorException] Strategy class file (/var/www/Remind-Me/app/Plugin/Opauth/Strategy/Facebook/FacebookStrategy.php) is missing
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Strategy class ...', '/var/www/Remind...', 307)
+#1 [internal function]: ErrorHandler::handleError(256, 'Strategy class ...', '/var/www/Remind...', 307, Array)
+#2 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(307): trigger_error('Strategy class ...', 256)
+#3 /var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(111): Opauth->requireStrategy('Facebook')
+#4 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#5 [internal function]: OpauthAppController->index('facebook')
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-06-10 14:12:54 Error: Fatal Error (256): Strategy class file (/var/www/Remind-Me/app/Plugin/Opauth/Strategy/Facebook/FacebookStrategy.php) is missing in [/var/www/Remind-Me/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 307]
+2014-06-10 14:12:54 Error: [FatalErrorException] Strategy class file (/var/www/Remind-Me/app/Plugin/Opauth/Strategy/Facebook/FacebookStrategy.php) is missing
+Request URL: /Remind-Me/auth/facebook
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Strategy class ...', '/var/www/Remind...', 307)
+#1 [internal function]: ErrorHandler::handleError(256, 'Strategy class ...', '/var/www/Remind...', 307, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Strategy class ...', '/var/www/Remind...', 307, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -6,5 +6,5 @@ app/[Cc]onfig/core.php
 app/[Cc]onfig/database.php
 app/[Cc]onfig/SendGridAuth.php
 app/View/Themed/Cakestrap/webroot/.sass-cache/*
-
+app/Plugin/Opauth/Config/bootstrap.php
 !empty
