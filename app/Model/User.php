@@ -20,8 +20,8 @@ class User extends AppModel
                 'message' => 'Alphabets and numbers only'
             ),
             'between' => array(
-                'rule' => array('between', 5, 15),
-                'message' => 'Between 5 to 15 characters'
+                'rule' => array('between', 8, 20),
+                'message' => 'Between 8 to 20 characters'
             ),
             'unique' => array(
                 'rule' => 'isUnique',
@@ -30,8 +30,8 @@ class User extends AppModel
         ),
         'password' => array(
             'between' => array(
-                'rule' => array('between', 5, 20),
-                'message' => 'Between 5 to 20',
+                'rule' => array('between', 8, 20),
+                'message' => 'Between 8 to 20',
             )
         ),
         'email' => array(

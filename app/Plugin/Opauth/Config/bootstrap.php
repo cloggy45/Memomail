@@ -75,10 +75,8 @@ Configure::write('Opauth.strategy_dir', dirname(dirname(__FILE__)).'/Strategy/')
  *
  */
 
-
 Configure::write('Opauth.Strategy.Facebook', array(
     'app_id' => '628432490569021',
     'app_secret' => '5a40f6b03e6265603ce8e424d044c9ac'
 ));
 
-lsgit

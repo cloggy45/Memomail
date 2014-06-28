@@ -38,7 +38,7 @@ $(document).ready(function () {
 
         modules: 'security',
         borderColorOnError: '#FFF',
-        addValidClassOnAll: true,
+        addValidClassOnAll: true
         //validateOnBlur : false,
     });
 

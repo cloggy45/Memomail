@@ -24,7 +24,10 @@
                     'type' => 'text',
                     'class' => "form-control",
                     'placeholder' => "Username",
-                    'error' => false
+                    'error' => false,
+                    'data-validation' => 'length alphanumeric',
+                    'data-validation-length' => '8-20'
+                    //'data-validation-help' => "Username must be alphanumerical and between 8-20 characters"
                 )
             ); ?>
         </div>
@@ -40,7 +43,7 @@
                     'class' => 'form-control',
                     'placeholder' => 'Password',
                     'data-validation' => 'length strength',
-                    'data-validation-length' => '5-10',
+                    'data-validation-length' => '8-20',
                     'data-validation-strength' => '2',
                     'data-validation-optional' => 'true'
                 )
@@ -72,7 +75,8 @@
                     'type' => 'email',
                     'class' => 'form-control',
                     'placeholder' => 'Email',
-                    'error' => false
+                    'error' => false,
+                    'data-validation' => 'email'
                 )
             ); ?>
         </div>
@@ -88,7 +92,8 @@
                     'class' => 'form-control',
                     'placeholder' => 'Re-enter Email',
                     'data-validation' => "email original_email",
-                    'error' => false
+                    'error' => false,
+                    'data-validation' => 'email'
                 )
             ); ?>
         </div>
