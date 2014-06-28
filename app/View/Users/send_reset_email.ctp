@@ -23,7 +23,9 @@
                 array(
                     'type' => "email",
                     'placeholder' => "Email Address",
-                    'class' => "form-control"
+                    'error' => false,
+                    'class' => "form-control",
+                    'data-validation' => 'email'
                 )
             ); ?>
         </div>

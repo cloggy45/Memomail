@@ -61,7 +61,7 @@ class User extends AppModel
     public function isValid($check)
     {
         $value = array_values($check);
-        if ($value[0] == 'empty') {
+        if ($value[0] == '') {
             return false;
         } else {
             return true;
