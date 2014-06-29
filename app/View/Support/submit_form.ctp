@@ -21,7 +21,10 @@
                 array(
                     'type' => 'text',
                     'class' => 'form-control',
-                    'placeholder' => 'Subject'
+                    'placeholder' => 'Subject',
+                    'data-validation' => 'length',
+                    'data-validation-length' => '5-30',
+                    'data-validation-optional' => 'false'
                 )
             ); ?>
         </div>
@@ -37,21 +40,18 @@
         </div>
     </div>
 
-<!--    <div class="form-group">-->
-<!--        <div class="form-input">-->
-<!--            <select class="form-control" >-->
-<!--                <option>Bug</option>-->
-<!--                <option>Feature Request</option>-->
-<!--                <option>General</option>-->
-<!--            </select>-->
-<!--        </div>-->
-<!--    </div>-->
-
     <div class="form-group">
         <div class="form-input">
             <?php echo $this->Form->input(
                 'body',
-                array('type' => 'textarea', 'rows' => '5', 'class' => "form-control")
+                array(
+                    'type' => 'textarea',
+                    'rows' => '5',
+                    'class' => 'form-control',
+                    'data-validation' => 'length',
+                    'data-validation-length' => '10-290',
+                    'data-validation-optional' => 'false'
+                )
             ); ?>
         </div>
     </div>

@@ -9,6 +9,8 @@ class SupportController extends AppController
 
     public function submitForm()
     {
+        $this->set('jsIncludes', array('formValidation'));
+
         if($this->request->is('post'))
         {
             $data = array(

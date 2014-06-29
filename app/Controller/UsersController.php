@@ -104,8 +104,6 @@ class UsersController extends AppController
     // Need to clean this up :c
     public function settings()
     {
-        $this->set('jsIncludes', array('formValidation'));
-
         if ($this->request->is('post')) {
 
             $SettingsChanged = false;
