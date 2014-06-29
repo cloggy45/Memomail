@@ -28,7 +28,8 @@
                     'placeholder' => 'New Email',
                     'class' => 'form-control',
                     'value' => "",
-                    'data-validation-optional' => 'true'
+                    'data-validation-optional' => 'true',
+                    'data-validation' => 'email'
 //                    'errorMessage' => false
                 )
             ); ?>
@@ -68,7 +69,7 @@
                     'class' => 'form-control',
                     'value' => "",
                     'data-validation' => 'length strength',
-                    'data-validation-length' => '5-20',
+                    'data-validation-length' => '8-20',
                     'data-validation-strength' => '2',
                     'data-validation-optional' => 'true'
                 )

@@ -27,7 +27,6 @@
                     'error' => false,
                     'data-validation' => 'length alphanumeric',
                     'data-validation-length' => '8-20'
-                    //'data-validation-help' => "Username must be alphanumerical and between 8-20 characters"
                 )
             ); ?>
         </div>
@@ -42,7 +41,7 @@
                     'type' => 'password',
                     'class' => 'form-control',
                     'placeholder' => 'Password',
-                    'data-validation' => 'length strength',
+                    'data-validation' => 'length strength alphanumeric',
                     'data-validation-length' => '8-20',
                     'data-validation-strength' => '2',
                     'data-validation-optional' => 'true'
@@ -91,9 +90,8 @@
                     'type' => 'email',
                     'class' => 'form-control',
                     'placeholder' => 'Re-enter Email',
-                    'data-validation' => "email original_email",
                     'error' => false,
-                    'data-validation' => 'email'
+                    'data-validation' => 'email original_email'
                 )
             ); ?>
         </div>

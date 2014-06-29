@@ -107,6 +107,7 @@ class UsersController extends AppController
         $this->set('jsIncludes', array('formValidation'));
 
         if ($this->request->is('post')) {
+
             $SettingsChanged = false;
 
             $userId = $this->Session->read('Auth.User.id');
@@ -152,7 +153,7 @@ class UsersController extends AppController
                 }
             }
 
-            if ($this->request->data['User']['timezone'] !== "empty") {
+            if ($this->request->data['User']['timezone'] !== '') {
                 if ($this->Session->read('User.authType') == 'opauth') {
                     $this->OpauthUser->id = $userId;
                     if ($this->OpauthUser->saveField('timezone', $this->request->data['User']['timezone'], false)) {
@@ -202,6 +203,8 @@ class UsersController extends AppController
 
     public function resetPassword()
     {
+        $this->set('jsIncludes', array('formValidation'));
+
         if (count($this->request->params['named']) == 1) {
 
             $tempHash = $this->request->params['named']['hash'];
@@ -213,7 +216,7 @@ class UsersController extends AppController
 
             if (empty($tempId)) {
                 $this->Session->destroy();
-                $this->Session->setFlash("Link is old");
+                $this->Session->setFlash('Link is no longer valid', 'failureFlash');
                 $this->redirect('login');
             }
         };
@@ -226,7 +229,7 @@ class UsersController extends AppController
 
             if ($this->User->saveField('password', $this->request->data['User']['password'], true)) {
 
-                $this->Session->setFlash('Password changed');
+                $this->Session->setFlash('Password successfully changed', 'successFlash');
 
                 $email = $this->User->getUserDetails($id, 'email');
                 $email += $this->Session->read('Config.time');

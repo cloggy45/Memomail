@@ -21,9 +21,13 @@
             <?php echo $this->Form->input(
                 'password',
                 array(
-                    'type' => "password",
-                    'placeholder' => "New Password",
-                    'class' => "form-control"
+                    'type' => 'password',
+                    'placeholder' => 'New Password',
+                    'class' => "form-control",
+                    'data-validation' => 'length strength alphanumeric',
+                    'data-validation-length' => '8-20',
+                    'data-validation-strength' => '2',
+                    'data-validation-optional' => 'true'
                 )
             ); ?>
         </div>
@@ -36,7 +40,8 @@
                 array(
                     'type' => "password",
                     'placeholder' => "Confirm Password",
-                    'class' => "form-control"
+                    'class' => "form-control",
+                    'data-validation' => 'original_password'
                 )
             ); ?>
         </div>
