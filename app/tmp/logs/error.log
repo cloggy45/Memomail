@@ -2900,3 +2900,320 @@ Stack Trace:
 #8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2014-06-30 13:33:11 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/favicon.ico
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-30 13:33:13 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/favicon.ico
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-30 13:33:14 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/favicon.ico
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-30 13:37:37 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/favicon.ico
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-30 13:37:55 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/favicon.ico
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-30 13:38:07 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/favicon.ico
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-01 06:00:55 Error: Fatal Error (1): Call to a member function getOffset() on a non-object in [/var/www/Remind-Me/app/Controller/ReminderController.php, line 50]
+2014-07-01 06:00:55 Error: [FatalErrorException] Call to a member function getOffset() on a non-object
+Request URL: /Remind-Me/Reminder/add
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Remind...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Remind...', 50, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Remind...', 50, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 06:07:49 Error: Fatal Error (1): Call to a member function convert() on a non-object in [/var/www/Remind-Me/app/Controller/ReminderController.php, line 49]
+2014-07-01 06:07:49 Error: [FatalErrorException] Call to a member function convert() on a non-object
+Request URL: /Remind-Me/Reminder/add
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Remind...', 49)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Remind...', 49, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Remind...', 49, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 13:31:31 Error: Fatal Error (1): Call to a member function convert() on a non-object in [/var/www/Remind-Me/app/Controller/ReminderController.php, line 49]
+2014-07-01 13:31:31 Error: [FatalErrorException] Call to a member function convert() on a non-object
+Request URL: /Remind-Me/Reminder/add
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/Remind...', 49)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/Remind...', 49, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/Remind...', 49, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 14:02:47 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/Remind-Me/app/Controller/ReminderController.php, line 57]
+2014-07-01 14:02:47 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /Remind-Me/Reminder/get
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 57, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 57, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 19:50:30 Error: Fatal Error (1): Call to undefined method UsersController::getUserDetails() in [/var/www/Remind-Me/app/Controller/UsersController.php, line 42]
+2014-07-05 19:50:30 Error: [FatalErrorException] Call to undefined method UsersController::getUserDetails()
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/Remind...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/Remind...', 42, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/Remind...', 42, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 19:52:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'where clause'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `OpauthU...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `OpauthU...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `OpauthU...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(OpauthUser), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /var/www/Remind-Me/app/Model/OpauthUser.php(54): Model->find('first', Array)
+#7 /var/www/Remind-Me/app/Controller/UsersController.php(42): OpauthUser->getOpauthUserDetails('160608764628203...', 'timezone')
+#8 [internal function]: UsersController->opauth_complete()
+#9 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 [internal function]: OpauthAppController->callback()
+#14 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#15 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#16 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#17 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2014-07-05 19:53:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Opauth_users.id' in 'where clause'
+Request URL: /Remind-Me/auth/callback
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `OpauthU...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `OpauthU...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `OpauthU...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(OpauthUser), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /var/www/Remind-Me/app/Model/OpauthUser.php(54): Model->find('first', Array)
+#7 /var/www/Remind-Me/app/Controller/UsersController.php(42): OpauthUser->getOpauthUserDetails('160608764628203...', 'timezone')
+#8 [internal function]: UsersController->opauth_complete()
+#9 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Remind-Me/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 [internal function]: OpauthAppController->callback()
+#14 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#15 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#16 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#17 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2014-07-05 21:30:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Reminder.date' in 'field list'
+Request URL: /Remind-Me/Reminder/get
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Reminde...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Reminde...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Reminde...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(Reminder), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('all', Array)
+#6 /var/www/Remind-Me/app/Model/Reminder.php(55): Model->find('all', Array)
+#7 /var/www/Remind-Me/app/Controller/ReminderController.php(70): Reminder->getReminders('160608764628203...', 'all')
+#8 [internal function]: ReminderController->get()
+#9 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReminderController), Array)
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-05 22:00:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Reminder.date' in 'field list'
+Request URL: /Remind-Me/Reminder/get
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Reminde...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Reminde...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Reminde...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(Reminder), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('all', Array)
+#6 /var/www/Remind-Me/app/Model/Reminder.php(55): Model->find('all', Array)
+#7 /var/www/Remind-Me/app/Controller/ReminderController.php(70): Reminder->getReminders('160608764628203...', 'all')
+#8 [internal function]: ReminderController->get()
+#9 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReminderController), Array)
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-05 22:00:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Reminder.date' in 'field list'
+Request URL: /Remind-Me/Reminder/get
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Reminde...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Reminde...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Reminde...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(Reminder), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('all', Array)
+#6 /var/www/Remind-Me/app/Model/Reminder.php(55): Model->find('all', Array)
+#7 /var/www/Remind-Me/app/Controller/ReminderController.php(70): Reminder->getReminders('160608764628203...', 'all')
+#8 [internal function]: ReminderController->get()
+#9 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReminderController), Array)
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-05 22:05:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Reminder.date' in 'field list'
+Request URL: /Remind-Me/Reminder/get
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Reminde...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Reminde...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Reminde...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(Reminder), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('all', Array)
+#6 /var/www/Remind-Me/app/Model/Reminder.php(55): Model->find('all', Array)
+#7 /var/www/Remind-Me/app/Controller/ReminderController.php(70): Reminder->getReminders('160608764628203...', 'all')
+#8 [internal function]: ReminderController->get()
+#9 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReminderController), Array)
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-05 22:31:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Reminder.date' in 'field list'
+Request URL: /Remind-Me/Reminder/get
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Reminde...', Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Reminde...', Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Reminde...', false)
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): DboSource->read(Object(Reminder), Array)
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('all', Array)
+#6 /var/www/Remind-Me/app/Model/Reminder.php(55): Model->find('all', Array)
+#7 /var/www/Remind-Me/app/Controller/ReminderController.php(70): Reminder->getReminders('160608764628203...', 'all')
+#8 [internal function]: ReminderController->get()
+#9 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReminderController), Array)
+#10 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-05 22:41:26 Error: [Exception] DateTimeZone::__construct(): Unknown or bad timezone ()
+Request URL: /Remind-Me/Reminder/add
+Stack Trace:
+#0 /var/www/Remind-Me/app/Model/Reminder.php(38): DateTimeZone->__construct('')
+#1 [internal function]: Reminder->beforeSave(Array)
+#2 /var/www/Remind-Me/lib/Cake/Event/CakeEventManager.php(245): call_user_func_array(Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1773): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/Remind-Me/app/Controller/ReminderController.php(52): Model->save(Array)
+#5 [internal function]: ReminderController->add()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReminderController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-05 23:14:32 Error: [Exception] DateTime::__construct() expects parameter 2 to be DateTimeZone, string given
+Request URL: /Remind-Me/Reminder/add
+Stack Trace:
+#0 /var/www/Remind-Me/app/Model/Reminder.php(39): DateTime->__construct('2014/07/06 00:1...', 'UTC')
+#1 [internal function]: Reminder->beforeSave(Array)
+#2 /var/www/Remind-Me/lib/Cake/Event/CakeEventManager.php(245): call_user_func_array(Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1773): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/Remind-Me/app/Controller/ReminderController.php(52): Model->save(Array)
+#5 [internal function]: ReminderController->add()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReminderController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-06 11:42:35 Error: [Exception] DateTimeZone::__construct(): Unknown or bad timezone (Asia/Kabu)
+Request URL: /Remind-Me/Reminder/add
+Stack Trace:
+#0 /var/www/Remind-Me/app/Model/Reminder.php(38): DateTimeZone->__construct('Asia/Kabu')
+#1 [internal function]: Reminder->beforeSave(Array)
+#2 /var/www/Remind-Me/lib/Cake/Event/CakeEventManager.php(245): call_user_func_array(Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1773): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/Remind-Me/app/Controller/ReminderController.php(52): Model->save(Array)
+#5 [internal function]: ReminderController->add()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReminderController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-06 13:57:37 Error: Fatal Error (1): Cannot use object of type DateTime as array in [/var/www/Remind-Me/app/Model/Reminder.php, line 43]
+2014-07-06 13:57:37 Error: [FatalErrorException] Cannot use object of type DateTime as array
+Request URL: /Remind-Me/Reminder/add
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/Remind...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/Remind...', 43, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/Remind...', 43, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-06 13:58:23 Error: Fatal Error (1): Call to undefined method DateTime::date() in [/var/www/Remind-Me/app/Model/Reminder.php, line 43]
+2014-07-06 13:58:23 Error: [FatalErrorException] Call to undefined method DateTime::date()
+Request URL: /Remind-Me/Reminder/add
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/Remind...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/Remind...', 43, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/Remind...', 43, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-06 14:01:48 Error: Fatal Error (1): Call to undefined method DateTime::getProperty() in [/var/www/Remind-Me/app/Model/Reminder.php, line 43]
+2014-07-06 14:01:48 Error: [FatalErrorException] Call to undefined method DateTime::getProperty()
+Request URL: /Remind-Me/Reminder/add
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/Remind...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/Remind...', 43, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/Remind...', 43, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-06 14:26:24 Error: [Exception] DateTimeZone::__construct(): Unknown or bad timezone ()
+Request URL: /Remind-Me/Reminder/get
+Stack Trace:
+#0 /var/www/Remind-Me/app/View/Reminder/get.ctp(29): DateTimeZone->__construct('')
+#1 /var/www/Remind-Me/lib/Cake/View/View.php(929): include('/var/www/Remind...')
+#2 /var/www/Remind-Me/lib/Cake/View/View.php(891): View->_evaluate('/var/www/Remind...', Array)
+#3 /var/www/Remind-Me/lib/Cake/View/View.php(460): View->_render('/var/www/Remind...')
+#4 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#5 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

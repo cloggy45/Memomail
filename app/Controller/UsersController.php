@@ -38,6 +38,10 @@ class UsersController extends AppController
 
             if ($this->Auth->login($loginUser)) {
                 $this->Session->write('User.authType', 'opauth');
+
+                $userTimezone = $this->OpauthUser->getOpauthUserDetails($opauthUid, 'timezone');
+                $this->Session->write('User.timezone', $userTimezone);
+
                 $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
             } else {
                 $this->Session->setFlash('Unable to log in', 'failureFlash');
@@ -85,6 +89,10 @@ class UsersController extends AppController
                     return $this->redirect($this->Auth->logout());
 
                 } else {
+                    $userTimezone = $this->User->getUserDetails($userId, 'timezone');
+
+                    $this->Session->write("User.timezone", $userTimezone);
+
                     $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
                 }
 

@@ -42,4 +42,17 @@ class OpauthUser extends AppModel
             return true;
         }
     }
+
+    public function getOpauthUserDetails($id, $userField)
+    {
+        $userDetails = $this->find(
+            'first',
+            array(
+                'conditions' => array('id' => $id),
+                'fields' => $userField
+            )
+        );
+
+        return $userDetails[$this->alias][$userField];
+    }
 }

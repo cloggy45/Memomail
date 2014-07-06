@@ -33,6 +33,16 @@ class Reminder extends AppModel
         )
     );
 
+    public function beforeSave()
+    {
+        $userTimezone = new DateTimeZone($this->data[$this->alias]['timezone']);
+        $newTimezone = new DateTimeZone('UTC');
+        $date = new DateTime($this->data[$this->alias]['timestamp'], $userTimezone);
+        $date->setTimezone($newTimezone);
+
+        $this->data[$this->alias]['timestamp'] = $date->format('Y-m-d H:i:s');
+    }
+
     /**
      * @param $id
      * @param $type        http://book.cakephp.org/2.0/en/models/retrieving-your-data.html
@@ -44,7 +54,7 @@ class Reminder extends AppModel
             $type,
             array(
                 'conditions' => array('user_id' => $id),
-                'fields' => array('id', 'title', 'body', 'date', 'time')
+                'fields' => array('id', 'title', 'body', 'timestamp')
             )
         );
 

@@ -38,30 +38,22 @@ class ReminderController extends AppController
 
                 App::uses('CakeTime', 'Utility');
 
-                $userTimezone = $this->Reminder->User->getUserDetails($this->Session->read('Auth.User.id'), 'timezone');
-
-                $tempString = $this->request->data['formatted_date_input_submit'] . " " .
-                    $this->request->data['formatted_time_input_submit'] . " " .
-                    $userTimezone;
-
-                // Using preceding $userTimezone, generate unix timestamp ready to be saved
-                $unixTimestamp = strtotime($tempString);
+                $unixTimestamp = $this->request->data['formatted_date_input_submit'] . ' ' . $this->request->data['formatted_time_input_submit'];
 
                 // Construct our own $data to include the users Id.
                 $data = array(
                     'user_id' => $this->Session->read('Auth.User.id'),
                     'title' => $this->request->data['Reminder']['title'],
                     'body' => $this->request->data['Reminder']['body'],
-                    'date' => $this->request->data['formatted_date_input_submit'],
-                    'time' => $this->request->data['formatted_time_input_submit'],
-                    'timestamp' => $unixTimestamp
+                    'timestamp' => $unixTimestamp,
+                    'timezone' => $this->Session->read('User.timezone')
                 );
 
                 $this->Reminder->save($data);
 
                 $this->Session->setFlash('Reminder Added', 'successFlash');
 
-                $this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
+               //$this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
 
             } else {
                 echo $this->Reminder->validationErrors;

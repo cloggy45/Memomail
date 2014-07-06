@@ -22,8 +22,7 @@
         <?php endif; ?>
 
         <td><?php echo $time ?></td>
-        <td><?php echo $temDate = CakeTime::format($date, '%d-%m-%y'); ?></td>
-
+        <td><?php echo $date ?></td>
 
         <td>
             <?php
