@@ -10,18 +10,25 @@
 }
 
 /* line 12, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
+.navbar {
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.45);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.45);
+  box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.45);
+}
+
+/* line 18, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body {
   padding-top: 50px;
 }
-/* line 15, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 21, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body #title {
   font-weight: 700;
 }
-/* line 21, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 27, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body ul li a:hover {
   color: #962418 !important;
 }
-/* line 27, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 33, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer {
   color: #fdf2d8;
   background: #e75849;
@@ -29,24 +36,30 @@ body footer {
   bottom: 0px;
   width: 100%;
 }
-/* line 35, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 40, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
+body footer #footer {
+  -webkit-box-shadow: 0px -3px 6px 0px rgba(50, 50, 50, 0.45);
+  -moz-box-shadow: 0px -3px 6px 0px rgba(50, 50, 50, 0.45);
+  box-shadow: 0px -3px 6px 0px rgba(50, 50, 50, 0.45);
+}
+/* line 46, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer p {
   padding: 5px 0px;
   text-align: center;
   margin: 0px;
   color: white;
 }
-/* line 42, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 53, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer a {
   color: white;
 }
-/* line 45, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 56, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer a:hover {
   text-decoration: none;
   color: white;
 }
 
-/* line 53, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 64, ../../../sass/layout_styles/default_view_styles/default_view_styles.scss */
 #flashMessage {
   text-align: center;
   margin: 10px;

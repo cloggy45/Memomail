@@ -89,8 +89,8 @@ class UsersController extends AppController
                     return $this->redirect($this->Auth->logout());
 
                 } else {
-                    $userTimezone = $this->User->getUserDetails($userId, 'timezone');
 
+                    $userTimezone = $this->User->getUserDetails($userId, 'timezone');
                     $this->Session->write("Auth.User.timezone", $userTimezone);
 
                     $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
@@ -161,9 +161,22 @@ class UsersController extends AppController
                 }
             }
 
-            if ($this->request->data['User']['timezone'] !== '') {
-                $this->Session->write('Auth.User.timezone', $this->request->data['User']['timezone']);
-                $settingsChanged = true;
+            if ($this->request->data['User']['timezone'] !== "empty") {
+                if ($this->Session->read('User.authType') == 'opauth') {
+
+                    $this->OpauthUser->id = $userId;
+
+                    if ($this->OpauthUser->saveField('timezone', $this->request->data['User']['timezone'], false)) {
+                        $this->Session->write('Auth.User.timezone', $this->request->data['User']['timezone']);
+                        $SettingsChanged = true;
+                    }
+
+                } else {
+                    if ($this->User->saveField('timezone', $this->request->data['User']['timezone'], true)) {
+                        $this->Session->write('Auth.User.timezone', $this->request->data['User']['timezone']);
+                        $SettingsChanged = true;
+                    }
+                }
             }
 
             if ($this->request->data['User']['Clear All']) {

@@ -3243,3 +3243,17 @@ Stack Trace:
 #6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
 #7 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2014-07-09 07:03:01 Error: [Exception] DateTimeZone::__construct(): Unknown or bad timezone (empty)
+Request URL: /Remind-Me/Reminder/add
+Stack Trace:
+#0 /var/www/Remind-Me/app/Model/Reminder.php(38): DateTimeZone->__construct('empty')
+#1 [internal function]: Reminder->beforeSave(Array)
+#2 /var/www/Remind-Me/lib/Cake/Event/CakeEventManager.php(245): call_user_func_array(Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1773): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/Remind-Me/app/Controller/ReminderController.php(52): Model->save(Array)
+#5 [internal function]: ReminderController->add()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReminderController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
