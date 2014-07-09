@@ -22,8 +22,8 @@
                         'id' => $reminder['Reminder']['id'],
                         'title' => $reminder['Reminder']['title'],
                         'body' => $reminder['Reminder']['body'],
-                        'time' => CakeTime::format($reminder['Reminder']['timestamp'], '%H:%M %p', false, new DateTimeZone($this->Session->read('User.timezone'))),
-                        'date' => CakeTime::format($reminder['Reminder']['timestamp'], '%B %e, %Y', false, new DateTimeZone($this->Session->read('User.timezone')))
+                        'time' => CakeTime::format($reminder['Reminder']['timestamp'], '%H:%M %p', false, new DateTimeZone($this->Session->read('Auth.User.timezone'))),
+                        'date' => CakeTime::format($reminder['Reminder']['timestamp'], '%B %e, %Y', false, new DateTimeZone($this->Session->read('Auth.User.timezone')))
                     )
                 );
 

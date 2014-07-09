@@ -86,7 +86,7 @@ $cakeDescription = __d('cake_dev', 'Remind Me');
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
 
-                        <?php if ($this->Session->check('User')): ?>
+                        <?php if ($this->Session->check('Auth.User')): ?>
                             <li class="disabled"> <?php echo $this->Html->link('Welcome ' . $this->Session->read('Auth.User.username'),'#'); ?></li>
                             <li> <?php echo $this->Html->link('Sign Out', '/Users/logout'); ?> </li>
                             <li> <?php echo $this->Html->link('Settings', '/Users/settings'); ?> </li>

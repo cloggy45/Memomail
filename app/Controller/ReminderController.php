@@ -46,14 +46,14 @@ class ReminderController extends AppController
                     'title' => $this->request->data['Reminder']['title'],
                     'body' => $this->request->data['Reminder']['body'],
                     'timestamp' => $unixTimestamp,
-                    'timezone' => $this->Session->read('User.timezone')
+                    'timezone' => $this->Session->read('Auth.User.timezone')
                 );
 
                 $this->Reminder->save($data);
 
                 $this->Session->setFlash('Reminder Added', 'successFlash');
 
-               //$this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
+                $this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
 
             } else {
                 echo $this->Reminder->validationErrors;

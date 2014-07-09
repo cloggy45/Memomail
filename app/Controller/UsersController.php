@@ -6,7 +6,7 @@ class UsersController extends AppController
 {
     public $helpers = array('Html', 'Form', 'Timezone.Timezone');
     public $components = array('Session', 'Auth', 'Email');
-    public $uses = array('User', 'OpauthUser');
+    public $uses = array('User', 'OpauthUser', 'Reminder');
 
     public $hasOne = "OpauthUser";
 
@@ -37,10 +37,10 @@ class UsersController extends AppController
         if ($this->OpauthUser->userExists($opauthUid)) {
 
             if ($this->Auth->login($loginUser)) {
-                $this->Session->write('User.authType', 'opauth');
+                $this->Session->write('Auth.User.authType', 'opauth');
 
                 $userTimezone = $this->OpauthUser->getOpauthUserDetails($opauthUid, 'timezone');
-                $this->Session->write('User.timezone', $userTimezone);
+                $this->Session->write('Auth.User.timezone', $userTimezone);
 
                 $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
             } else {
@@ -71,13 +71,13 @@ class UsersController extends AppController
         if ($this->request->is('post')) {
             if ($this->Auth->login()) {
 
-                $this->Session->write('User.username', $this->request->data['User']['username']);
+                $this->Session->write('Auth.User.username', $this->request->data['User']['username']);
 
                 $fieldValue = $this->request->data['User']['username'];
 
                 $userId = $this->User->getUserId('username', $fieldValue);
 
-                $this->Session->write('User.authType', 'local');
+                $this->Session->write('Auth.User.authType', 'local');
 
                 $registrationValid = $this->User->Registration->getRegValidStatus($userId);
 
@@ -91,7 +91,7 @@ class UsersController extends AppController
                 } else {
                     $userTimezone = $this->User->getUserDetails($userId, 'timezone');
 
-                    $this->Session->write("User.timezone", $userTimezone);
+                    $this->Session->write("Auth.User.timezone", $userTimezone);
 
                     $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
                 }
@@ -105,7 +105,9 @@ class UsersController extends AppController
 
     public function logout()
     {
+        $this->Session->delete('Auth');
         $this->Session->delete('User');
+        $this->Session->delete('Config');
         $this->redirect($this->Auth->logout());
     }
 
@@ -114,7 +116,7 @@ class UsersController extends AppController
     {
         if ($this->request->is('post')) {
 
-            $SettingsChanged = false;
+            $settingsChanged = false;
 
             $userId = $this->Session->read('Auth.User.id');
 
@@ -140,14 +142,14 @@ class UsersController extends AppController
 
                     if ($validOpauth && $validUser) {
                         $this->OpauthUser->saveField('email', $this->request->data['User']['email'], false);
-                        $SettingsChanged = true;
+                        $settingsChanged = true;
                     }
 
                 } else {
 
                     if ($validUser && $validOpauth) {
                         $this->User->saveField('email', $this->request->data['User']['email'], false);
-                        $SettingsChanged = true;
+                        $settingsChanged = true;
                     }
                 }
             }
@@ -155,30 +157,21 @@ class UsersController extends AppController
             if (!empty($this->request->data['User']['password'])) {
 
                 if ($this->User->saveField('password', $this->request->data['User']['password'], true)) {
-                    $SettingsChanged = true;
+                    $settingsChanged = true;
                 }
             }
 
             if ($this->request->data['User']['timezone'] !== '') {
-                if ($this->Session->read('User.authType') == 'opauth') {
-                    $this->OpauthUser->id = $userId;
-                    if ($this->OpauthUser->saveField('timezone', $this->request->data['User']['timezone'], false)) {
-                        $SettingsChanged = true;
-                    }
-
-                } else {
-                    if ($this->User->saveField('timezone', $this->request->data['User']['timezone'], true)) {
-                        $SettingsChanged = true;
-                    }
-                }
+                $this->Session->write('Auth.User.timezone', $this->request->data['User']['timezone']);
+                $settingsChanged = true;
             }
 
             if ($this->request->data['User']['Clear All']) {
-                $SettingsChanged = true;
+                $settingsChanged = true;
                 $this->Session->setFlash('Cleared all reminders', 'successFlash');
             }
 
-            if ($SettingsChanged) {
+            if ($settingsChanged) {
                 $this->Session->setFlash('Settings Changed', 'successFlash');
 
             } else {
