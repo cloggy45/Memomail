@@ -162,23 +162,20 @@ class UsersController extends AppController
             }
 
             if ($this->request->data['User']['timezone'] !== "empty") {
-                debug($this->request->data['User']['timezone']);
 
                 if ($this->Session->read('User.authType') == 'opauth') {
 
                     $this->OpauthUser->id = $userId;
 
                     if ($this->OpauthUser->saveField('timezone', $this->request->data['User']['timezone'], false)) {
-                        debug("We are here... Opauth");
                         $this->Session->write('Auth.User.timezone', $this->request->data['User']['timezone']);
-                        $SettingsChanged = true;
+                        $settingsChanged = true;
                     }
 
                 } else {
                     if ($this->User->saveField('timezone', $this->request->data['User']['timezone'], true)) {
-                        debug("We are here... Normal Register");
                         $this->Session->write('Auth.User.timezone', $this->request->data['User']['timezone']);
-                        $SettingsChanged = true;
+                        $settingsChanged = true;
                     }
                 }
             }
@@ -319,7 +316,7 @@ class UsersController extends AppController
 
         $this->Email->smtpOptions = $sendAuth;
         $this->Email->delivery = 'smtp';
-        $this->Email->from = '';
+        $this->Email->from = 'someemail@googlemail.com';
         $this->Email->to = $this->User->getUserDetails($id, 'email');
 
         $this->set('username', $this->User->getUserDetails($id, 'username'));

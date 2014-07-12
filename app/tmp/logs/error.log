@@ -3309,3 +3309,16 @@ Stack Trace:
 #8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
 #9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2014-07-12 20:00:46 Error: [SocketException] Invalid email: ""
+Request URL: /Remind-Me/Users/sendActivationEmail/type:activation/id:1
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Network/Email/CakeEmail.php(596): CakeEmail->_setEmail('_from', Array, NULL)
+#1 /var/www/Remind-Me/lib/Cake/Network/Email/CakeEmail.php(368): CakeEmail->_setEmailSingle('_from', Array, NULL, 'From requires o...')
+#2 /var/www/Remind-Me/lib/Cake/Controller/Component/EmailComponent.php(292): CakeEmail->from(Array)
+#3 /var/www/Remind-Me/app/Controller/UsersController.php(336): EmailComponent->send()
+#4 [internal function]: UsersController->sendActivationEmail()
+#5 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
