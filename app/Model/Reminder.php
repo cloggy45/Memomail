@@ -54,7 +54,7 @@ class Reminder extends AppModel
             $type,
             array(
                 'conditions' => array('user_id' => $id),
-                'fields' => array('id', 'title', 'body', 'timestamp', 'timezone')
+                'fields' => array('id', 'title', 'body', 'timestamp','sent', 'timezone')
             )
         );
 

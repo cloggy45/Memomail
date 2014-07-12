@@ -155,7 +155,6 @@ class User extends AppModel
         return $emailHash[$this->alias]['email_hash'];
     }
 
-
 }
 
 ?>

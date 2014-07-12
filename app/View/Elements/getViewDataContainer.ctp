@@ -23,6 +23,12 @@
 
         <td><?php echo $time ?></td>
         <td><?php echo $date ?></td>
+        <td><?php if(is_null($status))
+                    echo "Unsent";
+                  else
+                    echo "Sent";
+            ?>
+        </td>
 
         <td>
             <?php

@@ -9,7 +9,8 @@
             <th>Description</th>
             <th>Time</th>
             <th>Date</th>
-            <th></th>
+            <th>Status</th>
+            <th>Options</th>
         </tr>
         </thead>
 
@@ -22,6 +23,7 @@
                         'id' => $reminder['Reminder']['id'],
                         'title' => $reminder['Reminder']['title'],
                         'body' => $reminder['Reminder']['body'],
+                        'status' => $reminder['Reminder']['sent'],
                         'time' => CakeTime::format($reminder['Reminder']['timestamp'], '%H:%M %p', false, new DateTimeZone($this->Session->read('Auth.User.timezone'))),
                         'date' => CakeTime::format($reminder['Reminder']['timestamp'], '%B %e, %Y', false, new DateTimeZone($this->Session->read('Auth.User.timezone')))
                     )

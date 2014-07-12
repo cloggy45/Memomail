@@ -162,17 +162,21 @@ class UsersController extends AppController
             }
 
             if ($this->request->data['User']['timezone'] !== "empty") {
+                debug($this->request->data['User']['timezone']);
+
                 if ($this->Session->read('User.authType') == 'opauth') {
 
                     $this->OpauthUser->id = $userId;
 
                     if ($this->OpauthUser->saveField('timezone', $this->request->data['User']['timezone'], false)) {
+                        debug("We are here... Opauth");
                         $this->Session->write('Auth.User.timezone', $this->request->data['User']['timezone']);
                         $SettingsChanged = true;
                     }
 
                 } else {
                     if ($this->User->saveField('timezone', $this->request->data['User']['timezone'], true)) {
+                        debug("We are here... Normal Register");
                         $this->Session->write('Auth.User.timezone', $this->request->data['User']['timezone']);
                         $SettingsChanged = true;
                     }
@@ -315,7 +319,7 @@ class UsersController extends AppController
 
         $this->Email->smtpOptions = $sendAuth;
         $this->Email->delivery = 'smtp';
-        $this->Email->from = $fromEmail;
+        $this->Email->from = '';
         $this->Email->to = $this->User->getUserDetails($id, 'email');
 
         $this->set('username', $this->User->getUserDetails($id, 'username'));
@@ -326,6 +330,7 @@ class UsersController extends AppController
             $this->set('address', $this->address . '/Users/activateAccount/hash:');
 
             $this->Email->subject = 'Please Activate Email';
+
             $this->Email->template = 'registration_activation';
             $this->Email->sendAs = 'both';
             $this->Email->send();
