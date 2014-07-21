@@ -4,6 +4,15 @@
   width:150px;
 }
 
+.row {
+  background-color: transparent;
+}
+
+body, html {
+  background-color: transparent;
+  background-image: url("../img/background.png");
+}
+
 .navbar-brand {
   padding: 5px;
   padding-left: 14px;

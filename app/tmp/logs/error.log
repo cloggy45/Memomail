@@ -3322,3 +3322,301 @@ Stack Trace:
 #7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #8 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #9 {main}
+2014-07-13 13:46:32 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [/var/www/Remind-Me/app/Controller/UsersController.php, line 294]
+2014-07-13 13:46:32 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+Request URL: /Remind-Me/Users/activateAccount/hash:af1865c4d36a33c2397ed16b6ebc4144
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 294)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 294, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 294, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-13 18:17:25 Error: Fatal Error (4): syntax error, unexpected '?' in [/var/www/Remind-Me/app/View/Emails/html/registration_activation.ctp, line 347]
+2014-07-13 18:17:25 Error: [InternalErrorException] Internal Server Error
+Request URL: /Remind-Me/Users/sendActivationEmail/type:activation/id:1
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 347)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 347, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 347, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-13 18:18:05 Error: Fatal Error (4): syntax error, unexpected '?' in [/var/www/Remind-Me/app/View/Emails/html/registration_activation.ctp, line 347]
+2014-07-13 18:18:05 Error: [FatalErrorException] syntax error, unexpected '?'
+Request URL: /Remind-Me/Users/sendActivationEmail/type:activation/id:1
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 347)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 347, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 347, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-13 18:18:41 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/Remind-Me/app/View/Emails/html/registration_activation.ctp, line 350]
+2014-07-13 18:18:41 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Remind-Me/Users/sendActivationEmail/type:activation/id:1
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/Remind...', 350)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/Remind...', 350, Array)
+#2 /var/www/Remind-Me/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/Remind...', 350, Array)
+#3 /var/www/Remind-Me/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-21 05:54:31 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/theme/Cakestrap/css/images/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 05:54:36 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/theme/Cakestrap/css/images/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 05:54:54 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/theme/Cakestrap/css/images/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 05:54:57 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/theme/Cakestrap/css/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 05:55:13 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/theme/Cakestrap/css/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 05:55:13 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/theme/Cakestrap/css/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 05:55:14 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/theme/Cakestrap/css/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 05:55:50 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/theme/Cakestrap/css/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 05:55:52 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/theme/Cakestrap/css/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 05:55:56 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/theme/Cakestrap/css/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 06:49:23 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Remind-Me/Users/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-21 06:49:25 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Remind-Me/Users/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-21 06:49:38 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Remind-Me/Users/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-21 06:49:41 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Remind-Me/Users/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-21 06:50:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 06:50:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 06:50:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 06:51:09 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /Remind-Me/Users/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-21 06:51:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 06:51:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 06:58:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/img/Logo.png
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 07:06:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/js/login.js
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 07:06:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/js/login.js
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 07:06:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/js/login.js
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 07:07:13 Error: [MissingControllerException] Controller class User-viewsController could not be found.
+Exception Attributes: array (
+  'class' => 'User-viewsController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/user-views/login.js
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 07:07:15 Error: [MissingControllerException] Controller class User-viewsController could not be found.
+Exception Attributes: array (
+  'class' => 'User-viewsController',
+  'plugin' => NULL,
+)
+Request URL: /Remind-Me/user-views/login.js
+Stack Trace:
+#0 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-21 15:25:07 Error: [Exception] DateTimeZone::__construct(): Unknown or bad timezone (empty)
+Request URL: /Remind-Me/Reminder/add
+Stack Trace:
+#0 /var/www/Remind-Me/app/Model/Reminder.php(38): DateTimeZone->__construct('empty')
+#1 [internal function]: Reminder->beforeSave(Array)
+#2 /var/www/Remind-Me/lib/Cake/Event/CakeEventManager.php(245): call_user_func_array(Array, Array)
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1773): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /var/www/Remind-Me/app/Controller/ReminderController.php(52): Model->save(Array)
+#5 [internal function]: ReminderController->add()
+#6 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ReminderController), Array)
+#7 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

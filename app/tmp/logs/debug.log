@@ -35509,3 +35509,23 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 182
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
 [main] - APP/webroot/index.php, line 108
 
+2014-07-13 14:27:22 Notice: Notice (8): Undefined index: User in [/var/www/Remind-Me/app/Model/User.php, line 98]
+Trace:
+User::getUserId() - APP/Model/User.php, line 98
+UsersController::sendResetEmail() - APP/Controller/UsersController.php, line 265
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-07-13 14:33:04 Notice: Notice (8): Undefined index: User in [/var/www/Remind-Me/app/Model/User.php, line 98]
+Trace:
+User::getUserId() - APP/Model/User.php, line 98
+UsersController::resetPassword() - APP/Controller/UsersController.php, line 225
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+

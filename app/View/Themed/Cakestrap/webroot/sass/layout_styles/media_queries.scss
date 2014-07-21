@@ -7,6 +7,39 @@
 }
 
 #login_view {
+
+  #socialSignIn {
+    text-align: center;
+  }
+
+  #facebookLogin {
+    @include respond-to(tablet-landscape-desktop)
+    {
+      @include  make-sm-column(12);
+    }
+  }
+
+  #googleLogin {
+    @include respond-to(tablet-landscape-desktop)
+    {
+      @include make-sm-column(12);
+    }
+  }
+
+  .alignCenter {
+    @include respond-to(tablet-portrait) {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+
+  #facebookSignIn, #googleSignIn {
+    @include respond-to(phone) {
+      text-align: center;
+
+    }
+  }
+
   h2 {
     @include respond-to(tablet-portrait) {
       padding-left: 0px;
@@ -34,8 +67,8 @@
 #reset_password_view {
   h2 {
     @include respond-to(tablet-portrait) {
-      position:relative;
-      right:10px;
+      position: relative;
+      right: 10px;
     }
   }
 }

@@ -11,13 +11,13 @@ $(document).ready(function () {
         interval: 5
     });
 
-    var titleLeft = 20;
+    var titleLeft = 30;
 
     $('#remainingTitleChars').text('Characters left: ' + titleLeft);
 
     $('#ReminderTitle').keyup(function () {
 
-        titleLeft = 20 - $(this).val().length;
+        titleLeft = 30 - $(this).val().length;
 
         if (titleLeft < 0) {
             $('#remainingTitleChars').addClass("overlimit");
@@ -30,13 +30,13 @@ $(document).ready(function () {
     });
 
 
-    var bodyLeft = 100;
+    var bodyLeft = 300;
 
     $('#remainingBodyChars').text('Characters left: ' + bodyLeft);
 
     $('#ReminderBody').keyup(function () {
 
-        bodyLeft = 100 - $(this).val().length;
+        bodyLeft = 300 - $(this).val().length;
 
         if (bodyLeft < 0) {
 

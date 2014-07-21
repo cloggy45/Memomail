@@ -1,9 +1,22 @@
 #login_view {
-  background: $body-bg;
+
+  //background: $body-bg;
+  background-color: transparent;
+
+  .alignCenter {
+    margin-top: 100px;
+  }
+
+  h4 {
+    text-align: center;
+  }
 
   h2 {
-    @include make-sm-column-offset(4);
-    padding-left: 9px;
+    margin-left: -18px;
+  }
+
+  .btn {
+    margin-top: 10px;
   }
 
   .divider {
@@ -12,26 +25,11 @@
     border-bottom:5px solid #e75849;
   }
 
-  .form-group {
-
-    .form-input {
-      @include make-sm-column-offset(4);
-      @include make-sm-column(4);
-    }
-
-    .submit-button {
-      @include make-sm-column-offset(4);
-      @include make-sm-column(1);
-
-      margin-top:10px;
-    }
+  #socialSignIn {
+    @include make-sm-column-offset(6);
   }
 
-  img {
+  #facebookLogin {
     margin-bottom: 10px;
-  }
-
-  #googleSignIn {
-    margin-bottom: 30px;
   }
 }

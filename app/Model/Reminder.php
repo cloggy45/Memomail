@@ -21,8 +21,8 @@ class Reminder extends AppModel
                 'message' => 'This field cannot be left blank'
             ),
             'maxLength' => array(
-                'rule' => array('maxLength', 100),
-                'message' => 'Title can only have a maximum of 100 characters'
+                'rule' => array('maxLength', 300),
+                'message' => 'Title can only have a maximum of 300 characters'
             )
         ),
         'datetime' => array(

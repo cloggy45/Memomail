@@ -68,6 +68,7 @@ class UsersController extends AppController
 
     public function login()
     {
+
         if ($this->request->is('post')) {
             if ($this->Auth->login()) {
 
@@ -198,13 +199,13 @@ class UsersController extends AppController
     {
         $id = $this->Session->read('Auth.User.id');
 
-        $this->User->delete($id);
+        $this->User->deleteAll($id);
 
         $this->User->Registration->deleteAll(array('user_id' => $id), false);
         $this->User->Reminder->deleteAll(array('user_id' => $id), false);
         $this->OpauthUser->deleteAll(array('id' => $id), false);
 
-        $this->Session->delete('User');
+        $this->Session->delete('Auth');
 
         $this->redirect(
             array(

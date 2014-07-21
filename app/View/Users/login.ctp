@@ -1,77 +1,106 @@
 <section id="login_view">
 
-    <?php echo $this->Session->flash('auth'); ?>
+    <div class="row">
+        <div class="col-sm-6">
+            <h4 class="alignCenter">A simple and elegant web app for creating reminders that will be delivered straight
+                to
+                your inbox.</h4>
+        </div>
 
-    <h2>Sign In</h2>
+        <?php echo $this->Session->flash('auth'); ?>
 
-    <?php echo $this->Form->create(
-        'User',
-        array(
-            'type' => 'post',
-            'action' => 'login',
-            'inputDefaults' => array(
-                'label' => false,
-                'div' => false
-            ),
-            'class' => "form-horizontal",
-            'role' => "form"
-        )
-    ); ?>
+        <div class="col-sm-4 col-sm-offset-1">
 
-    <!-- Username -->
-    <div class="form-group">
-        <div class="form-input">
-            <?php echo $this->Form->input(
-                'username',
+            <h2>Sign In</h2>
+
+            <?php echo $this->Form->create(
+                'User',
                 array(
-                    'type' => 'text',
-                    'placeholder' => 'Username',
-                    'class' => 'form-control',
-
+                    'type' => 'post',
+                    'action' => 'login',
+                    'inputDefaults' => array(
+                        'label' => false,
+                        'div' => false
+                    ),
+                    'class' => "form-horizontal",
+                    'role' => "form"
                 )
             ); ?>
+
+            <!-- Username -->
+            <div class="form-group">
+                <div class="form-input">
+                    <?php echo $this->Form->input(
+                        'username',
+                        array(
+                            'type' => 'text',
+                            'placeholder' => 'Username',
+                            'class' => 'form-control',
+
+                        )
+                    ); ?>
+                </div>
+            </div>
+
+            <!-- Password -->
+            <div class="form-group">
+                <div class="form-input">
+                    <?php echo $this->Form->input(
+                        'password',
+                        array(
+                            'type' => 'password',
+                            'placeholder' => 'Password',
+                            'class' => 'form-control'
+                        )
+                    ); ?>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+                <div
+                    class="form-input"><?php echo $this->Html->link('Forgotten password?', '/users/sendResetEmail'); ?></div>
+                <div class="submit-button">
+                    <?php echo $this->Form->button(
+                        'Login',
+                        array(
+                            'type' => 'submit',
+                            'class' => 'btn btn-default'
+                        )
+                    ); ?>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="divider"></div>
+            </div>
+
+            <?php echo $this->Form->end(); ?>
+
+            <div class="row">
+                <h4 id="signInBlurb">Sign in using social media</h4>
+            </div>
+
+            <!---
+            <div class="row">
+                <div class="row" id="socialSignIn">
+                    <div id="facebookLogin"><?php echo $this->Html->link($this->Html->image('facebookLogin.gif', array('alt' => 'Sign in with Facebook')), '/auth/facebook', array('escape' => false)); ?></div>
+                    <div id="googleLogin"><?php echo $this->Html->link($this->Html->image('googleLogin.gif', array('alt' => 'Sign in with Google')), '/auth/google', array('escape' => false)); ?></div>
+                </div>
+            </div>
+            -->
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div id="socialSignIn">
+            <div id="facebookLogin"><?php echo $this->Html->link($this->Html->image('facebookLogin.gif', array('alt' => 'Sign in with Facebook')), '/auth/facebook', array('escape' => false)); ?></div>
+            <div id="googleLogin"><?php echo $this->Html->link($this->Html->image('googleLogin.gif', array('alt' => 'Sign in with Google')), '/auth/google', array('escape' => false)); ?></div>
         </div>
     </div>
 
-    <!-- Password -->
-    <div class="form-group">
-        <div class="form-input">
-            <?php echo $this->Form->input(
-                'password',
-                array(
-                    'type' => 'password',
-                    'placeholder' => 'Password',
-                    'class' => 'form-control'
-                )
-            ); ?>
-        </div>
-    </div>
-
-    <!-- Button -->
-    <div class="form-group">
-        <div class="form-input"><?php echo $this->Html->link('Forgotten password?', '/users/sendResetEmail'); ?></div>
-        <div class="submit-button">
-            <?php echo $this->Form->button(
-                'Login',
-                array(
-                    'type' => 'submit',
-                    'class' => 'btn btn-default'
-                )
-            ); ?>
-        </div>
-    </div>
-
-    <?php echo $this->Form->end(); ?>
-
-    <div class="row">
-        <div class="col-sm-offset-4 col-xs-offset-1 col-xs-10 col-sm-4 divider"></div>
-    </div>
-    <div class="row">
-        <h4 class="col-xs-12 text-center">Sign in using social media</h4>
-    </div>
-    <div class="row">
-        <div class="text-center col-lg-offset-4 col-lg-2"><?php echo $this->Html->link($this->Html->image('facebookLogin.gif', array('alt' => 'Sign in with Facebook')), '/auth/facebook', array('escape' => false)); ?></div>
-        <div id="googleSignIn" class="text-center col-lg-2"><?php echo $this->Html->link($this->Html->image('googleLogin.gif', array('alt' => 'Sign in with Google')), '/auth/google', array('escape' => false)); ?></div>
     </div>
 
 </section>
