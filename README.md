@@ -1,5 +1,7 @@
 <h1> Remind Me </h1>
 
+<a href='http://imgbin.org'><img src='http://imgbin.org/images/18657.png' alt='This image is hosted for free at ImageBin' height="200" width="200"/></a>
+
 <h3>Installation</h3>
 
 * Clone the repository, inside the newly created folder execute `git submodule update --init --recursive`
