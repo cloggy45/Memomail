@@ -26,10 +26,12 @@
   }
 
   #socialSignIn {
-    @include make-sm-column-offset(6);
+    text-align: center;
+
   }
 
-  #facebookLogin {
-    margin-bottom: 10px;
+  #googleLogin, #facebookLogin {
+    margin-right: 5px;
+    display: inline-block;
   }
 }
