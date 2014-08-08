@@ -35529,3 +35529,293 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
 [main] - APP/webroot/index.php, line 108
 
+2014-08-08 05:34:10 Notice: Strict (2048): Declaration of OpauthUser::beforeValidate() should be compatible with Model::beforeValidate($options = Array) in [/var/www/html/Remind-Me/app/Model/OpauthUser.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 565
+App::load() - CORE/Cake/Core/App.php, line 565
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+UsersController::register() - APP/Controller/UsersController.php, line 366
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:53:51 Notice: Strict (2048): Declaration of OpauthUser::beforeValidate() should be compatible with Model::beforeValidate($options = Array) in [/var/www/html/Remind-Me/app/Model/OpauthUser.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+UsersController::register() - APP/Controller/UsersController.php, line 366
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:53:51 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 565
+App::load() - CORE/Cake/Core/App.php, line 565
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+Model::_constructLinkedModel() - CORE/Cake/Model/Model.php, line 1048
+Model::__isset() - CORE/Cake/Model/Model.php, line 859
+Model::__get() - CORE/Cake/Model/Model.php, line 892
+DboSource::read() - CORE/Cake/Model/Datasource/DboSource.php, line 1060
+Model::_readDataSource() - CORE/Cake/Model/Model.php, line 2900
+Model::find() - CORE/Cake/Model/Model.php, line 2872
+User::getUserDetails() - APP/Model/User.php, line 126
+UsersController::sendActivationEmail() - APP/Controller/UsersController.php, line 321
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:54:07 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+Model::_constructLinkedModel() - CORE/Cake/Model/Model.php, line 1048
+Model::__isset() - CORE/Cake/Model/Model.php, line 859
+Model::__get() - CORE/Cake/Model/Model.php, line 892
+DboSource::read() - CORE/Cake/Model/Datasource/DboSource.php, line 1060
+Model::_readDataSource() - CORE/Cake/Model/Model.php, line 2900
+Model::find() - CORE/Cake/Model/Model.php, line 2872
+User::getUserId() - APP/Model/User.php, line 96
+UsersController::login() - APP/Controller/UsersController.php, line 79
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:54:07 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+ReminderController::get() - APP/Controller/ReminderController.php, line 70
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:55:00 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+Model::_constructLinkedModel() - CORE/Cake/Model/Model.php, line 1048
+Model::__isset() - CORE/Cake/Model/Model.php, line 859
+Model::__get() - CORE/Cake/Model/Model.php, line 892
+DboSource::read() - CORE/Cake/Model/Datasource/DboSource.php, line 1060
+Model::_readDataSource() - CORE/Cake/Model/Model.php, line 2900
+Model::find() - CORE/Cake/Model/Model.php, line 2872
+User::getUserId() - APP/Model/User.php, line 96
+UsersController::login() - APP/Controller/UsersController.php, line 79
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:55:00 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+ReminderController::get() - APP/Controller/ReminderController.php, line 70
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:55:08 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+FormHelper::_getModel() - CORE/Cake/View/Helper/FormHelper.php, line 148
+FormHelper::_introspectModel() - CORE/Cake/View/Helper/FormHelper.php, line 188
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 338
+include - APP/View/Reminder/add.ctp, line 16
+View::_evaluate() - CORE/Cake/View/View.php, line 929
+View::_render() - CORE/Cake/View/View.php, line 891
+View::render() - CORE/Cake/View/View.php, line 460
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:55:36 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+FormHelper::_getModel() - CORE/Cake/View/Helper/FormHelper.php, line 148
+FormHelper::_introspectModel() - CORE/Cake/View/Helper/FormHelper.php, line 188
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 338
+include - APP/View/Reminder/add.ctp, line 16
+View::_evaluate() - CORE/Cake/View/View.php, line 929
+View::_render() - CORE/Cake/View/View.php, line 891
+View::render() - CORE/Cake/View/View.php, line 460
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:56:15 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+ReminderController::add() - APP/Controller/ReminderController.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:56:16 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+FormHelper::_getModel() - CORE/Cake/View/Helper/FormHelper.php, line 148
+FormHelper::_introspectModel() - CORE/Cake/View/Helper/FormHelper.php, line 188
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 338
+include - APP/View/Reminder/add.ctp, line 16
+View::_evaluate() - CORE/Cake/View/View.php, line 929
+View::_render() - CORE/Cake/View/View.php, line 891
+View::render() - CORE/Cake/View/View.php, line 460
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:56:26 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 19]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+ReminderController::get() - APP/Controller/ReminderController.php, line 70
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:56:42 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+ReminderController::get() - APP/Controller/ReminderController.php, line 70
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:56:47 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+ReminderController::get() - APP/Controller/ReminderController.php, line 70
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:56:59 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+Model::_constructLinkedModel() - CORE/Cake/Model/Model.php, line 1048
+Model::__isset() - CORE/Cake/Model/Model.php, line 859
+Model::__get() - CORE/Cake/Model/Model.php, line 892
+UsersController::settings() - APP/Controller/UsersController.php, line 127
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-08-08 05:57:06 Notice: Strict (2048): Declaration of Reminder::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/var/www/html/Remind-Me/app/Model/Reminder.php, line 0]
+Trace:
+App::load() - CORE/Cake/Core/App.php, line 545
+App::load() - CORE/Cake/Core/App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 145
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 738
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 367
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 405
+ReminderController::get() - APP/Controller/ReminderController.php, line 70
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+

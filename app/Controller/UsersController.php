@@ -10,8 +10,6 @@ class UsersController extends AppController
 
     public $hasOne = "OpauthUser";
 
-    private $address = "http://192.168.33.101/Remind-Me";
-
     public function beforeFilter()
     {
         $this->Auth->allow('*');
@@ -325,7 +323,7 @@ class UsersController extends AppController
         if ($emailType == "activation") {
 
             $this->set('hash', $this->User->Registration->getEmailHash($id));
-            $this->set('address', $this->address . '/Users/activateAccount/hash:');
+            $this->set('address', $sendAuth['client'] . '/Users/activateAccount/hash:');
 
             $this->Email->subject = 'Please Activate Email';
 
