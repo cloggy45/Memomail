@@ -1106,6 +1106,7 @@ class CakeEmail {
  * @throws SocketException
  */
 	public function send($content = null) {
+
 		if (empty($this->_from)) {
 			throw new SocketException(__d('cake_dev', 'From is not specified.'));
 		}

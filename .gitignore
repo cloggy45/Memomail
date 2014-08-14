@@ -9,5 +9,6 @@ app/[Cc]onfig/database.php
 app/[Cc]onfig/SendGridAuth.php
 app/View/Themed/Cakestrap/webroot/.sass-cache/*
 app/Plugin/Opauth/Config/bootstrap.php
+app/Config/email.php
 
 !empty

@@ -16,7 +16,7 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
-$cakeDescription = __d('cake_dev', 'Remind Me');
+$cakeDescription = __d('cake_dev', 'memomail');
 ?>
 
 <?php echo $this->Html->docType('html5'); ?>
@@ -80,7 +80,7 @@ $cakeDescription = __d('cake_dev', 'Remind Me');
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" id="title" href="#"><?php echo $this->Html->image('logo.gif', array('id' => 'mainLogo', 'alt' => 'Remind.Me Logo')); ?></a>
+                    <a class="navbar-brand" id="title" href="#"><?php echo $this->Html->image('memomail.png', array('id' => 'mainLogo', 'alt' => 'Remind.Me Logo')); ?></a>
                 </div>
 
                 <div class="collapse navbar-collapse">

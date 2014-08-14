@@ -1,11 +1,14 @@
 <?php
 
 App::uses('AppController', 'Controller');
+App::uses('CakeEmail', 'Network/Email');
+
+require '../Plugin/sendgrid-php/sendgrid-php.php';
 
 class UsersController extends AppController
 {
     public $helpers = array('Html', 'Form', 'Timezone.Timezone');
-    public $components = array('Session', 'Auth', 'Email');
+    public $components = array('Session', 'Auth');
     public $uses = array('User', 'OpauthUser', 'Reminder');
 
     public $hasOne = "OpauthUser";
@@ -310,40 +313,53 @@ class UsersController extends AppController
 
     public function sendActivationEmail()
     {
-        require_once APP . 'Config/SendGridAuth.php';
+        require '../Config/SendGridAuth.php';
 
         $id = $this->request->params['named']['id'];
         $emailType = $this->request->params['named']['type'];
 
-        $this->Email->smtpOptions = $sendAuth;
-        $this->Email->delivery = 'smtp';
-        $this->Email->from = 'someemail@googlemail.com';
-        $this->Email->to = $this->User->getUserDetails($id, 'email');
+        $sendgrid = new SendGrid($sendAuth['username'],$sendAuth['password']);
 
-        $this->set('username', $this->User->getUserDetails($id, 'username'));
+        $email = new SendGrid\Email();
+        $email->addTo($this->User->getUserDetails($id, 'email'));
+        $email->addFilterSetting("templates","enabled",1);
+        $email->addFilterSetting("templates","template_id","10d7859e-b0e4-4712-a5b6-3d48f0862743");
+        $email->setFrom("drderp45@googlemail.com");
+
+        $userHash = $this->User->Registration->getEmailHash($id);
+        $username = $this->User->getUserDetails($id, 'username');
 
         if ($emailType == "activation") {
 
-            $this->set('hash', $this->User->Registration->getEmailHash($id));
-            $this->set('address', $this->address . '/Users/activateAccount/hash:');
+            $template = <<<EOD
+<h3 style="color: #E75849; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 1.3; word-break: normal; font-size: 40px; margin: 0; padding: 0;"
+    align="left">Activate Account</h3>
+<p class="lead"
+   style="color: #E75849; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;"
+   align="left">In order to activate your account,
+    please <a href="$this->address/Users/activateAccount/hash:$userHash">Click Here</a></p>
+EOD;
 
-            $this->Email->subject = 'Please Activate Email';
-
-            $this->Email->template = 'registration_activation';
-            $this->Email->sendAs = 'both';
-            $this->Email->send();
+            $email->setSubject('Please Activate Account');
+            $email->setHtml($template);
+            $sendgrid->send($email);
 
             $this->Session->setFlash('Activation email sent', 'successFlash');
 
         } elseif ($emailType == "reset") {
 
-            $this->set('hash', $this->User->getEmailHash($id));
             $this->set('address', $this->address . '/Users/resetPassword/hash:');
 
-            $this->Email->subject = 'Reset Password';
-            $this->Email->template = 'password_reset';
-            $this->Email->sendAs = 'both';
-            $this->Email->send();
+            $template = <<<EOD
+
+<h3 style="color: #E75849; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 1.3; word-break: normal; font-size: 40px; margin: 0; padding: 0;" align="left">Hi, $username!</h3>
+<p class="lead" style="color: #E75849; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">Please <a href="$this->address/Users/resetPassword/hash:$userHash">Click Here</a> to reset your password.</p>
+EOD;
+
+            $email->setSubject('Reset Account Password');
+            $email->setHtml($template);
+
+            $sendgrid->send($email);
 
             $this->Session->setFlash('Reset instructions sent', 'successFlash');
         }
