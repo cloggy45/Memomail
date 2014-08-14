@@ -1,0 +1,67 @@
+#submit_form {
+  h2 {
+    @include respond-to(tablet-portrait) {
+      padding-left: 0px;
+    }
+  }
+}
+
+#login_view {
+
+  .alignCenter {
+    @include respond-to(tablet-portrait) {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+
+  h2 {
+    @include respond-to(tablet-portrait) {
+      padding-left: 0px;
+    }
+  }
+
+}
+
+#register_view {
+  h2 {
+    @include respond-to(tablet-portrait) {
+      padding-left: 0px;
+    }
+  }
+}
+
+#send_reset_email {
+  h2 {
+    @include respond-to(tablet-portrait) {
+      padding-left: 0px;
+    }
+  }
+}
+
+#reset_password_view {
+  h2 {
+    @include respond-to(tablet-portrait) {
+      position: relative;
+      right: 10px;
+    }
+  }
+}
+
+#settings_view {
+  h2 {
+    @include respond-to(tablet-portrait) {
+      position: relative;
+      right: 10px;
+    }
+  }
+}
+
+#add_view {
+
+  h2 {
+    @include respond-to(tablet-portrait) {
+      padding-left: 0px;
+    }
+  }
+}

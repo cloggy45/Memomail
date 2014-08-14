@@ -1,0 +1,37 @@
+#login_view {
+
+  //background: $body-bg;
+  background-color: transparent;
+
+  .alignCenter {
+    margin-top: 100px;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  h2 {
+    margin-left: -18px;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+
+  .divider {
+    height:1px;
+    background:#e75849;
+    border-bottom:5px solid #e75849;
+  }
+
+  #socialSignIn {
+    text-align: center;
+
+  }
+
+  #googleLogin, #facebookLogin {
+    margin-right: 5px;
+    display: inline-block;
+  }
+}
