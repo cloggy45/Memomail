@@ -1,0 +1,3 @@
+[submodule "cakephp-timezone"]
+	path = cakephp-timezone
+	url = https://github.com/robmcvey/cakephp-timezone.git

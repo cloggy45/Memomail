@@ -44,6 +44,7 @@ class UsersController extends AppController
                 $this->Session->write('Auth.User.timezone', $userTimezone);
 
                 $this->redirect(array('controller' => 'Reminder', 'action' => 'get'));
+
             } else {
                 $this->Session->setFlash('Unable to log in', 'failureFlash');
             }
@@ -326,6 +327,7 @@ class UsersController extends AppController
 
         $userHash = $this->User->Registration->getEmailHash($id);
         $username = $this->User->getUserDetails($id, 'username');
+        $address = 'www.memomail.io';
 
         if ($emailType == "activation") {
             $this->set('hash', $this->User->Registration->getEmailHash($id));
@@ -337,7 +339,7 @@ class UsersController extends AppController
 <p class="lead"
    style="color: #E75849; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;"
    align="left">In order to activate your account,
-    please <a href="$this->address/Users/activateAccount/hash:$userHash">Click Here</a></p>
+    please <a href="$address/Users/activateAccount/hash:$userHash">Click Here</a></p>
 EOD;
 
             $email->setSubject('Please Activate Account');
@@ -353,7 +355,7 @@ EOD;
             $template = <<<EOD
 
 <h3 style="color: #E75849; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 1.3; word-break: normal; font-size: 40px; margin: 0; padding: 0;" align="left">Hi, $username!</h3>
-<p class="lead" style="color: #E75849; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">Please <a href="$this->address/Users/resetPassword/hash:$userHash">Click Here</a> to reset your password.</p>
+<p class="lead" style="color: #E75849; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">Please <a href="$address/Users/resetPassword/hash:$userHash">Click Here</a> to reset your password.</p>
 EOD;
 
             $email->setSubject('Reset Account Password');

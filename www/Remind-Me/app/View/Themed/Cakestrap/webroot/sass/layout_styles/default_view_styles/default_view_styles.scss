@@ -1,0 +1,76 @@
+@import 'layout_styles/_user_variables';
+
+#mainLogo {
+  width:150px;
+}
+
+.row {
+  background-color: transparent;
+}
+
+body, html {
+  background-color: transparent;
+  background-image: url("../img/background.png");
+}
+
+.navbar-brand {
+  padding: 5px;
+  padding-left: 14px;
+}
+
+.navbar {
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.45);
+  -moz-box-shadow:    0px 3px 6px 0px rgba(50, 50, 50, 0.45);
+  box-shadow:         0px 3px 6px 0px rgba(50, 50, 50, 0.45);
+}
+
+body {
+  padding-top: 50px;
+
+  #title {
+    font-weight: 700;
+  }
+
+  ul {
+    li {
+      a:hover {
+        color:#962418 !important;
+      }
+    }
+  }
+
+  footer {
+    color: $body-bg;
+    background: $navbar-default-bg;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+    #footer {
+
+      -webkit-box-shadow: 0px -3px 6px 0px rgba(50, 50, 50, 0.45);
+      -moz-box-shadow:    0px -3px 6px 0px rgba(50, 50, 50, 0.45);
+      box-shadow:         0px -3px 6px 0px rgba(50, 50, 50, 0.45);
+
+      p {
+        padding: 5px 0px;
+        text-align: center;
+        margin: 0px;
+        color:white;
+      }
+
+      a {
+        color:white;
+      }
+      a:hover {
+        text-decoration: none;
+        color:white;
+      }
+    }
+  }
+}
+
+#flashMessage {
+  text-align: center;
+  margin: 10px;
+}

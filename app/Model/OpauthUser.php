@@ -18,9 +18,11 @@ class OpauthUser extends AppModel
         )
     );
 
-    public function beforeValidate() {
+    public function beforeValidate($options = Array()) {
+        print_r($options);
         // Checking email address inside OpauthUser during the registration process.
         if(array_key_exists('User', $this->data[$this->alias])) {
+
             // Validation doesn't work on deeply nested arrays, so we have to make our own
             $this->data[$this->alias]['email'] = $this->data[$this->alias]['User']['email'];
         }

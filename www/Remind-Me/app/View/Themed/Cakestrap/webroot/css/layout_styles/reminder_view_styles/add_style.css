@@ -1,0 +1,54 @@
+#add_form {
+    background: #28B8A7;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#add_form label {
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+#add_form #remainingTitleChars, #remainingBodyChars {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 10px
+}
+
+.overlimit {
+    color: red;
+}
+
+​
+.input.text {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.input.text input {
+    text-align: center;
+    width: 280px;
+}
+
+.input.textarea {
+    padding-bottom: 0px;
+}
+
+.input.textarea textarea {
+    text-align: center;
+    width: 280px;
+}
+
+.submit {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.submit input {
+    border: none;
+    width: 100px;
+    height: 40px;
+
+}

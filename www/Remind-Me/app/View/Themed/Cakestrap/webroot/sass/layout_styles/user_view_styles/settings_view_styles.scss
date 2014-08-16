@@ -1,0 +1,38 @@
+#settings_view {
+
+  h2 {
+    @include make-sm-column-offset(4);
+    padding-left: 10px;
+  }
+
+  h4 {
+    @include make-sm-column-offset(4);
+    padding-left: 15px;
+  }
+
+  .checkbox {
+    @include make-sm-column-offset(4);
+    padding-left: 36px;
+  }
+
+  .form-input {
+    @include make-sm-column-offset(4);
+    @include make-sm-column(4);
+  }
+
+  #deleteBtn {
+    position: relative;
+    bottom: 15px;
+  }
+
+  .submit-button {
+    margin-top: 20px;
+    @include make-sm-column-offset(4);
+    @include make-sm-column(1);
+  }
+
+  #apply-btn {
+    margin-bottom:50px;
+  }
+
+}

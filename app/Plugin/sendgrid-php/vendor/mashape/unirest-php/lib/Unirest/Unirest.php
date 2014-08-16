@@ -180,6 +180,7 @@ class Unirest
         }
         
         $ch = curl_init();
+
         if ($httpMethod != HttpMethod::GET) {
             curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $httpMethod);
             if (is_array($body) || $body instanceof Traversable) {

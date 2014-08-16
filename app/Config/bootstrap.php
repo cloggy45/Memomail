@@ -113,14 +113,14 @@ CakePlugin::load('DebugKit');
 
 
 CakePlugin::load('Opauth', array('routes' => true, 'bootstrap' => true));
-Configure::write('Opauth.path', '/Remind-Me/auth/');
+Configure::write('Opauth.path', '/auth/');
 
 Configure::write('Opauth.Strategy.Facebook', array(
-        'app_id' => '628432490569021',
-        'app_secret' => '5a40f6b03e6265603ce8e424d044c9ac'
+        'app_id' => '1518412838395825',
+        'app_secret' => '3da11bb8ac746752309ed4933a88cd2a'
     ));
 
 Configure::write('Opauth.Strategy.Google', array(
-        'client_id' => '207017072356-ugfieue15cad6h3kmb64vc6rg1hp2tpo.apps.googleusercontent.com',
-        'client_secret' => 'YLP0H3jTMVT4nBdevmg1uDOr'
+        'client_id' => '599570674211-qlqt2mna1nkd4eaprqm3kmo4c04lfstb.apps.googleusercontent.com',
+        'client_secret' => 'Qvvr4mnOxy805Qfi2DVZAEfj'
     ));

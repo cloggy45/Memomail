@@ -1,0 +1,9 @@
+[submodule "app/Plugin/DebugKit"]
+	path = app/Plugin/DebugKit
+	url = https://github.com/cakephp/debug_kit.git
+[submodule "Plugin/Timezone"]
+	path = Plugin/Timezone
+	url = git://github.com/robmcvey/cakephp-timezone.git
+[submodule "app/Plugin/Timezone"]
+	path = app/Plugin/Timezone
+	url = git://github.com/robmcvey/cakephp-timezone.git

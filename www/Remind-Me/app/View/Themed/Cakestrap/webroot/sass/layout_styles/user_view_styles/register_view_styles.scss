@@ -1,0 +1,21 @@
+#register_view {
+
+  h2 {
+    @include make-sm-column-offset(4);
+    padding-left: 9px;
+  }
+
+  .form-group {
+
+    .form-input {
+      @include make-sm-column-offset(4);
+      @include make-sm-column(4);
+    }
+
+    .submit-button {
+      @include make-sm-column-offset(4);
+      @include make-sm-column(1);
+    }
+  }
+}
+
