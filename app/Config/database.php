@@ -77,7 +77,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'totheman45_45',
+		'password' => 'test',
 		'database' => 'cakephp',
 		'prefix' => '',
 		'encoding' => 'utf8',

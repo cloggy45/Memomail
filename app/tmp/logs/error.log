@@ -1019,3 +1019,120 @@ Stack Trace:
 #8 /var/www/html/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
 #9 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2014-08-17 11:26:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /Remind-Me/Users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/Remind-Me/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Model.php(3474): ConnectionManager::getDataSource('default')
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(3496): Model->setSource('cake_sessions')
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): Model->getDataSource()
+#6 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#7 /var/www/Remind-Me/lib/Cake/Model/Datasource/Session/DatabaseSession.php(94): Model->find('first', Array)
+#8 [internal function]: DatabaseSession->read('uqr61pj6m5bn6r4...')
+#9 /var/www/Remind-Me/lib/Cake/Model/Datasource/CakeSession.php(629): session_start()
+#10 /var/www/Remind-Me/lib/Cake/Model/Datasource/CakeSession.php(198): CakeSession::_startSession()
+#11 /var/www/Remind-Me/lib/Cake/Model/Datasource/CakeSession.php(225): CakeSession::start()
+#12 /var/www/Remind-Me/lib/Cake/View/Helper/SessionHelper.php(121): CakeSession::check('Message.auth')
+#13 /var/www/Remind-Me/app/View/Users/login.ctp(9): SessionHelper->flash('auth')
+#14 /var/www/Remind-Me/lib/Cake/View/View.php(929): include('/var/www/Remind...')
+#15 /var/www/Remind-Me/lib/Cake/View/View.php(891): View->_evaluate('/var/www/Remind...', Array)
+#16 /var/www/Remind-Me/lib/Cake/View/View.php(460): View->_render('/var/www/Remind...')
+#17 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#18 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#19 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#20 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#21 {main}
+2014-08-17 11:27:02 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /Remind-Me/Users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/Remind-Me/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Model.php(3474): ConnectionManager::getDataSource('default')
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(3496): Model->setSource('cake_sessions')
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): Model->getDataSource()
+#6 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#7 /var/www/Remind-Me/lib/Cake/Model/Datasource/Session/DatabaseSession.php(94): Model->find('first', Array)
+#8 [internal function]: DatabaseSession->read('uqr61pj6m5bn6r4...')
+#9 /var/www/Remind-Me/lib/Cake/Model/Datasource/CakeSession.php(629): session_start()
+#10 /var/www/Remind-Me/lib/Cake/Model/Datasource/CakeSession.php(198): CakeSession::_startSession()
+#11 /var/www/Remind-Me/lib/Cake/Model/Datasource/CakeSession.php(375): CakeSession::start()
+#12 /var/www/Remind-Me/lib/Cake/Controller/Component/SessionComponent.php(69): CakeSession::read('Config.userAgen...')
+#13 /var/www/Remind-Me/app/Plugin/DebugKit/Controller/Component/ToolbarComponent.php(161): SessionComponent->read('Config.userAgen...')
+#14 /var/www/Remind-Me/lib/Cake/Controller/ComponentCollection.php(116): ToolbarComponent->__construct(Object(ComponentCollection), Array)
+#15 /var/www/Remind-Me/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#16 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#17 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#18 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#19 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2014-08-17 11:28:02 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /Remind-Me/Users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/Remind-Me/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Model.php(3474): ConnectionManager::getDataSource('default')
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(3496): Model->setSource('cake_sessions')
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): Model->getDataSource()
+#6 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#7 /var/www/Remind-Me/lib/Cake/Model/Datasource/Session/DatabaseSession.php(94): Model->find('first', Array)
+#8 [internal function]: DatabaseSession->read('uqr61pj6m5bn6r4...')
+#9 /var/www/Remind-Me/lib/Cake/Model/Datasource/CakeSession.php(629): session_start()
+#10 /var/www/Remind-Me/lib/Cake/Model/Datasource/CakeSession.php(198): CakeSession::_startSession()
+#11 /var/www/Remind-Me/lib/Cake/Model/Datasource/CakeSession.php(375): CakeSession::start()
+#12 /var/www/Remind-Me/lib/Cake/Controller/Component/SessionComponent.php(69): CakeSession::read('Config.userAgen...')
+#13 /var/www/Remind-Me/app/Plugin/DebugKit/Controller/Component/ToolbarComponent.php(161): SessionComponent->read('Config.userAgen...')
+#14 /var/www/Remind-Me/lib/Cake/Controller/ComponentCollection.php(116): ToolbarComponent->__construct(Object(ComponentCollection), Array)
+#15 /var/www/Remind-Me/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#16 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#17 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#18 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#19 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2014-08-17 11:28:15 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /Remind-Me/Users/login
+Stack Trace:
+#0 /var/www/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/Remind-Me/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/Remind-Me/lib/Cake/Model/Model.php(3474): ConnectionManager::getDataSource('default')
+#3 /var/www/Remind-Me/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/Remind-Me/lib/Cake/Model/Model.php(3496): Model->setSource('cake_sessions')
+#5 /var/www/Remind-Me/lib/Cake/Model/Model.php(2900): Model->getDataSource()
+#6 /var/www/Remind-Me/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#7 /var/www/Remind-Me/lib/Cake/Model/Datasource/Session/DatabaseSession.php(94): Model->find('first', Array)
+#8 [internal function]: DatabaseSession->read('uqr61pj6m5bn6r4...')
+#9 /var/www/Remind-Me/lib/Cake/Model/Datasource/CakeSession.php(629): session_start()
+#10 /var/www/Remind-Me/lib/Cake/Model/Datasource/CakeSession.php(198): CakeSession::_startSession()
+#11 /var/www/Remind-Me/lib/Cake/Model/Datasource/CakeSession.php(375): CakeSession::start()
+#12 /var/www/Remind-Me/lib/Cake/Controller/Component/SessionComponent.php(69): CakeSession::read('Config.userAgen...')
+#13 /var/www/Remind-Me/app/Plugin/DebugKit/Controller/Component/ToolbarComponent.php(161): SessionComponent->read('Config.userAgen...')
+#14 /var/www/Remind-Me/lib/Cake/Controller/ComponentCollection.php(116): ToolbarComponent->__construct(Object(ComponentCollection), Array)
+#15 /var/www/Remind-Me/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#16 /var/www/Remind-Me/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#17 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#18 /var/www/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#19 /var/www/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
