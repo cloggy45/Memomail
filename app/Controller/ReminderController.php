@@ -56,7 +56,6 @@ class ReminderController extends AppController
                 $this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
 
             } else {
-                echo $this->Reminder->validationErrors;
                 $this->redirect(array('controller' => 'Reminder', 'action' => 'add'));
             }
         }

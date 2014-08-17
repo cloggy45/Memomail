@@ -1019,3 +1019,288 @@ Stack Trace:
 #8 /var/www/html/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ReminderController), Object(CakeRequest), Object(CakeResponse))
 #9 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2014-08-16 21:51:25 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email'
+Request URL: /Users/settings
+Stack Trace:
+#0 /var/www/html/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/html/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/html/Remind-Me/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /var/www/html/Remind-Me/lib/Cake/Model/Model.php(1667): Model->save(Array, Array)
+#5 /var/www/html/Remind-Me/app/Controller/UsersController.php(179): Model->saveField('timezone', 'Asia/Kabul', true)
+#6 [internal function]: UsersController->settings()
+#7 /var/www/html/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-16 21:51:46 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email'
+Request URL: /Users/settings
+Stack Trace:
+#0 /var/www/html/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/html/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/html/Remind-Me/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /var/www/html/Remind-Me/lib/Cake/Model/Model.php(1667): Model->save(Array, Array)
+#5 /var/www/html/Remind-Me/app/Controller/UsersController.php(179): Model->saveField('timezone', 'Asia/Kabul', true)
+#6 [internal function]: UsersController->settings()
+#7 /var/www/html/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-16 21:52:21 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email'
+Request URL: /Users/settings
+Stack Trace:
+#0 /var/www/html/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/html/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/html/Remind-Me/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /var/www/html/Remind-Me/lib/Cake/Model/Model.php(1667): Model->save(Array, Array)
+#5 /var/www/html/Remind-Me/app/Controller/UsersController.php(179): Model->saveField('timezone', 'Asia/Kabul', true)
+#6 [internal function]: UsersController->settings()
+#7 /var/www/html/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-16 21:52:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email'
+Request URL: /Users/settings
+Stack Trace:
+#0 /var/www/html/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/html/Remind-Me/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/html/Remind-Me/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /var/www/html/Remind-Me/lib/Cake/Model/Model.php(1667): Model->save(Array, Array)
+#5 /var/www/html/Remind-Me/app/Controller/UsersController.php(179): Model->saveField('timezone', 'Europe/Andorra', true)
+#6 [internal function]: UsersController->settings()
+#7 /var/www/html/Remind-Me/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/Remind-Me/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/Remind-Me/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-16 22:31:26 Error: [MissingControllerException] Controller class Mx2.mail2000.com.tw:25Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Mx2.mail2000.com.tw:25Controller',
+  'plugin' => NULL,
+)
+Request URL: /mx2.mail2000.com.tw:25
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 22:46:35 Error: [MissingControllerException] Controller class W00tw00t.at.blackhats.romanian.anti-sec:)Controller could not be found.
+Exception Attributes: array (
+  'class' => 'W00tw00t.at.blackhats.romanian.anti-sec:)Controller',
+  'plugin' => NULL,
+)
+Request URL: /w00tw00t.at.blackhats.romanian.anti-sec:)
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 22:46:35 Error: [MissingControllerException] Controller class PhpMyAdminController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpMyAdminController',
+  'plugin' => NULL,
+)
+Request URL: /phpMyAdmin/scripts/setup.php
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 22:46:36 Error: [MissingControllerException] Controller class PhpmyadminController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpmyadminController',
+  'plugin' => NULL,
+)
+Request URL: /phpmyadmin/scripts/setup.php
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 22:46:36 Error: [MissingControllerException] Controller class PmaController could not be found.
+Exception Attributes: array (
+  'class' => 'PmaController',
+  'plugin' => NULL,
+)
+Request URL: /pma/scripts/setup.php
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 22:46:37 Error: [MissingControllerException] Controller class MyadminController could not be found.
+Exception Attributes: array (
+  'class' => 'MyadminController',
+  'plugin' => NULL,
+)
+Request URL: /myadmin/scripts/setup.php
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 22:46:37 Error: [MissingControllerException] Controller class MyAdminController could not be found.
+Exception Attributes: array (
+  'class' => 'MyAdminController',
+  'plugin' => NULL,
+)
+Request URL: /MyAdmin/scripts/setup.php
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 23:04:48 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon-precomposed.pngController',
+  'plugin' => NULL,
+)
+Request URL: /apple-touch-icon-precomposed.png
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 23:04:48 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /apple-touch-icon.png
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 23:04:58 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon-precomposed.pngController',
+  'plugin' => NULL,
+)
+Request URL: /apple-touch-icon-precomposed.png
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 23:04:58 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /apple-touch-icon.png
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 23:05:09 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon-precomposed.pngController',
+  'plugin' => NULL,
+)
+Request URL: /apple-touch-icon-precomposed.png
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 23:05:09 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /apple-touch-icon.png
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 23:05:12 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon-precomposed.pngController',
+  'plugin' => NULL,
+)
+Request URL: /apple-touch-icon-precomposed.png
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-16 23:05:12 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /apple-touch-icon.png
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-17 02:56:53 Error: [MissingControllerException] Controller class ConnectionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ConnectionsController',
+  'plugin' => NULL,
+)
+Request URL: /Connections/_notes/data/blonde-milf-young/taboo-hentai.html
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-17 05:19:26 Error: [MissingControllerException] Controller class ConnectionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ConnectionsController',
+  'plugin' => NULL,
+)
+Request URL: /Connections/_notes/data/blonde-milf-young/fucking-movice.html
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-17 05:39:35 Error: [MissingControllerException] Controller class MyadminController could not be found.
+Exception Attributes: array (
+  'class' => 'MyadminController',
+  'plugin' => NULL,
+)
+Request URL: /myadmin/favicon.ico
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-17 05:39:57 Error: [MissingControllerException] Controller class MyadminController could not be found.
+Exception Attributes: array (
+  'class' => 'MyadminController',
+  'plugin' => NULL,
+)
+Request URL: /myadmin/favicon.ico
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-17 06:20:26 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-17 08:00:15 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon-precomposed.pngController',
+  'plugin' => NULL,
+)
+Request URL: /apple-touch-icon-precomposed.png
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-17 08:00:15 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /apple-touch-icon.png
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-17 08:24:22 Error: [MissingControllerException] Controller class HNAP1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'HNAP1Controller',
+  'plugin' => NULL,
+)
+Request URL: /HNAP1/
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-17 08:35:55 Error: [MissingControllerException] Controller class ManagerController could not be found.
+Exception Attributes: array (
+  'class' => 'ManagerController',
+  'plugin' => NULL,
+)
+Request URL: /manager/html
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-17 11:35:08 Error: [MissingControllerException] Controller class ConnectionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ConnectionsController',
+  'plugin' => NULL,
+)
+Request URL: /Connections/_notes/data/blonde-milf-young/naked-latino-women.html
+Stack Trace:
+#0 /var/www/html/Remind-Me/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

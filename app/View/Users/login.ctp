@@ -6,8 +6,6 @@
             your inbox.</h4>
     </div>
 
-    <?php echo $this->Session->flash('auth'); ?>
-
     <div class="col-sm-4 col-sm-offset-1">
 
         <h2>Sign In</h2>
@@ -77,16 +75,14 @@
         <?php echo $this->Form->end(); ?>
 
         <div class="row">
-            <h4 id="signInBlurb">Sign in using social media</h4>
+            <h4 id="signInBlurb">Sign in using Facebook</h4>
         </div>
 
         <div id="socialSignIn">
-        <div id="facebookLogin"
-             class="img-responsive"><?php echo $this->Html->link($this->Html->image('facebookfinal.png', array('alt' => 'Sign in with Facebook')), '/auth/facebook', array('escape' => false)); ?></div>
-<!--        <div id="googleLogin"-->
-<!--             class="img-responsive">--><?php //echo $this->Html->link($this->Html->image('googlefinal.png', array('alt' => 'Sign in with Google')), '/auth/google', array('escape' => false)); ?><!--</div>-->
-<!--        </div>-->
-
+            <div id="facebookLogin"
+                 class="img-responsive"><?php echo $this->Html->link($this->Html->image('facebookfinal.png', array('alt' => 'Sign in with Facebook')), '/auth/facebook', array('escape' => false)); ?>
+            </div>
+        </div>
     </div>
 
 </section>
