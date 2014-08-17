@@ -82,12 +82,9 @@ $cakeDescription = __d('cake_dev', 'memomail');
                     </button>
                     <a class="navbar-brand" id="title" href="#"><?php echo $this->Html->image('memomail.png', array('id' => 'mainLogo', 'alt' => 'Remind.Me Logo')); ?></a>
                 </div>
-
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-
                         <?php if ($this->Session->check('Auth.User')): ?>
-                            <li><p class="navbar-text navbar-right"><?php echo "Welcome, " . $this->Session->read('Auth.User.username'); ?></p></li>
                             <li> <?php echo $this->Html->link('Settings', '/Users/settings'); ?> </li>
                             <li> <?php echo $this->Html->link('Add Memos', '/Reminder/add'); ?> </li>
                             <li> <?php echo $this->Html->link('View Memos', '/Reminder/get'); ?> </li>

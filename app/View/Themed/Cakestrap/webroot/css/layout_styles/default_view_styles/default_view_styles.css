@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$body-bg".
-        on line 43 of D:/Jetbrains Projects/RemindDeployed/app/View/Themed/Cakestrap/webroot/sass/layout_styles/default_view_styles/default_view_styles.scss
+        on line 44 of D:/JetbrainsProjects/Projects/www/Remind-Me/app/View/Themed/Cakestrap/webroot/sass/layout_styles/default_view_styles/default_view_styles.scss
 
 Backtrace:
-D:/Jetbrains Projects/RemindDeployed/app/View/Themed/Cakestrap/webroot/sass/layout_styles/default_view_styles/default_view_styles.scss:43
+D:/JetbrainsProjects/Projects/www/Remind-Me/app/View/Themed/Cakestrap/webroot/sass/layout_styles/default_view_styles/default_view_styles.scss:44
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/node.rb:40:in `perform'
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:294:in `visit_prop'
@@ -87,4 +87,4 @@ C:\Program Files (x86)\Scout\bin\compass:12:in `(root)'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$body-bg\".\A         on line 43 of D:/Jetbrains Projects/RemindDeployed/app/View/Themed/Cakestrap/webroot/sass/layout_styles/default_view_styles/default_view_styles.scss"; }
+  content: "Syntax error: Undefined variable: \"$body-bg\".\A         on line 44 of D:/JetbrainsProjects/Projects/www/Remind-Me/app/View/Themed/Cakestrap/webroot/sass/layout_styles/default_view_styles/default_view_styles.scss"; }

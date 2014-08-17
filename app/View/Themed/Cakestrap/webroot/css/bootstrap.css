@@ -5029,11 +5029,11 @@ input[type="button"].btn-block {
 }
 /* line 354, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
-  color: blue;
+  color: #fdf2d8;
 }
 /* line 357, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #0000cc;
+  color: #fbe2a7;
   background-color: transparent;
 }
 /* line 363, ../sass/bootstrap/_navbar.scss */
@@ -5042,7 +5042,7 @@ input[type="button"].btn-block {
 }
 /* line 368, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
-  color: blue;
+  color: #fdf2d8;
 }
 /* line 372, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -5061,15 +5061,15 @@ input[type="button"].btn-block {
 }
 /* line 395, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle {
-  border-color: #dddddd;
+  border-color: #fdf2d8;
 }
 /* line 398, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #dddddd;
+  background-color: #e75849;
 }
 /* line 401, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #cccccc;
+  background-color: #fdf2d8;
 }
 /* line 407, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-collapse,
@@ -5094,13 +5094,13 @@ input[type="button"].btn-block {
 }
 /* line 433, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .dropdown > a .caret {
-  border-top-color: blue;
-  border-bottom-color: blue;
+  border-top-color: #fdf2d8;
+  border-bottom-color: #fdf2d8;
 }
 @media (max-width: 767px) {
   /* line 441, ../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: blue;
+    color: #fdf2d8;
   }
   /* line 444, ../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5120,7 +5120,7 @@ input[type="button"].btn-block {
 }
 /* line 473, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-link {
-  color: blue;
+  color: #fdf2d8;
 }
 /* line 475, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-link:hover {
@@ -9782,26 +9782,26 @@ body, html {
   padding-left: 14px;
 }
 
-/* line 21, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 22, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 .navbar {
   -webkit-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.45);
   -moz-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.45);
   box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.45);
 }
 
-/* line 27, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 28, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body {
   padding-top: 50px;
 }
-/* line 30, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 31, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body #title {
   font-weight: 700;
 }
-/* line 36, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 37, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body ul li a:hover {
   color: #962418 !important;
 }
-/* line 42, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 43, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer {
   color: white;
   background: #e75849;
@@ -9809,30 +9809,30 @@ body footer {
   bottom: 0px;
   width: 100%;
 }
-/* line 49, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 50, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer {
   -webkit-box-shadow: 0px -3px 6px 0px rgba(50, 50, 50, 0.45);
   -moz-box-shadow: 0px -3px 6px 0px rgba(50, 50, 50, 0.45);
   box-shadow: 0px -3px 6px 0px rgba(50, 50, 50, 0.45);
 }
-/* line 55, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 56, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer p {
   padding: 5px 0px;
   text-align: center;
   margin: 0px;
   color: white;
 }
-/* line 62, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 63, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer a {
   color: white;
 }
-/* line 65, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 66, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 body footer #footer a:hover {
   text-decoration: none;
   color: white;
 }
 
-/* line 73, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
+/* line 74, ../sass/layout_styles/default_view_styles/default_view_styles.scss */
 #flashMessage {
   text-align: center;
   margin: 10px;
