@@ -5029,20 +5029,20 @@ input[type="button"].btn-block {
 }
 /* line 354, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
-  color: #fdf2d8;
+  color: blue;
 }
 /* line 357, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #fbe2a7;
+  color: #0000cc;
   background-color: transparent;
 }
 /* line 363, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-text {
-  color: #777777;
+  color: #fdf2d8;
 }
 /* line 368, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
-  color: #fdf2d8;
+  color: blue;
 }
 /* line 372, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -5094,13 +5094,13 @@ input[type="button"].btn-block {
 }
 /* line 433, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .dropdown > a .caret {
-  border-top-color: #fdf2d8;
-  border-bottom-color: #fdf2d8;
+  border-top-color: blue;
+  border-bottom-color: blue;
 }
 @media (max-width: 767px) {
   /* line 441, ../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #fdf2d8;
+    color: blue;
   }
   /* line 444, ../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5120,7 +5120,7 @@ input[type="button"].btn-block {
 }
 /* line 473, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-link {
-  color: #fdf2d8;
+  color: blue;
 }
 /* line 475, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-link:hover {

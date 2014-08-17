@@ -87,7 +87,7 @@ $cakeDescription = __d('cake_dev', 'memomail');
                     <ul class="nav navbar-nav navbar-right">
 
                         <?php if ($this->Session->check('Auth.User')): ?>
-                            <li class="disabled"> <?php echo $this->Html->link('Welcome ' . $this->Session->read('Auth.User.username'),'#'); ?></li>
+                            <li><p id="username" class="navbar-text navbar-right"><?php echo "Welcome, " . $this->Session->read('Auth.User.username'); ?></p></li>
                             <li> <?php echo $this->Html->link('Sign Out', '/Users/logout'); ?> </li>
                             <li> <?php echo $this->Html->link('Settings', '/Users/settings'); ?> </li>
                             <li> <?php echo $this->Html->link('Add Reminders', '/Reminder/add'); ?> </li>
