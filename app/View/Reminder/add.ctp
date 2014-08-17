@@ -1,6 +1,6 @@
 <section id="add_view">
 
-    <h2>Add Reminder</h2>
+    <h2>Add Memo</h2>
 
     <?php echo $this->Form->create(
         'Reminder',
